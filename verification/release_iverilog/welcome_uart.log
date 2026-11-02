@@ -1,0 +1,20 @@
+[PASS] system defaults
+[PASS] video defaults
+[PASS] emergency type defaults
+[PASS] text command decoded
+[PASS] CDC holds until frame boundary
+[PASS] text committed at frame boundary
+[PASS] speed command
+[PASS] pause command
+[PASS] restore default command
+[PASS] emergency text command decoded
+[PASS] y CDC holds until frame boundary
+[PASS] text committed at frame boundary
+[PASS] emergency speed command
+[PASS] emergency pause command
+[PASS] restore emergency defaults
+[PASS]  complete ACK frames transmitted
+[PASS] reply UART framing
+=== welcome UART/CDC regression PASS ===
+E:\FPGA\ALST\_dev_sim_0b18789\tb\tb_welcome_uart.v:97: $finish called at 91590000 (1ps)
+

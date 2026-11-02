@@ -1,0 +1,3 @@
+[PASS] scene guard waits for source completion and target SDRAM commit
+E:\FPGA\ALST\��ί�ύ_������������_2026-11-01\FPGA_Campus_Final\sim\tb\tb_scene_load_guard.v:75: $finish called at 256000 (1ps)
+

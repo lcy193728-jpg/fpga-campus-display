@@ -1,0 +1,43 @@
+E:\FPGA\ALST\_dev_sim_0b18789\sim\tb\tb_quiz_ranking.v:7: warning: Port 3 (hs_i) of module display_adjust expects 1 bit(s), given 32.
+E:\FPGA\ALST\_dev_sim_0b18789\sim\tb\tb_quiz_ranking.v:7:        : Pruning (signed) 31 high bits of the expression.
+E:\FPGA\ALST\_dev_sim_0b18789\sim\tb\tb_quiz_ranking.v:7: warning: Port 5 (de_i) of module display_adjust expects 1 bit(s), given 32.
+E:\FPGA\ALST\_dev_sim_0b18789\sim\tb\tb_quiz_ranking.v:7:        : Pruning (signed) 31 high bits of the expression.
+E:\FPGA\ALST\_dev_sim_0b18789\sim\tb\tb_quiz_ranking.v:7: warning: Port 9 (menu_active) of module display_adjust expects 1 bit(s), given 32.
+E:\FPGA\ALST\_dev_sim_0b18789\sim\tb\tb_quiz_ranking.v:7:        : Pruning (signed) 31 high bits of the expression.
+E:\FPGA\ALST\_dev_sim_0b18789\sim\tb\tb_quiz_ranking.v:7: warning: Port 10 (emerg) of module display_adjust expects 1 bit(s), given 32.
+E:\FPGA\ALST\_dev_sim_0b18789\sim\tb\tb_quiz_ranking.v:7:        : Pruning (signed) 31 high bits of the expression.
+E:\FPGA\ALST\_dev_sim_0b18789\sim\tb\tb_quiz_ranking.v:7: warning: Port 11 (bmp_busy) of module display_adjust expects 1 bit(s), given 32.
+E:\FPGA\ALST\_dev_sim_0b18789\sim\tb\tb_quiz_ranking.v:7:        : Pruning (signed) 31 high bits of the expression.
+E:\FPGA\ALST\_dev_sim_0b18789\sim\tb\tb_quiz_ranking.v:7: warning: Port 12 (iris_trig) of module display_adjust expects 1 bit(s), given 32.
+E:\FPGA\ALST\_dev_sim_0b18789\sim\tb\tb_quiz_ranking.v:7:        : Pruning (signed) 31 high bits of the expression.
+E:\FPGA\ALST\_dev_sim_0b18789\sim\tb\tb_quiz_ranking.v:7: warning: Port 13 (wipe_trig) of module display_adjust expects 1 bit(s), given 32.
+E:\FPGA\ALST\_dev_sim_0b18789\sim\tb\tb_quiz_ranking.v:7:        : Pruning (signed) 31 high bits of the expression.
+E:\FPGA\ALST\_dev_sim_0b18789\sim\tb\tb_quiz_ranking.v:7: warning: Port 14 (bri_level) of module display_adjust expects 4 bit(s), given 32.
+E:\FPGA\ALST\_dev_sim_0b18789\sim\tb\tb_quiz_ranking.v:7:        : Pruning (signed) 28 high bits of the expression.
+E:\FPGA\ALST\_dev_sim_0b18789\sim\tb\tb_quiz_ranking.v:7: warning: Port 15 (vol_level) of module display_adjust expects 4 bit(s), given 32.
+E:\FPGA\ALST\_dev_sim_0b18789\sim\tb\tb_quiz_ranking.v:7:        : Pruning (signed) 28 high bits of the expression.
+E:\FPGA\ALST\_dev_sim_0b18789\sim\tb\tb_quiz_ranking.v:7: warning: Port 16 (res_level) of module display_adjust expects 4 bit(s), given 32.
+E:\FPGA\ALST\_dev_sim_0b18789\sim\tb\tb_quiz_ranking.v:7:        : Pruning (signed) 28 high bits of the expression.
+E:\FPGA\ALST\_dev_sim_0b18789\sim\tb\tb_quiz_ranking.v:7: warning: Port 17 (con_level) of module display_adjust expects 4 bit(s), given 32.
+E:\FPGA\ALST\_dev_sim_0b18789\sim\tb\tb_quiz_ranking.v:7:        : Pruning (signed) 28 high bits of the expression.
+E:\FPGA\ALST\_dev_sim_0b18789\sim\tb\tb_quiz_ranking.v:7: warning: Port 18 (img_res) of module display_adjust expects 2 bit(s), given 32.
+E:\FPGA\ALST\_dev_sim_0b18789\sim\tb\tb_quiz_ranking.v:7:        : Pruning (signed) 30 high bits of the expression.
+E:\FPGA\ALST\_dev_sim_0b18789\sim\tb\tb_quiz_ranking.v:7: warning: Port 19 (pic_manual) of module display_adjust expects 1 bit(s), given 32.
+E:\FPGA\ALST\_dev_sim_0b18789\sim\tb\tb_quiz_ranking.v:7:        : Pruning (signed) 31 high bits of the expression.
+E:\FPGA\ALST\_dev_sim_0b18789\sim\tb\tb_quiz_ranking.v:7: warning: Port 20 (res_info_always) of module display_adjust expects 1 bit(s), given 32.
+E:\FPGA\ALST\_dev_sim_0b18789\sim\tb\tb_quiz_ranking.v:7:        : Pruning (signed) 31 high bits of the expression.
+E:\FPGA\ALST\_dev_sim_0b18789\sim\tb\tb_quiz_ranking.v:7: warning: Port 21 (ui_mode) of module display_adjust expects 3 bit(s), given 32.
+E:\FPGA\ALST\_dev_sim_0b18789\sim\tb\tb_quiz_ranking.v:7:        : Pruning (signed) 29 high bits of the expression.
+E:\FPGA\ALST\_dev_sim_0b18789\sim\tb\tb_quiz_ranking.v:7: warning: Port 22 (quiz_on) of module display_adjust expects 1 bit(s), given 32.
+E:\FPGA\ALST\_dev_sim_0b18789\sim\tb\tb_quiz_ranking.v:7:        : Pruning (signed) 31 high bits of the expression.
+E:\FPGA\ALST\_dev_sim_0b18789\sim\tb\tb_quiz_ranking.v:7: warning: Port 23 (meeting_on) of module display_adjust expects 1 bit(s), given 32.
+E:\FPGA\ALST\_dev_sim_0b18789\sim\tb\tb_quiz_ranking.v:7:        : Pruning (signed) 31 high bits of the expression.
+E:\FPGA\ALST\_dev_sim_0b18789\sim\tb\tb_quiz_ranking.v:7: warning: Port 24 (q_state) of module display_adjust expects 2 bit(s), given 32.
+E:\FPGA\ALST\_dev_sim_0b18789\sim\tb\tb_quiz_ranking.v:7:        : Pruning (signed) 30 high bits of the expression.
+E:\FPGA\ALST\_dev_sim_0b18789\sim\tb\tb_quiz_ranking.v:7: warning: Port 31 (sc_evt) of module display_adjust expects 1 bit(s), given 32.
+E:\FPGA\ALST\_dev_sim_0b18789\sim\tb\tb_quiz_ranking.v:7:        : Pruning (signed) 31 high bits of the expression.
+E:\FPGA\ALST\_dev_sim_0b18789\sim\tb\tb_quiz_ranking.v:7: warning: Port 32 (sc_team) of module display_adjust expects 2 bit(s), given 32.
+E:\FPGA\ALST\_dev_sim_0b18789\sim\tb\tb_quiz_ranking.v:7:        : Pruning (signed) 30 high bits of the expression.
+[PASS] full-screen quiz OSD is frame-gated, score-sorted and team-colored
+E:\FPGA\ALST\_dev_sim_0b18789\sim\tb\tb_quiz_ranking.v:33: $finish called at 285000 (1ps)
+

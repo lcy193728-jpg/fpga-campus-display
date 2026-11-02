@@ -1,0 +1,4 @@
+==== tb_meeting_osd_logic_equiv checks=190 fails=0 ====
+RESULT: PASS
+E:\FPGA\ALST\_dev_sim_0b18789\sim\tb\tb_meeting_osd_logic_equiv.v:58: $finish called at 894000 (1ps)
+

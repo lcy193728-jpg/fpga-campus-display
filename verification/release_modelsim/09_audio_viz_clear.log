@@ -1,0 +1,39 @@
+#  if {![file exists {E:/FPGA/ALST/_dev_sim_0b18789/sim/modelsim_evidence_ascii/09_audio_viz_clear_work/work}]} {vlib {E:/FPGA/ALST/_dev_sim_0b18789/sim/modelsim_evidence_ascii/09_audio_viz_clear_work/work}} 
+#  vmap work {E:/FPGA/ALST/_dev_sim_0b18789/sim/modelsim_evidence_ascii/09_audio_viz_clear_work/work} 
+# Modifying modelsim.ini
+#  vlog -work work {E:/FPGA/ALST/_dev_sim_0b18789/audio_final/rtl/audio_viz_overlay.v} {E:/FPGA/ALST/_dev_sim_0b18789/sim/tb/tb_audio_viz_scene_clear.v} 
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module audio_viz_overlay
+# -- Compiling module EG_LOGIC_BRAM
+# -- Compiling module tb_audio_viz_scene_clear
+# 
+# Top level modules:
+# 	tb_audio_viz_scene_clear
+#  vsim -t 1ps -wlf {E:/FPGA/ALST/_dev_sim_0b18789/sim/modelsim_evidence_ascii/09_audio_viz_clear.wlf} work.tb_audio_viz_scene_clear 
+# vsim -t 1ps -wlf E:/FPGA/ALST/_dev_sim_0b18789/sim/modelsim_evidence_ascii/09_audio_viz_clear.wlf work.tb_audio_viz_scene_clear 
+# Loading work.tb_audio_viz_scene_clear
+# Loading work.audio_viz_overlay
+# Loading work.EG_LOGIC_BRAM
+# ** Warning: (vsim-3015) E:/FPGA/ALST/_dev_sim_0b18789/sim/tb/tb_audio_viz_scene_clear.v(22): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'hs_i'. The port definition is at: E:/FPGA/ALST/_dev_sim_0b18789/audio_final/rtl/audio_viz_overlay.v(54).
+# 
+#         Region: /tb_audio_viz_scene_clear/dut
+# ** Warning: (vsim-3015) E:/FPGA/ALST/_dev_sim_0b18789/sim/tb/tb_audio_viz_scene_clear.v(22): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'vs_i'. The port definition is at: E:/FPGA/ALST/_dev_sim_0b18789/audio_final/rtl/audio_viz_overlay.v(54).
+# 
+#         Region: /tb_audio_viz_scene_clear/dut
+# ** Warning: (vsim-3015) E:/FPGA/ALST/_dev_sim_0b18789/sim/tb/tb_audio_viz_scene_clear.v(22): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'de_i'. The port definition is at: E:/FPGA/ALST/_dev_sim_0b18789/audio_final/rtl/audio_viz_overlay.v(54).
+# 
+#         Region: /tb_audio_viz_scene_clear/dut
+# ** Warning: (vsim-3015) E:/FPGA/ALST/_dev_sim_0b18789/sim/tb/tb_audio_viz_scene_clear.v(22): [PCDPC] - Port size (12 or 12) does not match connection size (32) for port 'px_x'. The port definition is at: E:/FPGA/ALST/_dev_sim_0b18789/audio_final/rtl/audio_viz_overlay.v(55).
+# 
+#         Region: /tb_audio_viz_scene_clear/dut
+# ** Warning: (vsim-3015) E:/FPGA/ALST/_dev_sim_0b18789/sim/tb/tb_audio_viz_scene_clear.v(22): [PCDPC] - Port size (12 or 12) does not match connection size (32) for port 'px_y'. The port definition is at: E:/FPGA/ALST/_dev_sim_0b18789/audio_final/rtl/audio_viz_overlay.v(55).
+# 
+#         Region: /tb_audio_viz_scene_clear/dut
+# ** Warning: (vsim-3015) E:/FPGA/ALST/_dev_sim_0b18789/sim/tb/tb_audio_viz_scene_clear.v(22): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'meet_warn_lv'. The port definition is at: E:/FPGA/ALST/_dev_sim_0b18789/audio_final/rtl/audio_viz_overlay.v(56).
+# 
+#         Region: /tb_audio_viz_scene_clear/dut
+#  log -r /* 
+#  run -all 
+# [PASS] visualization history is cleared on scene change
+# ** Note: $finish    : E:/FPGA/ALST/_dev_sim_0b18789/sim/tb/tb_audio_viz_scene_clear.v(37)
+#    Time: 10415 ns  Iteration: 1  Instance: /tb_audio_viz_scene_clear

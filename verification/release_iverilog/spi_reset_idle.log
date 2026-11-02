@@ -1,0 +1,3 @@
+[PASS] spi_master reset/idle keeps CS=1 and MOSI=1
+E:\FPGA\ALST\_dev_sim_0b18789\sim\tb\tb_spi_master_reset_idle.v:41: $finish called at 60000 (1ps)
+

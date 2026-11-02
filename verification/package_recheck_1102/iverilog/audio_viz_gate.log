@@ -1,0 +1,15 @@
+[PASS] 音也不显示(上边框透传) : px(0,362) data_o=1b2c3d
+[PASS] ��议非WARN: 下边框也透传 : px(0,437) data_o=1b2c3d
+[PASS] ��议非WARN: 条带内部透传 : px(0,404) data_o=1b2c3d
+[PASS] ��边框出现(绿=会议配色) : px(0,362) data_o=44ff88
+[PASS] G5�������WARN:���������������� : px(0,437) data_o=44ff88
+[PASS] 6 会议WARN结束: 边框消失 : px(0,362) data_o=1b2c3d
+[PASS] 青), 不受 meet_warn_lv 影响 : px(0,362) data_o=30e8ff
+[PASS] ���������������������������(���) : px(0,362) data_o=44ff88
+[PASS] 应急场景无上边框(融合) : px(0,362) data_o=1b2c3d
+[PASS] G1�������������������� : px(0,362) data_o=1b2c3d
+[PASS] 菜单无新音频: 保持隐藏 : px(0,362) data_o=1b2c3d
+==== tb_audio_viz_gate: checks=11 fails=0 ====
+RESULT: PASS
+E:\FPGA\ALST\��ί�ύ_������������_2026-11-01\FPGA_Campus_Final\audio_final\tb\tb_audio_viz_gate.v:114: $finish called at 987200000 (1ps)
+

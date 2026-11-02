@@ -1,0 +1,19 @@
+#  if {![file exists {E:/FPGA/ALST/_dev_sim_0b18789/sim/modelsim_evidence_ascii/07_meeting_control_work/work}]} {vlib {E:/FPGA/ALST/_dev_sim_0b18789/sim/modelsim_evidence_ascii/07_meeting_control_work/work}} 
+#  vmap work {E:/FPGA/ALST/_dev_sim_0b18789/sim/modelsim_evidence_ascii/07_meeting_control_work/work} 
+# Modifying modelsim.ini
+#  vlog -work work {E:/FPGA/ALST/_dev_sim_0b18789/src/meeting_ctrl.v} {E:/FPGA/ALST/_dev_sim_0b18789/sim/evidence/tb_meeting_ctrl_evidence.v} 
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module meeting_ctrl
+# -- Compiling module tb_meeting_ctrl_evidence
+# 
+# Top level modules:
+# 	tb_meeting_ctrl_evidence
+#  vsim -t 1ps -wlf {E:/FPGA/ALST/_dev_sim_0b18789/sim/modelsim_evidence_ascii/07_meeting_control.wlf} work.tb_meeting_ctrl_evidence 
+# vsim -t 1ps -wlf E:/FPGA/ALST/_dev_sim_0b18789/sim/modelsim_evidence_ascii/07_meeting_control.wlf work.tb_meeting_ctrl_evidence 
+# Loading work.tb_meeting_ctrl_evidence
+# Loading work.meeting_ctrl
+#  log -r /* 
+#  run -all 
+# [PASS] meeting agenda timing, warning, auto-next and terminal idle
+# ** Note: $finish    : E:/FPGA/ALST/_dev_sim_0b18789/sim/evidence/tb_meeting_ctrl_evidence.v(35)
+#    Time: 1940 ns  Iteration: 1  Instance: /tb_meeting_ctrl_evidence

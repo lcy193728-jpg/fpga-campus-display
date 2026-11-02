@@ -1,0 +1,3 @@
+[PASS] quiz entry stays silent; countdown cue remains event-driven
+E:\FPGA\ALST\_dev_sim_0b18789\sim\tb\tb_quiz_entry_audio_gate.v:72: $finish called at 475000 (1ps)
+

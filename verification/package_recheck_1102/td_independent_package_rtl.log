@@ -1,0 +1,889 @@
+============================================================
+   Tang Dynasty, V6.2.168116
+   Copyright (c) 2012-2025 Anlogic Inc.
+   Executable = E:/FPGA/TD/bin/td_commands_prompt.exe
+   Built at =   16:32:07 Jun 12 2025
+   Run by =     Lenovo
+   Run Date =   Mon Nov  2 18:14:46 2026
+
+   Run on =     LAPTOP-20FOG86H
+============================================================
+RUN-1002 : start command "import_device eagle_s20.db -package EG4S20BG256"
+RUN-1001 : Using default speed grade: NA
+ARC-1001 : Device Initialization.
+ARC-1001 : ------------------------------------------------------------------
+ARC-1001 :            OPTION            |          IO          |   SETTING   
+ARC-1001 : ------------------------------------------------------------------
+ARC-1001 :   cso_b/cclk/mosi/miso/dout  |  T3/R11/T10/P10/S11  |    gpio    
+ARC-1001 :             done             |         P13          |    gpio    
+ARC-1001 :           program_b          |          T2          |  dedicate  
+ARC-1001 :        tdi/tms/tck/tdo       |   C12/A15/C14/E14    |  dedicate  
+ARC-1001 : ------------------------------------------------------------------
+ARC-1004 : Device setting, marked 5 dedicate IOs in total.
+RUN-1002 : start command "open_project E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/build/portable_project/pic_sdram_audio_final.al -single_run"
+RUN-1002 : start command "commit_param -step design"
+RUN-1001 : Print Global Property
+RUN-1001 : --------------------------------------------------------
+RUN-1001 :   Parameters   |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------
+RUN-1001 :   enable_seed  |    off     |       off        |        
+RUN-1001 :     message    |  standard  |     standard     |        
+RUN-1001 :   qor_monitor  |     on     |        on        |        
+RUN-1001 :   syn_ip_flow  |    off     |       off        |        
+RUN-1001 :     thread     |    auto    |       auto       |        
+RUN-1001 : --------------------------------------------------------
+RUN-1001 : Print Design Property
+RUN-1001 : ----------------------------------------------------------------
+RUN-1001 :       Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : ----------------------------------------------------------------
+RUN-1001 :   default_reg_initial  |    auto    |       auto       |        
+RUN-1001 :    hdl_warning_level   |   normal   |      normal      |        
+RUN-1001 : ----------------------------------------------------------------
+HDL-1007 : analyze verilog file src/sdram/enc_file/global_def.v
+HDL-1007 : analyze verilog file src/video_define.v
+HDL-1007 : analyze verilog file src/bmp_read_auto.v
+HDL-1007 : analyze verilog file src/color_bar.v
+HDL-1007 : analyze included file src/video_define.v in src/color_bar.v(2)
+HDL-1007 : back to file 'src/color_bar.v' in src/color_bar.v(2)
+HDL-1007 : analyze verilog file src/frame_fifo_read.v
+HDL-1007 : analyze verilog file src/frame_fifo_write.v
+HDL-1007 : analyze verilog file src/sd_card/sd_card_cmd.v
+HDL-1007 : analyze verilog file src/sd_card/sd_card_sec_read_write.v
+HDL-1007 : analyze verilog file src/sd_card/sd_card_top.v
+HDL-1007 : analyze verilog file src/sd_card/spi_master.v
+HDL-1007 : analyze verilog file src/sd_card_bmp.v
+HDL-1007 : analyze included file src/fat32_lookup.v in src/sd_card_bmp.v(45)
+HDL-1007 : back to file 'src/sd_card_bmp.v' in src/sd_card_bmp.v(45)
+HDL-1007 : analyze included file src/audio_sd_arbiter.v in src/sd_card_bmp.v(46)
+HDL-1007 : back to file 'src/sd_card_bmp.v' in src/sd_card_bmp.v(46)
+HDL-1007 : analyze included file src/zone_launch.v in src/sd_card_bmp.v(47)
+HDL-1007 : back to file 'src/sd_card_bmp.v' in src/sd_card_bmp.v(47)
+HDL-1007 : analyze included file src/../audio_final/rtl/wav_stream_player.v in src/sd_card_bmp.v(48)
+HDL-1007 : back to file 'src/sd_card_bmp.v' in src/sd_card_bmp.v(48)
+HDL-1007 : analyze verilog file src/seg_decoder.v
+HDL-1007 : analyze verilog file src/seg_scan.v
+HDL-1007 : analyze verilog file audio_final/integrated/top_final.v
+HDL-1007 : analyze included file audio_final/integrated/../../src/osd_welcome.v in audio_final/integrated/top_final.v(13)
+HDL-1007 : back to file 'audio_final/integrated/top_final.v' in audio_final/integrated/top_final.v(13)
+HDL-1007 : analyze included file audio_final/integrated/../../src/uart_rx_byte.v in audio_final/integrated/top_final.v(14)
+HDL-1007 : back to file 'audio_final/integrated/top_final.v' in audio_final/integrated/top_final.v(14)
+HDL-1007 : analyze included file audio_final/integrated/../../src/uart_tx_byte.v in audio_final/integrated/top_final.v(15)
+HDL-1007 : back to file 'audio_final/integrated/top_final.v' in audio_final/integrated/top_final.v(15)
+HDL-1007 : analyze included file audio_final/integrated/../../src/welcome_uart_controller.v in audio_final/integrated/top_final.v(16)
+HDL-1007 : back to file 'audio_final/integrated/top_final.v' in audio_final/integrated/top_final.v(16)
+HDL-1007 : analyze included file audio_final/integrated/../../src/welcome_cfg_frame_commit.v in audio_final/integrated/top_final.v(17)
+HDL-1007 : back to file 'audio_final/integrated/top_final.v' in audio_final/integrated/top_final.v(17)
+HDL-1007 : analyze included file audio_final/integrated/../../src/emergency_cfg_frame_commit.v in audio_final/integrated/top_final.v(18)
+HDL-1007 : back to file 'audio_final/integrated/top_final.v' in audio_final/integrated/top_final.v(18)
+HDL-1007 : analyze included file audio_final/integrated/../../src/welcome_mosaic.v in audio_final/integrated/top_final.v(19)
+HDL-1007 : back to file 'audio_final/integrated/top_final.v' in audio_final/integrated/top_final.v(19)
+HDL-1007 : analyze included file audio_final/integrated/../../src/osd_menu_aa_rom.v in audio_final/integrated/top_final.v(20)
+HDL-1007 : back to file 'audio_final/integrated/top_final.v' in audio_final/integrated/top_final.v(20)
+HDL-1007 : analyze included file audio_final/integrated/../../src/display_adjust.v in audio_final/integrated/top_final.v(21)
+HDL-1007 : back to file 'audio_final/integrated/top_final.v' in audio_final/integrated/top_final.v(21)
+HDL-1007 : analyze included file audio_final/integrated/../../src/ui_key_ctrl.v in audio_final/integrated/top_final.v(22)
+HDL-1007 : back to file 'audio_final/integrated/top_final.v' in audio_final/integrated/top_final.v(22)
+HDL-1007 : analyze included file audio_final/integrated/../../src/osd_scene.v in audio_final/integrated/top_final.v(23)
+HDL-1007 : back to file 'audio_final/integrated/top_final.v' in audio_final/integrated/top_final.v(23)
+HDL-1007 : analyze included file audio_final/integrated/../../src/quiz_ctrl.v in audio_final/integrated/top_final.v(24)
+HDL-1007 : back to file 'audio_final/integrated/top_final.v' in audio_final/integrated/top_final.v(24)
+HDL-1007 : analyze included file audio_final/integrated/../../src/quiz_scene_ctrl.v in audio_final/integrated/top_final.v(25)
+HDL-1007 : back to file 'audio_final/integrated/top_final.v' in audio_final/integrated/top_final.v(25)
+HDL-1007 : analyze included file audio_final/integrated/../../src/bmp_scale.v in audio_final/integrated/top_final.v(26)
+HDL-1007 : back to file 'audio_final/integrated/top_final.v' in audio_final/integrated/top_final.v(26)
+HDL-1007 : analyze included file audio_final/integrated/../../src/reset_sync.v in audio_final/integrated/top_final.v(27)
+HDL-1007 : back to file 'audio_final/integrated/top_final.v' in audio_final/integrated/top_final.v(27)
+HDL-1007 : analyze included file audio_final/integrated/../../src/sync_2ff.v in audio_final/integrated/top_final.v(28)
+HDL-1007 : back to file 'audio_final/integrated/top_final.v' in audio_final/integrated/top_final.v(28)
+HDL-1007 : analyze included file audio_final/integrated/../../src/sd_powerup_guard.v in audio_final/integrated/top_final.v(29)
+HDL-1007 : back to file 'audio_final/integrated/top_final.v' in audio_final/integrated/top_final.v(29)
+HDL-1007 : analyze included file audio_final/integrated/../../src/video_first_frame_gate.v in audio_final/integrated/top_final.v(30)
+HDL-1007 : back to file 'audio_final/integrated/top_final.v' in audio_final/integrated/top_final.v(30)
+HDL-1007 : analyze included file audio_final/integrated/../../src/scene_load_guard.v in audio_final/integrated/top_final.v(31)
+HDL-1007 : back to file 'audio_final/integrated/top_final.v' in audio_final/integrated/top_final.v(31)
+HDL-1007 : analyze included file audio_final/integrated/../../src/quiz_end_commit_guard.v in audio_final/integrated/top_final.v(32)
+HDL-1007 : back to file 'audio_final/integrated/top_final.v' in audio_final/integrated/top_final.v(32)
+HDL-1007 : analyze included file audio_final/integrated/../../src/emergency_alarm_ctrl.v in audio_final/integrated/top_final.v(33)
+HDL-1007 : back to file 'audio_final/integrated/top_final.v' in audio_final/integrated/top_final.v(33)
+HDL-1007 : analyze included file audio_final/integrated/../../src/emergency_font_rom.v in audio_final/integrated/top_final.v(34)
+HDL-1007 : back to file 'audio_final/integrated/top_final.v' in audio_final/integrated/top_final.v(34)
+HDL-1007 : analyze included file audio_final/integrated/../../src/emergency_title_font_rom.v in audio_final/integrated/top_final.v(35)
+HDL-1007 : back to file 'audio_final/integrated/top_final.v' in audio_final/integrated/top_final.v(35)
+HDL-1007 : analyze included file audio_final/integrated/../../src/emergency_big_font_rom.v in audio_final/integrated/top_final.v(36)
+HDL-1007 : back to file 'audio_final/integrated/top_final.v' in audio_final/integrated/top_final.v(36)
+HDL-1007 : analyze included file audio_final/integrated/../../src/emergency_multi_overlay.v in audio_final/integrated/top_final.v(37)
+HDL-1007 : analyze included file audio_final/integrated/../../src/emergency_text_map.vh in audio_final/integrated/../../src/emergency_multi_overlay.v(22)
+HDL-5007 WARNING: literal value 'd32 truncated to fit in 5 bits in audio_final/integrated/../../src/emergency_text_map.vh(339)
+HDL-5007 WARNING: literal value 'd32 truncated to fit in 5 bits in audio_final/integrated/../../src/emergency_text_map.vh(340)
+HDL-5007 WARNING: literal value 'd32 truncated to fit in 5 bits in audio_final/integrated/../../src/emergency_text_map.vh(341)
+HDL-5007 WARNING: literal value 'd32 truncated to fit in 5 bits in audio_final/integrated/../../src/emergency_text_map.vh(342)
+HDL-1007 : back to file 'audio_final/integrated/../../src/emergency_multi_overlay.v' in audio_final/integrated/../../src/emergency_multi_overlay.v(22)
+HDL-1007 : back to file 'audio_final/integrated/top_final.v' in audio_final/integrated/top_final.v(37)
+HDL-1007 : analyze included file audio_final/integrated/../../src/meeting_ctrl.v in audio_final/integrated/top_final.v(42)
+HDL-1007 : back to file 'audio_final/integrated/top_final.v' in audio_final/integrated/top_final.v(42)
+HDL-1007 : analyze included file audio_final/integrated/../../src/meeting_osd.v in audio_final/integrated/top_final.v(43)
+HDL-1007 : back to file 'audio_final/integrated/top_final.v' in audio_final/integrated/top_final.v(43)
+HDL-1007 : analyze included file audio_final/integrated/../rtl/audio_feature_events.v in audio_final/integrated/top_final.v(44)
+HDL-1007 : back to file 'audio_final/integrated/top_final.v' in audio_final/integrated/top_final.v(44)
+HDL-1007 : analyze included file audio_final/integrated/../rtl/scene_audio_final.v in audio_final/integrated/top_final.v(45)
+HDL-1007 : analyze included file audio_final/integrated/../rtl/../rtl/audio_sine_init.vh in audio_final/integrated/../rtl/scene_audio_final.v(52)
+HDL-1007 : back to file 'audio_final/integrated/../rtl/scene_audio_final.v' in audio_final/integrated/../rtl/scene_audio_final.v(52)
+HDL-1007 : back to file 'audio_final/integrated/top_final.v' in audio_final/integrated/top_final.v(45)
+HDL-1007 : analyze included file audio_final/integrated/../rtl/audio_viz_overlay.v in audio_final/integrated/top_final.v(46)
+HDL-1007 : back to file 'audio_final/integrated/top_final.v' in audio_final/integrated/top_final.v(46)
+HDL-1007 : analyze included file audio_final/integrated/../rtl/audio_src_sel.v in audio_final/integrated/top_final.v(49)
+HDL-1007 : back to file 'audio_final/integrated/top_final.v' in audio_final/integrated/top_final.v(49)
+HDL-1007 : undeclared symbol 'sdram_clk', assumed default net type 'wire' in audio_final/integrated/top_final.v(378)
+HDL-1007 : analyze verilog file src/video_timing_data.v
+HDL-1007 : analyze verilog file src/sdram_r/sdram_para.v
+HDL-1007 : analyze verilog file src/sdram/enc_file/sdr_as_ram.enc.v
+Copyright (c) 1998-2019 The OpenSSL Project.  All rights reserved.
+This product includes software developed by the OpenSSL Project
+for use in the OpenSSL Toolkit (http://www.openssl.org/)
+Copyright (C) 1995-1998 Eric Young (eay@cryptsoft.com)
+All rights reserved.
+This product includes cryptographic software written by Eric Young (eay@cryptsoft.com)
+HDL-1007 : back to file 'src/sdram/enc_file/sdr_as_ram.enc.v' in src/sdram/enc_file/sdr_as_ram.enc.v(45)
+HDL-1007 : analyze verilog file src/sdram/enc_file/sdr_wrrd.enc.v
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in src/sdram/enc_file/sdr_wrrd.enc.v(283)
+HDL-1007 : back to file 'src/sdram/enc_file/sdr_wrrd.enc.v' in src/sdram/enc_file/sdr_wrrd.enc.v(19)
+HDL-1007 : analyze verilog file src/sdram/sdram.v
+HDL-1007 : analyze included file ./src/sdram/enc_file/global_def.v in src/sdram/sdram.v(10)
+HDL-1007 : back to file 'src/sdram/sdram.v' in src/sdram/sdram.v(10)
+HDL-1007 : undeclared symbol 'SDR_CKE', assumed default net type 'wire' in src/sdram/sdram.v(89)
+HDL-1007 : analyze verilog file src/frame_read_write.v
+HDL-1007 : analyze verilog file src/video_delay.v
+HDL-1007 : analyze VHDL file src/hdmi/enc_file/DVITransmitter.enc.vhd
+HDL-1007 : analyze entity dvitransmitter in src/hdmi/enc_file/DVITransmitter.enc.vhd(13)
+HDL-1007 : analyze architecture ** in src/hdmi/enc_file/DVITransmitter.enc.vhd(2)
+HDL-1007 : analyze VHDL file src/hdmi/enc_file/SerializerN_1_lvds.enc.vhd
+HDL-1007 : analyze entity ** in src/hdmi/enc_file/SerializerN_1_lvds.enc.vhd(12)
+HDL-1007 : analyze architecture ** in src/hdmi/enc_file/SerializerN_1_lvds.enc.vhd(25)
+HDL-1007 : analyze VHDL file src/hdmi/enc_file/SerializerN_1_lvds_dat.enc.vhd
+HDL-1007 : analyze entity ** in src/hdmi/enc_file/SerializerN_1_lvds_dat.enc.vhd(14)
+HDL-1007 : analyze architecture ** in src/hdmi/enc_file/SerializerN_1_lvds_dat.enc.vhd(28)
+HDL-1007 : analyze VHDL file src/hdmi/enc_file/TMDSEncoder.enc.vhd
+HDL-1007 : analyze entity ** in src/hdmi/enc_file/TMDSEncoder.enc.vhd(13)
+HDL-1007 : analyze architecture ** in src/hdmi/enc_file/TMDSEncoder.enc.vhd(24)
+HDL-1007 : analyze verilog file src/hdmi/enc_file/video_tpg_1024768.enc.v
+HDL-5007 WARNING: literal value ** truncated to fit in ** bits in src/hdmi/enc_file/video_tpg_1024768.enc.v(231)
+HDL-1007 : back to file 'src/hdmi/enc_file/video_tpg_1024768.enc.v' in src/hdmi/enc_file/video_tpg_1024768.enc.v(1)
+HDL-1007 : analyze verilog file src/hdmi/enc_file/video_tpg_1080p.enc.v
+HDL-1007 : back to file 'src/hdmi/enc_file/video_tpg_1080p.enc.v' in src/hdmi/enc_file/video_tpg_1080p.enc.v(1)
+HDL-1007 : analyze verilog file src/hdmi/enc_file/video_tpg_12801024p.enc.v
+HDL-1007 : back to file 'src/hdmi/enc_file/video_tpg_12801024p.enc.v' in src/hdmi/enc_file/video_tpg_12801024p.enc.v(1)
+HDL-1007 : analyze verilog file src/hdmi/enc_file/video_tpg_1280800.enc.v
+HDL-5007 WARNING: literal value ** truncated to fit in ** bits in src/hdmi/enc_file/video_tpg_1280800.enc.v(233)
+HDL-1007 : back to file 'src/hdmi/enc_file/video_tpg_1280800.enc.v' in src/hdmi/enc_file/video_tpg_1280800.enc.v(1)
+HDL-1007 : analyze verilog file src/hdmi/enc_file/video_tpg_16801050p.enc.v
+HDL-1007 : back to file 'src/hdmi/enc_file/video_tpg_16801050p.enc.v' in src/hdmi/enc_file/video_tpg_16801050p.enc.v(1)
+HDL-1007 : analyze verilog file src/hdmi/enc_file/video_tpg_800600.enc.v
+HDL-1007 : back to file 'src/hdmi/enc_file/video_tpg_800600.enc.v' in src/hdmi/enc_file/video_tpg_800600.enc.v(1)
+HDL-1007 : analyze VHDL file src/hdmi/hdmi_tx.vhd
+HDL-1007 : analyze entity hdmi_tx in src/hdmi/hdmi_tx.vhd(11)
+HDL-1007 : analyze architecture behavioral in src/hdmi/hdmi_tx.vhd(33)
+HDL-1007 : analyze verilog file src/sdram/enc_file/sdr_init_ref.enc.v
+HDL-1007 : analyze included file ./src/sdram/enc_file/global_def.v in src/sdram/enc_file/sdr_init_ref.enc.v(11)
+HDL-1007 : back to file 'src/sdram/enc_file/sdr_init_ref.enc.v' in src/sdram/enc_file/sdr_init_ref.enc.v(11)
+HDL-1007 : undeclared symbol '**', assumed default net type '**' in src/sdram/enc_file/sdr_init_ref.enc.v(57)
+HDL-1007 : back to file 'src/sdram/enc_file/sdr_init_ref.enc.v' in src/sdram/enc_file/sdr_init_ref.enc.v(149)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in src/sdram/enc_file/sdr_init_ref.enc.v(47)
+HDL-1007 : analyze verilog file src/osd_engine.v
+HDL-1007 : analyze verilog file src/osd_font_rom.v
+HDL-1007 : analyze verilog file src/osd_menu.v
+HDL-1007 : analyze verilog file src/scene_control.v
+HDL-1007 : analyze verilog file al_ip/sys_pll.v
+HDL-1007 : undeclared symbol 'open', assumed default net type 'wire' in al_ip/sys_pll.v(85)
+HDL-1007 : analyze verilog file al_ip/video_pll.v
+HDL-1007 : undeclared symbol 'open', assumed default net type 'wire' in al_ip/video_pll.v(78)
+HDL-1007 : analyze verilog file al_ip/afifo_16_32_256.v
+HDL-1007 : analyze verilog file al_ip/afifo_32_16_256.v
+HDL-1007 : analyze verilog file audio_board/rtl/audio_eg4_phy.v
+HDL-1007 : analyze verilog file audio_board/rtl/audio_event_cdc.v
+HDL-1007 : analyze verilog file audio_board/rtl/audio_hdmi_output.v
+HDL-1007 : analyze verilog file audio_board/rtl/audio_pcm_fifo.v
+HDL-1007 : analyze verilog file audio_board/rtl/audio_pcm_tone.v
+HDL-1007 : analyze included file audio_board/rtl/audio_sine_init.vh in audio_board/rtl/audio_pcm_tone.v(34)
+HDL-1007 : back to file 'audio_board/rtl/audio_pcm_tone.v' in audio_board/rtl/audio_pcm_tone.v(34)
+HDL-1007 : analyze verilog file audio_board/rtl/audio_src_mux.v
+HDL-1007 : analyze verilog file audio_board/rtl/audio_video_phase.v
+HDL-1007 : analyze verilog file audio_board/rtl/hdmi_audio_acr_packetizer.v
+HDL-1007 : analyze verilog file audio_board/rtl/hdmi_audio_infoframe_packetizer.v
+HDL-1007 : analyze verilog file audio_board/rtl/hdmi_audio_packet_scheduler.v
+HDL-1007 : analyze verilog file audio_board/rtl/hdmi_audio_sample_packetizer.v
+HDL-1007 : analyze verilog file audio_board/rtl/hdmi_audio_symbol_core.v
+HDL-1007 : analyze verilog file audio_board/rtl/hdmi_avi_infoframe_packetizer.v
+HDL-1007 : analyze verilog file audio_board/rtl/hdmi_bch8.v
+HDL-1007 : analyze verilog file audio_board/rtl/hdmi_data_island_mapper.v
+HDL-1007 : analyze verilog file audio_board/rtl/hdmi_data_island_scheduler.v
+HDL-1007 : analyze verilog file audio_board/rtl/hdmi_terc4_encoder.v
+HDL-1007 : analyze verilog file audio_board/rtl/hdmi_tmds_channel_encoder.v
+HDL-1007 : analyze verilog file audio_board/rtl/pcm_media_tone.v
+HDL-1007 : analyze included file audio_board/rtl/audio_sine_init.vh in audio_board/rtl/pcm_media_tone.v(46)
+HDL-1007 : back to file 'audio_board/rtl/pcm_media_tone.v' in audio_board/rtl/pcm_media_tone.v(46)
+HDL-1007 : analyze verilog file audio_board/rtl/hdmi_1_4b_transmitter_core_wrapper.enc.v
+HDL-1007 : undeclared symbol '**', assumed default net type '**' in audio_board/rtl/hdmi_1_4b_transmitter_core_wrapper.enc.v(2614)
+HDL-1007 : undeclared symbol '**', assumed default net type '**' in audio_board/rtl/hdmi_1_4b_transmitter_core_wrapper.enc.v(2716)
+HDL-1007 : undeclared symbol '**', assumed default net type '**' in audio_board/rtl/hdmi_1_4b_transmitter_core_wrapper.enc.v(2724)
+HDL-1007 : undeclared symbol '**', assumed default net type '**' in audio_board/rtl/hdmi_1_4b_transmitter_core_wrapper.enc.v(4936)
+HDL-1007 : undeclared symbol '**', assumed default net type '**' in audio_board/rtl/hdmi_1_4b_transmitter_core_wrapper.enc.v(5989)
+HDL-1007 : back to file 'audio_board/rtl/hdmi_1_4b_transmitter_core_wrapper.enc.v' in audio_board/rtl/hdmi_1_4b_transmitter_core_wrapper.enc.v(77)
+HDL-1007 : analyze verilog file audio_board/rtl/lane_lvds_10_1.v
+HDL-1007 : analyze verilog file audio_board/rtl/hdmi_phy_warpper.v
+HDL-1007 : analyze verilog file audio_board/rtl/video_rgb_to_axis_640x480.v
+HDL-1007 : analyze verilog file audio_board/rtl/audio_arc_calculate.v
+PRJ-1401 : Successfully analyzed 65 source files.
+RUN-1003 : finish command "open_project E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/build/portable_project/pic_sdram_audio_final.al -single_run" in  2.021089s wall, 0.421875s user + 0.375000s system = 0.796875s CPU (39.4%)
+
+RUN-1004 : used memory is 99 MB, reserved memory is 101 MB, peak memory is 99 MB
+RUN-1002 : start command "load_run_param -run syn_1"
+RUN-1002 : start command "elaborate -top top"
+HDL-1007 : elaborate module top in audio_final/integrated/top_final.v(51)
+HDL-1007 : elaborate module sys_pll in al_ip/sys_pll.v(24)
+HDL-1007 : elaborate module EG_LOGIC_BUFG in E:\FPGA\TD\arch/eagle_macro.v(5)
+HDL-1007 : elaborate module EG_PHY_PLL(FIN="50.000000",FBCLK_DIV=2,CLKC0_DIV=10,CLKC1_DIV=8,CLKC2_DIV=8,CLKC0_ENABLE="ENABLE",CLKC1_ENABLE="ENABLE",CLKC2_ENABLE="ENABLE",FEEDBK_PATH="CLKC0_EXT",STDBY_ENABLE="DISABLE",CLKC0_CPHASE=9,CLKC1_CPHASE=7,CLKC2_CPHASE=3,GMC_GAIN=4,ICP_CURRENT=29,KVCO=4,LPF_CAPACITOR=1,LPF_RESISTOR=2,SYNC_ENABLE="DISABLE") in E:\FPGA\TD\arch/eagle_macro.v(889)
+HDL-1007 : elaborate module video_pll in al_ip/video_pll.v(23)
+HDL-1007 : elaborate module EG_PHY_PLL(FIN="50.000000",REFCLK_DIV=2,CLKC0_DIV=40,CLKC1_DIV=8,CLKC0_ENABLE="ENABLE",CLKC1_ENABLE="ENABLE",FEEDBK_PATH="CLKC0_EXT",STDBY_ENABLE="DISABLE",CLKC0_CPHASE=39,CLKC1_CPHASE=7,GMC_GAIN=2,ICP_CURRENT=9,KVCO=2,LPF_CAPACITOR=1,LPF_RESISTOR=8,SYNC_ENABLE="DISABLE") in E:\FPGA\TD\arch/eagle_macro.v(889)
+HDL-1007 : elaborate module reset_sync in audio_final/integrated/../../src/reset_sync.v(26)
+HDL-1007 : elaborate module welcome_uart_controller in audio_final/integrated/../../src/welcome_uart_controller.v(14)
+HDL-1007 : elaborate module uart_rx_byte in audio_final/integrated/../../src/uart_rx_byte.v(4)
+HDL-1007 : elaborate module uart_tx_byte in audio_final/integrated/../../src/uart_tx_byte.v(4)
+HDL-1007 : elaborate module sync_2ff in audio_final/integrated/../../src/sync_2ff.v(18)
+HDL-1007 : elaborate module sd_powerup_guard in audio_final/integrated/../../src/sd_powerup_guard.v(19)
+HDL-1007 : elaborate module ui_key_ctrl in audio_final/integrated/../../src/ui_key_ctrl.v(95)
+HDL-1007 : elaborate module ui_key_dbnc in audio_final/integrated/../../src/ui_key_ctrl.v(536)
+HDL-1007 : elaborate module scene_control in src/scene_control.v(49)
+HDL-1007 : elaborate module key_debounce in src/scene_control.v(370)
+HDL-1007 : elaborate module emergency_alarm_ctrl in audio_final/integrated/../../src/emergency_alarm_ctrl.v(14)
+HDL-1007 : elaborate module meeting_ctrl in audio_final/integrated/../../src/meeting_ctrl.v(38)
+HDL-1007 : elaborate module quiz_ctrl in audio_final/integrated/../../src/quiz_ctrl.v(49)
+HDL-1007 : elaborate module key_debounce(DEB_MAX=21'b111101000010010000000) in src/scene_control.v(370)
+HDL-1007 : elaborate module quiz_scene_ctrl in audio_final/integrated/../../src/quiz_scene_ctrl.v(44)
+HDL-1007 : elaborate module sd_card_bmp in src/sd_card_bmp.v(50)
+HDL-1007 : elaborate module audio_sd_arbiter in src/audio_sd_arbiter.v(41)
+HDL-1007 : elaborate module zone_launch in src/zone_launch.v(46)
+HDL-1007 : elaborate module fat32_lookup in src/fat32_lookup.v(65)
+HDL-1007 : elaborate module bmp_read_auto in src/bmp_read_auto.v(64)
+HDL-1007 : elaborate module wav_stream_player in src/../audio_final/rtl/wav_stream_player.v(46)
+HDL-1007 : extracting RAM for identifier 'buffer' in src/../audio_final/rtl/wav_stream_player.v(83)
+HDL-1007 : elaborate module sd_card_top in src/sd_card/sd_card_top.v(2)
+HDL-1007 : elaborate module sd_card_sec_read_write in src/sd_card/sd_card_sec_read_write.v(2)
+HDL-1007 : elaborate module sd_card_cmd in src/sd_card/sd_card_cmd.v(2)
+HDL-1007 : elaborate module spi_master in src/sd_card/spi_master.v(2)
+HDL-5323 WARNING: input port 'sd_sec_write_data[7]' remains unconnected for this instance in src/sd_card_bmp.v(302)
+HDL-1007 : elaborate module bmp_scale in audio_final/integrated/../../src/bmp_scale.v(72)
+HDL-1007 : extracting RAM for identifier 'lb0' in audio_final/integrated/../../src/bmp_scale.v(182)
+HDL-1007 : extracting RAM for identifier 'lb1' in audio_final/integrated/../../src/bmp_scale.v(183)
+HDL-1007 : extracting RAM for identifier 'lb2' in audio_final/integrated/../../src/bmp_scale.v(184)
+HDL-1007 : elaborate module seg_decoder in src/seg_decoder.v(2)
+HDL-1007 : elaborate module seg_scan in src/seg_scan.v(13)
+HDL-1007 : elaborate module video_timing_data in src/video_timing_data.v(1)
+HDL-1007 : elaborate module color_bar in src/color_bar.v(3)
+HDL-1007 : elaborate module video_first_frame_gate in audio_final/integrated/../../src/video_first_frame_gate.v(10)
+HDL-1007 : elaborate module video_delay in src/video_delay.v(1)
+HDL-1007 : elaborate module osd_engine in src/osd_engine.v(18)
+HDL-1007 : elaborate module osd_font_rom in src/osd_font_rom.v(48)
+HDL-1007 : extracting RAM for identifier 'mem' in src/osd_font_rom.v(62)
+HDL-5314 WARNING: net 'mem' does not have a driver in src/osd_font_rom.v(62)
+HDL-1007 : elaborate module welcome_mosaic in audio_final/integrated/../../src/welcome_mosaic.v(18)
+HDL-1007 : elaborate module EG_LOGIC_BRAM(DATA_WIDTH_A=16,DATA_WIDTH_B=16,ADDR_WIDTH_A=8,ADDR_WIDTH_B=8,DATA_DEPTH_A=256,DATA_DEPTH_B=256) in E:\FPGA\TD\arch/eagle_macro.v(986)
+HDL-1007 : elaborate module osd_menu in src/osd_menu.v(37)
+HDL-1007 : elaborate module osd_menu_aa_rom in audio_final/integrated/../../src/osd_menu_aa_rom.v(2)
+HDL-1007 : extracting RAM for identifier 'mem' in audio_final/integrated/../../src/osd_menu_aa_rom.v(3)
+HDL-5314 WARNING: net 'mem' does not have a driver in audio_final/integrated/../../src/osd_menu_aa_rom.v(3)
+HDL-1007 : elaborate module welcome_cfg_frame_commit in audio_final/integrated/../../src/welcome_cfg_frame_commit.v(5)
+HDL-1007 : elaborate module emergency_cfg_frame_commit in audio_final/integrated/../../src/emergency_cfg_frame_commit.v(4)
+HDL-1007 : elaborate module osd_welcome in audio_final/integrated/../../src/osd_welcome.v(27)
+HDL-1007 : elaborate module osd_scene in audio_final/integrated/../../src/osd_scene.v(47)
+HDL-1007 : elaborate module meeting_osd in audio_final/integrated/../../src/meeting_osd.v(26)
+HDL-1007 : elaborate module emergency_multi_overlay in audio_final/integrated/../../src/emergency_multi_overlay.v(5)
+HDL-1007 : elaborate module emergency_font_rom in audio_final/integrated/../../src/emergency_font_rom.v(2)
+HDL-1007 : extracting RAM for identifier 'mem' in audio_final/integrated/../../src/emergency_font_rom.v(3)
+HDL-5314 WARNING: net 'mem' does not have a driver in audio_final/integrated/../../src/emergency_font_rom.v(3)
+HDL-1007 : elaborate module emergency_big_font_rom in audio_final/integrated/../../src/emergency_big_font_rom.v(2)
+HDL-1007 : elaborate module EG_LOGIC_BRAM(DATA_WIDTH_A=16,DATA_WIDTH_B=16,ADDR_WIDTH_A=11,ADDR_WIDTH_B=11,DATA_DEPTH_A=2048,DATA_DEPTH_B=2048,MODE="SP",INIT_FILE="E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/build/portable_project/src/emergency_big_font_bank0.dat",IMPLEMENT="32K") in E:\FPGA\TD\arch/eagle_macro.v(986)
+HDL-1007 : elaborate module EG_LOGIC_BRAM(DATA_WIDTH_A=16,DATA_WIDTH_B=16,ADDR_WIDTH_A=11,ADDR_WIDTH_B=11,DATA_DEPTH_A=2048,DATA_DEPTH_B=2048,MODE="SP",INIT_FILE="E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/build/portable_project/src/emergency_big_font_bank1.dat",IMPLEMENT="32K") in E:\FPGA\TD\arch/eagle_macro.v(986)
+HDL-1007 : elaborate module EG_LOGIC_BRAM(DATA_WIDTH_A=16,DATA_WIDTH_B=16,ADDR_WIDTH_A=11,ADDR_WIDTH_B=11,DATA_DEPTH_A=2048,DATA_DEPTH_B=2048,MODE="SP",INIT_FILE="E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/build/portable_project/src/emergency_big_font_bank2.dat",IMPLEMENT="32K") in E:\FPGA\TD\arch/eagle_macro.v(986)
+HDL-1007 : elaborate module EG_LOGIC_BRAM(DATA_WIDTH_A=16,DATA_WIDTH_B=16,ADDR_WIDTH_A=11,ADDR_WIDTH_B=11,DATA_DEPTH_A=2048,DATA_DEPTH_B=2048,MODE="SP",INIT_FILE="E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/build/portable_project/src/emergency_big_font_bank3.dat",IMPLEMENT="32K") in E:\FPGA\TD\arch/eagle_macro.v(986)
+HDL-1007 : elaborate module EG_LOGIC_BRAM(DATA_WIDTH_A=16,DATA_WIDTH_B=16,ADDR_WIDTH_A=11,ADDR_WIDTH_B=11,DATA_DEPTH_A=2048,DATA_DEPTH_B=2048,MODE="SP",INIT_FILE="E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/build/portable_project/src/emergency_big_font_bank4.dat",IMPLEMENT="32K") in E:\FPGA\TD\arch/eagle_macro.v(986)
+HDL-1007 : elaborate module emergency_title_font_rom in audio_final/integrated/../../src/emergency_title_font_rom.v(2)
+HDL-1007 : extracting RAM for identifier 'mem' in audio_final/integrated/../../src/emergency_title_font_rom.v(3)
+HDL-5314 WARNING: net 'mem' does not have a driver in audio_final/integrated/../../src/emergency_title_font_rom.v(3)
+HDL-1007 : elaborate module audio_viz_overlay in audio_final/integrated/../rtl/audio_viz_overlay.v(53)
+HDL-1007 : elaborate module EG_LOGIC_BRAM(DATA_WIDTH_A=8,DATA_WIDTH_B=8,ADDR_WIDTH_A=9,ADDR_WIDTH_B=9,DATA_DEPTH_A=512,DATA_DEPTH_B=512) in E:\FPGA\TD\arch/eagle_macro.v(986)
+HDL-1007 : elaborate module display_adjust in audio_final/integrated/../../src/display_adjust.v(77)
+HDL-1007 : elaborate module audio_feature_events in audio_final/integrated/../rtl/audio_feature_events.v(4)
+HDL-1007 : elaborate module scene_audio_final in audio_final/integrated/../rtl/scene_audio_final.v(14)
+HDL-1007 : extracting RAM for identifier 'fifo' in audio_final/integrated/../rtl/scene_audio_final.v(46)
+HDL-1007 : elaborate module audio_src_sel in audio_final/integrated/../rtl/audio_src_sel.v(35)
+HDL-1007 : elaborate module audio_src_mux in audio_board/rtl/audio_src_mux.v(6)
+HDL-1007 : elaborate module audio_arc_calculate in audio_board/rtl/audio_arc_calculate.v(4)
+HDL-1007 : elaborate module video_rgb_to_axis_640x480 in audio_board/rtl/video_rgb_to_axis_640x480.v(2)
+HDL-1007 : elaborate module hdmi_1_4b_transmitter_core_wrapper(HTOTAL=800,HSA=96,HFP=16,HBP=48,HACTIVE=640,VTOTAL=525,VSA=2,VFP=10,VBP=33,VACTIVE=480,VIDEO_TPG="Disable",VIDEO_VIC=1,IIC_SCL_DIV=250) in audio_board/rtl/hdmi_1_4b_transmitter_core_wrapper.enc.v(2)
+HDL-1007 : elaborate module ** in audio_board/rtl/hdmi_1_4b_transmitter_core_wrapper.enc.v(91)
+HDL-1007 : elaborate module ** in audio_board/rtl/hdmi_1_4b_transmitter_core_wrapper.enc.v(137)
+HDL-1007 : elaborate module ** in audio_board/rtl/hdmi_1_4b_transmitter_core_wrapper.enc.v(208)
+HDL-1007 : elaborate module ** in audio_board/rtl/hdmi_1_4b_transmitter_core_wrapper.enc.v(285)
+HDL-1007 : elaborate module ** in audio_board/rtl/hdmi_1_4b_transmitter_core_wrapper.enc.v(396)
+HDL-1007 : elaborate module ** in audio_board/rtl/hdmi_1_4b_transmitter_core_wrapper.enc.v(803)
+HDL-1007 : elaborate module EG_LOGIC_RAMFIFO(DATA_WIDTH=11,ADDR_WIDTH=10,IMPLEMENT="9K") in E:\FPGA\TD\arch/eagle_macro.v(750)
+HDL-1007 : elaborate module ** in audio_board/rtl/hdmi_1_4b_transmitter_core_wrapper.enc.v(1338)
+HDL-1007 : elaborate module ** in audio_board/rtl/hdmi_1_4b_transmitter_core_wrapper.enc.v(1480)
+HDL-1007 : elaborate module EG_LOGIC_RAMFIFO(DATA_WIDTH=9,ADDR_WIDTH=10,IMPLEMENT="9K") in E:\FPGA\TD\arch/eagle_macro.v(750)
+HDL-1007 : elaborate module ** in audio_board/rtl/hdmi_1_4b_transmitter_core_wrapper.enc.v(2012)
+HDL-1007 : port '**' remains unconnected for this instance in audio_board/rtl/hdmi_1_4b_transmitter_core_wrapper.enc.v(2733)
+HDL-1007 : elaborate module ** in audio_board/rtl/hdmi_1_4b_transmitter_core_wrapper.enc.v(2403)
+HDL-1007 : elaborate module ** in audio_board/rtl/hdmi_1_4b_transmitter_core_wrapper.enc.v(2842)
+HDL-1007 : elaborate module ** in audio_board/rtl/hdmi_1_4b_transmitter_core_wrapper.enc.v(2939)
+HDL-1007 : elaborate module ** in audio_board/rtl/hdmi_1_4b_transmitter_core_wrapper.enc.v(3138)
+HDL-1007 : elaborate module ** in audio_board/rtl/hdmi_1_4b_transmitter_core_wrapper.enc.v(3177)
+HDL-1007 : elaborate module ** in audio_board/rtl/hdmi_1_4b_transmitter_core_wrapper.enc.v(3511)
+HDL-1007 : elaborate module ** in audio_board/rtl/hdmi_1_4b_transmitter_core_wrapper.enc.v(3666)
+HDL-1007 : elaborate module ** in audio_board/rtl/hdmi_1_4b_transmitter_core_wrapper.enc.v(3730)
+HDL-1007 : elaborate module ** in audio_board/rtl/hdmi_1_4b_transmitter_core_wrapper.enc.v(3860)
+HDL-5007 WARNING: actual bit length ** differs from formal bit length *** for port '**' in audio_board/rtl/hdmi_1_4b_transmitter_core_wrapper.enc.v(3307)
+HDL-1007 : elaborate module ** in audio_board/rtl/hdmi_1_4b_transmitter_core_wrapper.enc.v(3949)
+HDL-5007 WARNING: actual bit length ** differs from formal bit length *** for port '**' in audio_board/rtl/hdmi_1_4b_transmitter_core_wrapper.enc.v(3318)
+HDL-1007 : elaborate module ** in audio_board/rtl/hdmi_1_4b_transmitter_core_wrapper.enc.v(4034)
+HDL-1007 : elaborate module ** in audio_board/rtl/hdmi_1_4b_transmitter_core_wrapper.enc.v(4127)
+HDL-1007 : elaborate module ** in audio_board/rtl/hdmi_1_4b_transmitter_core_wrapper.enc.v(4285)
+HDL-1007 : elaborate module ** in audio_board/rtl/hdmi_1_4b_transmitter_core_wrapper.enc.v(4586)
+HDL-1007 : elaborate module EG_LOGIC_RAMFIFO(DATA_WIDTH=96,ADDR_WIDTH=10,IMPLEMENT="9K") in E:\FPGA\TD\arch/eagle_macro.v(750)
+HDL-1007 : elaborate module ** in audio_board/rtl/hdmi_1_4b_transmitter_core_wrapper.enc.v(5534)
+HDL-1007 : elaborate module ** in audio_board/rtl/hdmi_1_4b_transmitter_core_wrapper.enc.v(5657)
+HDL-1007 : elaborate module EG_LOGIC_RAMFIFO(DATA_WIDTH=24,ADDR_WIDTH=10,IMPLEMENT="9K") in E:\FPGA\TD\arch/eagle_macro.v(750)
+HDL-1007 : elaborate module ** in audio_board/rtl/hdmi_1_4b_transmitter_core_wrapper.enc.v(6273)
+HDL-1007 : elaborate module ** in audio_board/rtl/hdmi_1_4b_transmitter_core_wrapper.enc.v(6501)
+HDL-1007 : elaborate module ** in audio_board/rtl/hdmi_1_4b_transmitter_core_wrapper.enc.v(6575)
+HDL-1007 : elaborate module ** in audio_board/rtl/hdmi_1_4b_transmitter_core_wrapper.enc.v(6924)
+HDL-1007 : elaborate module ** in audio_board/rtl/hdmi_1_4b_transmitter_core_wrapper.enc.v(6994)
+HDL-1007 : elaborate module ** in audio_board/rtl/hdmi_1_4b_transmitter_core_wrapper.enc.v(6994)
+HDL-1007 : elaborate module ** in audio_board/rtl/hdmi_1_4b_transmitter_core_wrapper.enc.v(6994)
+HDL-1007 : elaborate module hdmi_phy_wrapper in audio_board/rtl/hdmi_phy_warpper.v(3)
+HDL-1007 : elaborate module lane_lvds_10_1 in audio_board/rtl/lane_lvds_10_1.v(4)
+HDL-1007 : elaborate module EG_LOGIC_ODDR in E:\FPGA\TD\arch/eagle_macro.v(66)
+HDL-1007 : port 'valid' remains unconnected for this instance in src/frame_read_write.v(110)
+HDL-1007 : port 'afull' remains unconnected for this instance in src/frame_read_write.v(110)
+HDL-1007 : port 'aempty' remains unconnected for this instance in src/frame_read_write.v(110)
+HDL-1007 : port 'valid' remains unconnected for this instance in src/frame_read_write.v(159)
+HDL-1007 : port 'afull' remains unconnected for this instance in src/frame_read_write.v(159)
+HDL-1007 : port 'aempty' remains unconnected for this instance in src/frame_read_write.v(159)
+HDL-1007 : elaborate module frame_read_write in src/frame_read_write.v(2)
+HDL-1007 : port 'doa' remains unconnected for this instance in al_ip/afifo_16_32_256.v(226)
+HDL-1007 : port 'dib' remains unconnected for this instance in al_ip/afifo_16_32_256.v(226)
+HDL-1007 : elaborate module wfifo_32_32_512 in al_ip/afifo_16_32_256.v(13)
+HDL-1007 : elaborate module fifo_cross_domain_addr_process_al_wfifo_32_32_512 in al_ip/afifo_16_32_256.v(250)
+HDL-1007 : elaborate module ram_infer_wfifo_32_32_512(ADDRWIDTH_A=9,DATAWIDTH_B=32,ADDRWIDTH_B=9) in al_ip/afifo_16_32_256.v(333)
+HDL-1007 : extracting RAM for identifier 'memory' in al_ip/afifo_16_32_256.v(398)
+HDL-5317 WARNING: input port 'dib[31]' is not connected on this instance in al_ip/afifo_16_32_256.v(231)
+HDL-1007 : elaborate module frame_fifo_write(BURST_SIZE=256) in src/frame_fifo_write.v(2)
+HDL-5007 WARNING: actual bit length 9 differs from formal bit length 10 for port 'rdusedw' in src/frame_read_write.v(155)
+HDL-1007 : port 'doa' remains unconnected for this instance in al_ip/afifo_32_16_256.v(226)
+HDL-1007 : port 'dib' remains unconnected for this instance in al_ip/afifo_32_16_256.v(226)
+HDL-1007 : elaborate module rfifo_32_32_512 in al_ip/afifo_32_16_256.v(13)
+HDL-1007 : elaborate module fifo_cross_domain_addr_process_al_rfifo_32_32_512 in al_ip/afifo_32_16_256.v(250)
+HDL-1007 : elaborate module ram_infer_rfifo_32_32_512(ADDRWIDTH_A=9,DATAWIDTH_B=32,ADDRWIDTH_B=9) in al_ip/afifo_32_16_256.v(333)
+HDL-1007 : extracting RAM for identifier 'memory' in al_ip/afifo_32_16_256.v(398)
+HDL-5317 WARNING: input port 'dib[31]' is not connected on this instance in al_ip/afifo_32_16_256.v(231)
+HDL-1007 : elaborate module frame_fifo_read(BURST_SIZE=256) in src/frame_fifo_read.v(2)
+HDL-5007 WARNING: actual bit length 9 differs from formal bit length 10 for port 'wrusedw' in src/frame_read_write.v(205)
+HDL-5007 WARNING: actual bit length 24 differs from formal bit length 21 for port 'read_addr_0' in audio_final/integrated/top_final.v(1555)
+HDL-5007 WARNING: actual bit length 24 differs from formal bit length 21 for port 'read_addr_1' in audio_final/integrated/top_final.v(1556)
+HDL-5007 WARNING: actual bit length 24 differs from formal bit length 21 for port 'read_addr_2' in audio_final/integrated/top_final.v(1557)
+HDL-5007 WARNING: actual bit length 24 differs from formal bit length 21 for port 'read_addr_3' in audio_final/integrated/top_final.v(1558)
+HDL-5007 WARNING: actual bit length 24 differs from formal bit length 21 for port 'read_len' in audio_final/integrated/top_final.v(1560)
+HDL-5007 WARNING: actual bit length 24 differs from formal bit length 21 for port 'write_addr_0' in audio_final/integrated/top_final.v(1573)
+HDL-5007 WARNING: actual bit length 24 differs from formal bit length 21 for port 'write_addr_1' in audio_final/integrated/top_final.v(1574)
+HDL-5007 WARNING: actual bit length 24 differs from formal bit length 21 for port 'write_addr_2' in audio_final/integrated/top_final.v(1575)
+HDL-5007 WARNING: actual bit length 24 differs from formal bit length 21 for port 'write_addr_3' in audio_final/integrated/top_final.v(1576)
+HDL-5007 Similar messages will be suppressed.
+HDL-1007 : elaborate module scene_load_guard in audio_final/integrated/../../src/scene_load_guard.v(15)
+HDL-1007 : elaborate module quiz_end_commit_guard in audio_final/integrated/../../src/quiz_end_commit_guard.v(7)
+HDL-1007 : elaborate module sdram in src/sdram/sdram.v(12)
+HDL-1007 : elaborate module sdr_as_ram(self_refresh_open=1'b1) in src/sdram/enc_file/sdr_as_ram.enc.v(12)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in src/sdram/enc_file/sdr_init_ref.enc.v(47)
+HDL-1007 : elaborate module sdr_init_ref(self_refresh_open=1'b1) in src/sdram/enc_file/sdr_init_ref.enc.v(13)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in src/sdram/enc_file/sdr_wrrd.enc.v(283)
+HDL-1007 : elaborate module ** in src/sdram/enc_file/sdr_wrrd.enc.v(3)
+HDL-5317 WARNING: input port '**' is not connected on this instance in src/sdram/enc_file/sdr_as_ram.enc.v(17)
+HDL-1007 : elaborate module EG_PHY_SDRAM_2M_32 in E:\FPGA\TD\arch/eagle_macro.v(683)
+HDL-5001 WARNING: Contains anonymous inst(s) and/or net(s) that have not been renamed
+HDL-5001 WARNING: Contains anonymous inst(s) and/or net(s) that have not been renamed
+HDL-5001 WARNING: Contains anonymous inst(s) and/or net(s) that have not been renamed
+HDL-5001 WARNING: Contains anonymous inst(s) and/or net(s) that have not been renamed
+HDL-1200 : Current top model is top
+HDL-1100 : Inferred 11 RAMs.
+RUN-1003 : finish command "elaborate -top top" in  1.744024s wall, 1.437500s user + 0.140625s system = 1.578125s CPU (90.5%)
+
+RUN-1004 : used memory is 330 MB, reserved memory is 319 MB, peak memory is 330 MB
+RUN-1002 : start command "read_adc E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/build/portable_project/top.adc"
+RUN-1002 : start command "set_pin_assignment  HDMI_CLK_P   LOCATION = K1; IOSTANDARD = LVDS33; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  HDMI_D0_P   LOCATION = F5; IOSTANDARD = LVDS33; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  HDMI_D1_P   LOCATION = E3; IOSTANDARD = LVDS33; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  HDMI_D2_P   LOCATION = B3; IOSTANDARD = LVDS33; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  clk   LOCATION = R7; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  key1   LOCATION = A2; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  key2   LOCATION = B2; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  key3   LOCATION = B1; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  key4   LOCATION = C1; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  uart_rx   LOCATION = F12; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; "
+RUN-1002 : start command "set_pin_assignment  uart_tx   LOCATION = D12; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  sw[0]   LOCATION = C8; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; "
+RUN-1002 : start command "set_pin_assignment  sw[1]   LOCATION = C7; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; "
+RUN-1002 : start command "set_pin_assignment  sw[2]   LOCATION = C6; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; "
+RUN-1002 : start command "set_pin_assignment  sw[3]   LOCATION = C5; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; "
+RUN-1002 : start command "set_pin_assignment  quiz_btn[0]   LOCATION = H13; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; "
+RUN-1002 : start command "set_pin_assignment  quiz_btn[1]   LOCATION = N16; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; "
+RUN-1002 : start command "set_pin_assignment  quiz_btn[2]   LOCATION = N14; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; "
+RUN-1002 : start command "set_pin_assignment  quiz_btn[3]   LOCATION = G14; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; "
+RUN-1002 : start command "set_pin_assignment  quiz_start   LOCATION = H15; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; "
+RUN-1002 : start command "set_pin_assignment  quiz_reset   LOCATION = F14; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; "
+RUN-1002 : start command "set_pin_assignment  sd_dclk   LOCATION = A14; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  sd_miso   LOCATION = B14; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  sd_mosi   LOCATION = A13; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  sd_ncs   LOCATION = A12; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  seg_data[0]   LOCATION = C15; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  seg_data[1]   LOCATION = C16; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  seg_data[2]   LOCATION = B6; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  seg_data[3]   LOCATION = A5; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  seg_data[4]   LOCATION = B5; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  seg_data[5]   LOCATION = A8; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  seg_data[6]   LOCATION = A7; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  seg_data[7]   LOCATION = A6; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  seg_sel[0]   LOCATION = E12; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  seg_sel[1]   LOCATION = E10; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  seg_sel[2]   LOCATION = C13; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  seg_sel[3]   LOCATION = F10; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  seg_sel[4]   LOCATION = E11; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  seg_sel[5]   LOCATION = D11; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  seg_sel[6]   LOCATION = E16; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  seg_sel[7]   LOCATION = F16; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  vga_data[0]   LOCATION = F6; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  vga_data[10]   LOCATION = L8; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  vga_data[11]   LOCATION = E13; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  vga_data[1]   LOCATION = E6; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  vga_data[2]   LOCATION = D6; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  vga_data[3]   LOCATION = D5; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  vga_data[4]   LOCATION = T5; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  vga_data[5]   LOCATION = P5; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  vga_data[6]   LOCATION = N5; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  vga_data[7]   LOCATION = N6; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  vga_data[8]   LOCATION = R5; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  vga_data[9]   LOCATION = L7; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  vga_out_hs   LOCATION = E7; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  vga_out_vs   LOCATION = F7; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1001 : Starting of IO setups legality check.
+RUN-1001 : Starting of IO vref setups legality check.
+RUN-1002 : start command "read_sdc E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/build/portable_project/audio_board/integrated/audio.sdc"
+RUN-1002 : start command "optimize_rtl"
+RUN-1001 : Open license file E:/FPGA/TD/license/Anlogic.lic
+SYN-1001 : Stage 1 | Optimize RTL
+SYN-1001 : Stage 1.1 | Check Design Sanity
+SYN-1001 : End Stage 1.1 | Check Design Sanity; Time: 0.024026s wall, 0.015625s user + 0.015625s system = 0.031250s CPU (130.1%); Memory(MB): used = 330, reserved = 319, peak = 330;
+
+SYN-1079 : finish stage Check Design Sanity. Total instances: 45793, Total nets: 113966.
+
+SYN-1001 : Stage 1.2 | Initialize Design
+SYN-1001 : End Stage 1.2 | Initialize Design; Time: 2.754904s wall, 2.390625s user + 0.171875s system = 2.562500s CPU (93.0%); Memory(MB): used = 330, reserved = 319, peak = 330;
+
+SYN-1079 : finish stage Initialize Design. Total instances: 10753, Total nets: 72552.
+
+SYN-1001 : Stage 1.3 | Flatten Module
+SYN-1011 : Flatten model top
+SYN-1050 : Instances selected by 'keep_hierarchy':
+RUN-1001 : --------------------------------------------------------------------------------------------------
+RUN-1001 :           instance           |  keep_hierarchy  |    down_module    |         file(line)          
+RUN-1001 : --------------------------------------------------------------------------------------------------
+RUN-1001 :  frame_read_write_m0/wri...  |       true       |  wfifo_32_32_512  | src/frame_read_write.v(...  
+RUN-1001 :  frame_read_write_m0/rea...  |       true       |  rfifo_32_32_512  | src/frame_read_write.v(...  
+RUN-1001 : --------------------------------------------------------------------------------------------------
+SYN-1001 : End Stage 1.3 | Flatten Module; Time: 0.421829s wall, 0.375000s user + 0.000000s system = 0.375000s CPU (88.9%); Memory(MB): used = 333, reserved = 321, peak = 333;
+
+SYN-1079 : finish stage Flatten Module. Total instances: 12919, Total nets: 64699.
+
+SYN-1001 : Stage 1.4 | Uniform Instance
+SYN-5013 WARNING: Undriven net: model "top" / net "U3/u2_ram/u2_wrrd/Sdr_init_ref_ba[1]" in src/sdram/enc_file/sdr_wrrd.enc.v(0)
+		the net's pin: pin "i1[1]" in src/sdram/enc_file/sdr_wrrd.enc.v(0)
+SYN-5013 WARNING: Undriven net: model "top" / net "U3/u2_ram/u2_wrrd/Sdr_init_ref_ba[0]" in src/sdram/enc_file/sdr_wrrd.enc.v(0)
+		the net's pin: pin "i1[0]" in src/sdram/enc_file/sdr_wrrd.enc.v(0)
+SYN-5013 WARNING: Undriven net: model "top" / net "sd_card_bmp_m0/sd_card_top_m0/sd_card_cmd_m0/block_write_data[7]" in src/sd_card/sd_card_cmd.v(17)
+		the net's pin: pin "i0[7]" in src/sd_card/sd_card_cmd.v(258)
+SYN-5013 WARNING: Undriven net: model "top" / net "sd_card_bmp_m0/sd_card_top_m0/sd_card_cmd_m0/block_write_data[6]" in src/sd_card/sd_card_cmd.v(17)
+		the net's pin: pin "i0[6]" in src/sd_card/sd_card_cmd.v(258)
+SYN-5013 WARNING: Undriven net: model "top" / net "sd_card_bmp_m0/sd_card_top_m0/sd_card_cmd_m0/block_write_data[5]" in src/sd_card/sd_card_cmd.v(17)
+		the net's pin: pin "i0[5]" in src/sd_card/sd_card_cmd.v(258)
+SYN-5013 WARNING: Undriven net: model "top" / net "sd_card_bmp_m0/sd_card_top_m0/sd_card_cmd_m0/block_write_data[4]" in src/sd_card/sd_card_cmd.v(17)
+		the net's pin: pin "i0[4]" in src/sd_card/sd_card_cmd.v(258)
+SYN-5013 WARNING: Undriven net: model "top" / net "sd_card_bmp_m0/sd_card_top_m0/sd_card_cmd_m0/block_write_data[3]" in src/sd_card/sd_card_cmd.v(17)
+		the net's pin: pin "i0[3]" in src/sd_card/sd_card_cmd.v(258)
+SYN-5013 WARNING: Undriven net: model "top" / net "sd_card_bmp_m0/sd_card_top_m0/sd_card_cmd_m0/block_write_data[2]" in src/sd_card/sd_card_cmd.v(17)
+		the net's pin: pin "i0[2]" in src/sd_card/sd_card_cmd.v(258)
+SYN-5013 WARNING: Undriven net: model "top" / net "sd_card_bmp_m0/sd_card_top_m0/sd_card_cmd_m0/block_write_data[1]" in src/sd_card/sd_card_cmd.v(17)
+		the net's pin: pin "i0[1]" in src/sd_card/sd_card_cmd.v(258)
+SYN-5013 WARNING: Undriven net: model "top" / net "sd_card_bmp_m0/sd_card_top_m0/sd_card_cmd_m0/block_write_data[0]" in src/sd_card/sd_card_cmd.v(17)
+		the net's pin: pin "i0[0]" in src/sd_card/sd_card_cmd.v(258)
+SYN-5025 WARNING: Using 0 for all undriven pins and nets
+SYN-1001 : End Stage 1.4 | Uniform Instance; Time: 0.135031s wall, 0.031250s user + 0.046875s system = 0.078125s CPU (57.9%); Memory(MB): used = 308, reserved = 307, peak = 333;
+
+SYN-1079 : finish stage Uniform Instance. Total instances: 11175, Total nets: 62944.
+
+SYN-1001 : Stage 1.5 | Optimize Design
+SYN-1066 : Inferred FSM for state register 'U3/u2_ram/u2_wrrd/state_reg' in module 'top'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                  0000              001
+                  0001              010
+                  0010              100
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'U3/u2_ram/u2_wrrd/state_reg' using encoding 'one_hot' in model 'top'
+SYN-1066 : Inferred FSM for state register 'bmp_scale_m0/state_reg' in module 'top'
+---------------------------------------------------
+     Previous Encoding            New Encoding
+---------------------------------------------------
+                 00000     0000000000000000001
+                 01110     0000000000000000010
+                 00001     0000000000000000100
+                 00010     0000000000000001000
+                 00011     0000000000000010000
+                 00100     0000000000000100000
+                 00110     0000000000001000000
+                 00111     0000000000010000000
+                 01000     0000000000100000000
+                 01001     0000000001000000000
+                 01010     0000000010000000000
+                 01011     0000000100000000000
+                 01100     0000001000000000000
+                 01111     0000010000000000000
+                 10000     0000100000000000000
+                 10001     0001000000000000000
+                 10010     0010000000000000000
+                 01101     0100000000000000000
+                 00101     1000000000000000000
+---------------------------------------------------
+SYN-1067 : encoded FSM with state register 'bmp_scale_m0/state_reg' using encoding 'one_hot' in model 'top'
+SYN-1066 : Inferred FSM for state register 'display_adjust_m0/fsm_reg' in module 'top'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                    00             0001
+                    01             0010
+                    10             0100
+                    11             1000
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'display_adjust_m0/fsm_reg' using encoding 'one_hot' in model 'top'
+SYN-1066 : Inferred FSM for state register 'frame_read_write_m0/frame_fifo_read_m0/state_reg' in module 'top'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                  0000           000001
+                  0001           000010
+                  0010           000100
+                  0011           001000
+                  0100           010000
+                  0101           100000
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'frame_read_write_m0/frame_fifo_read_m0/state_reg' using encoding 'one_hot' in model 'top'
+SYN-1066 : Inferred FSM for state register 'frame_read_write_m0/frame_fifo_write_m0/state_reg' in module 'top'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                  0000           000001
+                  0001           000010
+                  0010           000100
+                  0011           001000
+                  0100           010000
+                  0101           100000
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'frame_read_write_m0/frame_fifo_write_m0/state_reg' using encoding 'one_hot' in model 'top'
+SYN-1066 : Inferred FSM for state register 'quiz_ctrl_m0/fs_reg' in module 'top'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                   000            00001
+                   001            00010
+                   010            00100
+                   100            01000
+                   011            10000
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'quiz_ctrl_m0/fs_reg' using encoding 'one_hot' in model 'top'
+SYN-1066 : Inferred FSM for state register 'sd_card_bmp_m0/bmp_read_auto_m0/state_reg' in module 'top'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                  0000            00001
+                  0001            00010
+                  0010            00100
+                  0011            01000
+                  0100            10000
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'sd_card_bmp_m0/bmp_read_auto_m0/state_reg' using encoding 'one_hot' in model 'top'
+SYN-1066 : Inferred FSM for state register 'sd_card_bmp_m0/sd_card_top_m0/sd_card_cmd_m0/state_reg' in module 'top'
+--------------------------------------------------
+     Previous Encoding           New Encoding
+--------------------------------------------------
+                 00000     000000000000000001
+                 00010     000000000000000010
+                 00001     000000000000000100
+                 01001     000000000000001000
+                 01010     000000000000010000
+                 01011     000000000000100000
+                 01100     000000000001000000
+                 01101     000000000010000000
+                 01110     000000000100000000
+                 01111     000000001000000000
+                 00110     000000010000000000
+                 00011     000000100000000000
+                 00111     000001000000000000
+                 00100     000010000000000000
+                 01000     000100000000000000
+                 10001     001000000000000000
+                 00101     010000000000000000
+                 10000     100000000000000000
+--------------------------------------------------
+SYN-1067 : encoded FSM with state register 'sd_card_bmp_m0/sd_card_top_m0/sd_card_cmd_m0/state_reg' using encoding 'one_hot' in model 'top'
+SYN-1066 : Inferred FSM for state register 'sd_card_bmp_m0/sd_card_top_m0/sd_card_sec_read_write_m0/state_reg' in module 'top'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                 00000       0000000001
+                 00001       0000000010
+                 00010       0000000100
+                 00011       0000001000
+                 00100       0000010000
+                 10010       0000100000
+                 10001       0001000000
+                 00101       0010000000
+                 00110       0100000000
+                 10000       1000000000
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'sd_card_bmp_m0/sd_card_top_m0/sd_card_sec_read_write_m0/state_reg' using encoding 'one_hot' in model 'top'
+SYN-1066 : Inferred FSM for state register 'sd_card_bmp_m0/sd_card_top_m0/spi_master_m0/state_reg' in module 'top'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                   000           000001
+                   010           000010
+                   001           000100
+                   100           001000
+                   011           010000
+                   101           100000
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'sd_card_bmp_m0/sd_card_top_m0/spi_master_m0/state_reg' using encoding 'one_hot' in model 'top'
+SYN-1066 : Inferred FSM for state register 'sd_card_bmp_m0/u_fat32_lookup/state_reg' in module 'top'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                   000            00001
+                   001            00010
+                   010            00100
+                   100            01000
+                   011            10000
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'sd_card_bmp_m0/u_fat32_lookup/state_reg' using encoding 'one_hot' in model 'top'
+SYN-1066 : Inferred FSM for state register 'sd_card_bmp_m0/u_wav_player/wstate_reg' in module 'top'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                    00             0001
+                    01             0010
+                    11             0100
+                    10             1000
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'sd_card_bmp_m0/u_wav_player/wstate_reg' using encoding 'one_hot' in model 'top'
+SYN-1066 : Inferred FSM for state register 'u_sd_powerup_guard/state_reg' in module 'top'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                    00              001
+                    01              010
+                    10              100
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'u_sd_powerup_guard/state_reg' using encoding 'one_hot' in model 'top'
+SYN-1066 : Inferred FSM for state register 'u_welcome_uart/u_rx/state_reg' in module 'top'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                   000             0001
+                   001             0010
+                   010             0100
+                   011             1000
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'u_welcome_uart/u_rx/state_reg' using encoding 'one_hot' in model 'top'
+SYN-1057 : Inferred 14 FSM(s)
+SYN-1001 : Optimize 4 less-than instances
+SYN-1001 : Optimize 23 less-than instances
+SYN-1032 : 60583/774 useful/useless nets, 10450/62 useful/useless insts
+SYN-1001 : Bypass 1 mux instances
+SYN-1021 : Optimized 14 onehot mux instances.
+SYN-1068 : Optimized 37 binary mux instances.
+SYN-1019 : Optimized 12 mux instances.
+SYN-1021 : Optimized 18 onehot mux instances.
+SYN-1021 : Optimized 2 onehot mux instances.
+SYN-1021 : Optimized 16 onehot mux instances.
+SYN-1001 : Optimize 93 less-than instances
+SYN-1016 : Merged 2722 instances.
+SYN-1025 : Merged 9 RAM ports.
+SYN-1026 : Infer Logic BRAM(bmp_scale_m0/ramread0_syn_4)
+	 port mode: single dual port
+	 port a size: 1024 x 32	 write mode: NORMAL
+	 port b size: 1024 x 32	 write mode: READBEFOREWRITE
+SYN-1026 : Infer Logic BRAM(bmp_scale_m0/ramread1_syn_4)
+	 port mode: single dual port
+	 port a size: 1024 x 32	 write mode: NORMAL
+	 port b size: 1024 x 32	 write mode: READBEFOREWRITE
+SYN-1026 : Infer Logic BRAM(bmp_scale_m0/ramread2_syn_4)
+	 port mode: single dual port
+	 port a size: 1024 x 32	 write mode: NORMAL
+	 port b size: 1024 x 32	 write mode: READBEFOREWRITE
+SYN-1026 : Infer Logic BRAM(frame_read_write_m0/read_buf/ram_inst/ramread0_syn_4)
+	 port mode: single dual port
+	 port a size: 512 x 32	 write mode: NORMAL
+	 port b size: 512 x 32	 write mode: READBEFOREWRITE
+SYN-1026 : Infer Logic BRAM(frame_read_write_m0/write_buf/ram_inst/ramread0_syn_4)
+	 port mode: single dual port
+	 port a size: 512 x 32	 write mode: NORMAL
+	 port b size: 512 x 32	 write mode: READBEFOREWRITE
+SYN-1026 : Infer Logic BRAM(sd_card_bmp_m0/u_wav_player/ramread0_syn_4)
+	 port mode: single dual port
+	 port a size: 2048 x 16	 write mode: NORMAL
+	 port b size: 2048 x 16	 write mode: READBEFOREWRITE
+SYN-1025 : Merged 1 RAM ports.
+SYN-1027 : Infer Logic DRAM(u_scene_audio/ramread0_syn_4) read 32x25, write 32x25
+SYN-1023 : Infer 1 Logic DRAMs, 10 Logic BRAMs.
+SYN-1035 : Inferred 3 ROM(s)
+SYN-1016 : Merged 3035 instances.
+SYN-1001 : End Stage 1.5 | Optimize Design; Time: 10.171864s wall, 9.484375s user + 0.328125s system = 9.812500s CPU (96.5%); Memory(MB): used = 588, reserved = 571, peak = 588;
+
+SYN-1079 : finish stage Optimize Design. Total instances: 30052, Total nets: 34860.
+
+SYN-1001 : Stage 1.6 | Optimize Iteratively
+SYN-1018 : Transformed 3 mux instances.
+SYN-1019 : Optimized 21 mux instances.
+SYN-1021 : Optimized 818 onehot mux instances.
+SYN-1014 : Optimize round 1
+SYN-1044 : Optimized 144 inv instances.
+SYN-1017 : Remove 61 const input seq instances
+SYN-1018 : Transformed 3 mux instances.
+SYN-1019 : Optimized 123 mux instances.
+SYN-1020 : Optimized 2171 distributor mux.
+SYN-1001 : Optimize 291 less-than instances
+SYN-1019 : Optimized 132 mux instances.
+SYN-2595 : bram inst: bmp_scale_m0/ramread0_syn_4 is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: bmp_scale_m0/ramread1_syn_4 is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: bmp_scale_m0/ramread2_syn_4 is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: frame_read_write_m0/read_buf/ram_inst/ramread0_syn_4 is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: frame_read_write_m0/write_buf/ram_inst/ramread0_syn_4 is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: sd_card_bmp_m0/u_wav_player/ramread0_syn_4 is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: u_audio_viz/u_wave_bram is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: u_welcome_mosaic/u_mosaic_line is set to PDPW/SP from DP for resource saving
+SYN-2593 : bram inst: bmp_scale_m0/ramread0_syn_4 will be optimized to a new one with A-width 24 due to unused data out
+SYN-2593 : bram inst: bmp_scale_m0/ramread1_syn_4 will be optimized to a new one with A-width 24 due to unused data out
+SYN-2593 : bram inst: bmp_scale_m0/ramread2_syn_4 will be optimized to a new one with A-width 24 due to unused data out
+SYN-2593 : bram inst: frame_read_write_m0/read_buf/ram_inst/ramread0_syn_4 will be optimized to a new one with A-width 24 due to unused data out
+SYN-2594 : bram inst: u_audio_viz/u_wave_bram will be optimized to a new one with A-addr 8 due to const address
+SYN-2541 : Reading BRAM "u_emergency_multi/u_em_big_font/u_bank0" init file "E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/build/portable_project/src/emergency_big_font_bank0.dat"
+SYN-2543 : Parsing BIN init file
+SYN-2541 : Reading BRAM "u_emergency_multi/u_em_big_font/u_bank1" init file "E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/build/portable_project/src/emergency_big_font_bank1.dat"
+SYN-2543 : Parsing BIN init file
+SYN-2541 : Reading BRAM "u_emergency_multi/u_em_big_font/u_bank2" init file "E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/build/portable_project/src/emergency_big_font_bank2.dat"
+SYN-2543 : Parsing BIN init file
+SYN-2541 : Reading BRAM "u_emergency_multi/u_em_big_font/u_bank3" init file "E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/build/portable_project/src/emergency_big_font_bank3.dat"
+SYN-2543 : Parsing BIN init file
+SYN-2541 : Reading BRAM "u_emergency_multi/u_em_big_font/u_bank4" init file "E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/build/portable_project/src/emergency_big_font_bank4.dat"
+SYN-2543 : Parsing BIN init file
+SYN-2594 : bram inst: u_welcome_mosaic/u_mosaic_line will be optimized to a new one with A-addr 6 due to const address
+SYN-1016 : Merged 21786 instances.
+SYN-1015 : Optimize round 1, 54381 better
+SYN-1014 : Optimize round 2
+SYN-1044 : Optimized 57 inv instances.
+SYN-1017 : Remove 4 const input seq instances
+SYN-1019 : Optimized 53 mux instances.
+SYN-1020 : Optimized 145 distributor mux.
+SYN-1019 : Optimized 316 mux instances.
+SYN-2541 : Reading BRAM "u_emergency_multi/u_em_big_font/u_bank0" init file "E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/build/portable_project/src/emergency_big_font_bank0.dat"
+SYN-2543 : Parsing BIN init file
+SYN-2541 : Reading BRAM "u_emergency_multi/u_em_big_font/u_bank1" init file "E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/build/portable_project/src/emergency_big_font_bank1.dat"
+SYN-2543 : Parsing BIN init file
+SYN-2541 : Reading BRAM "u_emergency_multi/u_em_big_font/u_bank2" init file "E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/build/portable_project/src/emergency_big_font_bank2.dat"
+SYN-2543 : Parsing BIN init file
+SYN-2541 : Reading BRAM "u_emergency_multi/u_em_big_font/u_bank3" init file "E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/build/portable_project/src/emergency_big_font_bank3.dat"
+SYN-2543 : Parsing BIN init file
+SYN-2541 : Reading BRAM "u_emergency_multi/u_em_big_font/u_bank4" init file "E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/build/portable_project/src/emergency_big_font_bank4.dat"
+SYN-2543 : Parsing BIN init file
+SYN-1016 : Merged 376 instances.
+SYN-1015 : Optimize round 2, 1152 better
+SYN-5011 WARNING: Undriven pin: model "top" / inst "bmp_scale_m0/ramread0_syn_4" in audio_final/integrated/../../src/bmp_scale.v(191) / pin "bea[0]"
+SYN-5011 WARNING: Undriven pin: model "top" / inst "bmp_scale_m0/ramread0_syn_4" in audio_final/integrated/../../src/bmp_scale.v(191) / pin "beb[0]"
+SYN-5011 WARNING: Undriven pin: model "top" / inst "bmp_scale_m0/ramread1_syn_4" in audio_final/integrated/../../src/bmp_scale.v(195) / pin "bea[0]"
+SYN-5011 WARNING: Undriven pin: model "top" / inst "bmp_scale_m0/ramread1_syn_4" in audio_final/integrated/../../src/bmp_scale.v(195) / pin "beb[0]"
+SYN-5011 WARNING: Undriven pin: model "top" / inst "bmp_scale_m0/ramread2_syn_4" in audio_final/integrated/../../src/bmp_scale.v(199) / pin "bea[0]"
+SYN-5011 WARNING: Undriven pin: model "top" / inst "bmp_scale_m0/ramread2_syn_4" in audio_final/integrated/../../src/bmp_scale.v(199) / pin "beb[0]"
+SYN-5011 WARNING: Undriven pin: model "top" / inst "frame_read_write_m0/read_buf/ram_inst/ramread0_syn_4" in al_ip/afifo_32_16_256.v(822) / pin "bea[0]"
+SYN-5011 WARNING: Undriven pin: model "top" / inst "frame_read_write_m0/read_buf/ram_inst/ramread0_syn_4" in al_ip/afifo_32_16_256.v(822) / pin "beb[0]"
+SYN-5011 WARNING: Undriven pin: model "top" / inst "u_audio_viz/u_wave_bram" in audio_final/integrated/../rtl/audio_viz_overlay.v(142) / pin "bea[0]"
+SYN-5011 WARNING: Undriven pin: model "top" / inst "u_audio_viz/u_wave_bram" in audio_final/integrated/../rtl/audio_viz_overlay.v(142) / pin "beb[0]"
+SYN-5011 Similar messages will be suppressed.
+SYN-5025 WARNING: Using 0 for all undriven pins and nets
+SYN-3010 : Optimized 283 DFF(s)
+SYN-1014 : Optimize round 1
+SYN-1019 : Optimized 1 mux instances.
+SYN-1020 : Optimized 177 distributor mux.
+SYN-1019 : Optimized 19 mux instances.
+SYN-2541 : Reading BRAM "u_emergency_multi/u_em_big_font/u_bank0" init file "E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/build/portable_project/src/emergency_big_font_bank0.dat"
+SYN-2543 : Parsing BIN init file
+SYN-2541 : Reading BRAM "u_emergency_multi/u_em_big_font/u_bank1" init file "E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/build/portable_project/src/emergency_big_font_bank1.dat"
+SYN-2543 : Parsing BIN init file
+SYN-2541 : Reading BRAM "u_emergency_multi/u_em_big_font/u_bank2" init file "E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/build/portable_project/src/emergency_big_font_bank2.dat"
+SYN-2543 : Parsing BIN init file
+SYN-2541 : Reading BRAM "u_emergency_multi/u_em_big_font/u_bank3" init file "E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/build/portable_project/src/emergency_big_font_bank3.dat"
+SYN-2543 : Parsing BIN init file
+SYN-2541 : Reading BRAM "u_emergency_multi/u_em_big_font/u_bank4" init file "E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/build/portable_project/src/emergency_big_font_bank4.dat"
+SYN-2543 : Parsing BIN init file
+SYN-1016 : Merged 1052 instances.
+SYN-1015 : Optimize round 1, 1388 better
+SYN-1014 : Optimize round 2
+SYN-1044 : Optimized 3 inv instances.
+SYN-1019 : Optimized 7 mux instances.
+SYN-1020 : Optimized 60 distributor mux.
+SYN-2541 : Reading BRAM "u_emergency_multi/u_em_big_font/u_bank0" init file "E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/build/portable_project/src/emergency_big_font_bank0.dat"
+SYN-2543 : Parsing BIN init file
+SYN-2541 : Reading BRAM "u_emergency_multi/u_em_big_font/u_bank1" init file "E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/build/portable_project/src/emergency_big_font_bank1.dat"
+SYN-2543 : Parsing BIN init file
+SYN-2541 : Reading BRAM "u_emergency_multi/u_em_big_font/u_bank2" init file "E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/build/portable_project/src/emergency_big_font_bank2.dat"
+SYN-2543 : Parsing BIN init file
+SYN-2541 : Reading BRAM "u_emergency_multi/u_em_big_font/u_bank3" init file "E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/build/portable_project/src/emergency_big_font_bank3.dat"
+SYN-2543 : Parsing BIN init file
+SYN-2541 : Reading BRAM "u_emergency_multi/u_em_big_font/u_bank4" init file "E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/build/portable_project/src/emergency_big_font_bank4.dat"
+SYN-2543 : Parsing BIN init file
+SYN-1016 : Merged 164 instances.
+SYN-1015 : Optimize round 2, 235 better
+SYN-1014 : Optimize round 3
+SYN-2541 : Reading BRAM "u_emergency_multi/u_em_big_font/u_bank0" init file "E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/build/portable_project/src/emergency_big_font_bank0.dat"
+SYN-2543 : Parsing BIN init file
+SYN-2541 : Reading BRAM "u_emergency_multi/u_em_big_font/u_bank1" init file "E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/build/portable_project/src/emergency_big_font_bank1.dat"
+SYN-2543 : Parsing BIN init file
+SYN-2541 : Reading BRAM "u_emergency_multi/u_em_big_font/u_bank2" init file "E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/build/portable_project/src/emergency_big_font_bank2.dat"
+SYN-2543 : Parsing BIN init file
+SYN-2541 : Reading BRAM "u_emergency_multi/u_em_big_font/u_bank3" init file "E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/build/portable_project/src/emergency_big_font_bank3.dat"
+SYN-2543 : Parsing BIN init file
+SYN-2541 : Reading BRAM "u_emergency_multi/u_em_big_font/u_bank4" init file "E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/build/portable_project/src/emergency_big_font_bank4.dat"
+SYN-2543 : Parsing BIN init file
+SYN-1015 : Optimize round 3, 0 better
+SYN-1001 : End Stage 1.6 | Optimize Iteratively; Time: 21.153993s wall, 20.265625s user + 0.406250s system = 20.671875s CPU (97.7%); Memory(MB): used = 571, reserved = 563, peak = 623;
+
+SYN-1079 : finish stage Optimize Iteratively. Total instances: 31708, Total nets: 36112.
+
+SYN-1001 : Stage 1.7 | Check Design
+SYN-1001 : End Stage 1.7 | Check Design; Time: 0.008185s wall, 0.000000s user + 0.000000s system = 0.000000s CPU (n/a%); Memory(MB): used = 571, reserved = 564, peak = 623;
+
+SYN-1079 : finish stage Check Design. Total instances: 31708, Total nets: 36112.
+
+SYN-1001 : End Stage 1 | Optimize RTL; Time: 34.672673s wall, 32.562500s user + 0.968750s system = 33.531250s CPU (96.7%); Memory(MB): used = 571, reserved = 564, peak = 623;
+
+SYN-1079 : finish stage Optimize RTL. Total instances: 31708, Total nets: 36112.
+
+RUN-1003 : finish command "optimize_rtl" in  34.688527s wall, 32.562500s user + 0.984375s system = 33.546875s CPU (96.7%)
+
+RUN-1004 : used memory is 571 MB, reserved memory is 564 MB, peak memory is 623 MB
+INDEPENDENT_PACKAGE_RTL_CHECK_PASS

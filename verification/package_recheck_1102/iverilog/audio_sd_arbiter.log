@@ -1,0 +1,6 @@
+====================================================
+tb_audio_sd_arbiter: checks=16 fails=0
+RESULT: PASS
+====================================================
+E:\FPGA\ALST\��ί�ύ_������������_2026-11-01\FPGA_Campus_Final\sim\tb\tb_audio_sd_arbiter.v:226: $finish called at 130855000 (1ps)
+

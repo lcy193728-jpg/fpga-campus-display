@@ -1,0 +1,19 @@
+#  if {![file exists {E:/FPGA/ALST/_dev_sim_0b18789/sim/modelsim_evidence_ascii/02_first_frame_gate_work/work}]} {vlib {E:/FPGA/ALST/_dev_sim_0b18789/sim/modelsim_evidence_ascii/02_first_frame_gate_work/work}} 
+#  vmap work {E:/FPGA/ALST/_dev_sim_0b18789/sim/modelsim_evidence_ascii/02_first_frame_gate_work/work} 
+# Modifying modelsim.ini
+#  vlog -work work {E:/FPGA/ALST/_dev_sim_0b18789/src/video_first_frame_gate.v} {E:/FPGA/ALST/_dev_sim_0b18789/sim/tb/tb_video_first_frame_gate.v} 
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module video_first_frame_gate
+# -- Compiling module tb_video_first_frame_gate
+# 
+# Top level modules:
+# 	tb_video_first_frame_gate
+#  vsim -t 1ps -wlf {E:/FPGA/ALST/_dev_sim_0b18789/sim/modelsim_evidence_ascii/02_first_frame_gate.wlf} work.tb_video_first_frame_gate 
+# vsim -t 1ps -wlf E:/FPGA/ALST/_dev_sim_0b18789/sim/modelsim_evidence_ascii/02_first_frame_gate.wlf work.tb_video_first_frame_gate 
+# Loading work.tb_video_first_frame_gate
+# Loading work.video_first_frame_gate
+#  log -r /* 
+#  run -all 
+# [PASS] cold boot stays black until first complete frame and VS boundary
+# ** Note: $finish    : E:/FPGA/ALST/_dev_sim_0b18789/sim/tb/tb_video_first_frame_gate.v(86)
+#    Time: 423 ns  Iteration: 0  Instance: /tb_video_first_frame_gate

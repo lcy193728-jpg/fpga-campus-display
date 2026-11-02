@@ -1,0 +1,22 @@
+E:\FPGA\ALST\��ί�ύ_������������_2026-11-01\FPGA_Campus_Final\src/emergency_text_map.vh:339: warning: Numeric constant truncated to 5 bits.
+E:\FPGA\ALST\��ί�ύ_������������_2026-11-01\FPGA_Campus_Final\src/emergency_text_map.vh:340: warning: Numeric constant truncated to 5 bits.
+E:\FPGA\ALST\��ί�ύ_������������_2026-11-01\FPGA_Campus_Final\src/emergency_text_map.vh:341: warning: Numeric constant truncated to 5 bits.
+E:\FPGA\ALST\��ί�ύ_������������_2026-11-01\FPGA_Campus_Final\src/emergency_text_map.vh:342: warning: Numeric constant truncated to 5 bits.
+E:\FPGA\ALST\��ί�ύ_������������_2026-11-01\FPGA_Campus_Final\tb\tb_emergency_uart_ticker.v:8: warning: Port 11 (min_tens) of module emergency_multi_overlay expects 4 bit(s), given 32.
+E:\FPGA\ALST\��ί�ύ_������������_2026-11-01\FPGA_Campus_Final\tb\tb_emergency_uart_ticker.v:8:        : Pruning (signed) 28 high bits of the expression.
+E:\FPGA\ALST\��ί�ύ_������������_2026-11-01\FPGA_Campus_Final\tb\tb_emergency_uart_ticker.v:8: warning: Port 12 (min_ones) of module emergency_multi_overlay expects 4 bit(s), given 32.
+E:\FPGA\ALST\��ί�ύ_������������_2026-11-01\FPGA_Campus_Final\tb\tb_emergency_uart_ticker.v:8:        : Pruning (signed) 28 high bits of the expression.
+E:\FPGA\ALST\��ί�ύ_������������_2026-11-01\FPGA_Campus_Final\tb\tb_emergency_uart_ticker.v:8: warning: Port 13 (sec_tens) of module emergency_multi_overlay expects 4 bit(s), given 32.
+E:\FPGA\ALST\��ί�ύ_������������_2026-11-01\FPGA_Campus_Final\tb\tb_emergency_uart_ticker.v:8:        : Pruning (signed) 28 high bits of the expression.
+E:\FPGA\ALST\��ί�ύ_������������_2026-11-01\FPGA_Campus_Final\tb\tb_emergency_uart_ticker.v:8: warning: Port 14 (sec_ones) of module emergency_multi_overlay expects 4 bit(s), given 32.
+E:\FPGA\ALST\��ί�ύ_������������_2026-11-01\FPGA_Campus_Final\tb\tb_emergency_uart_ticker.v:8:        : Pruning (signed) 28 high bits of the expression.
+[PASS] custom ticker glyph 0
+[PASS] custom ticker glyph 1
+[PASS] custom ticker blank gap
+[PASS] pause holds ticker phase
+[PASS] speed divider waits
+[PASS] speed divider advances
+[PASS] ses type-specific default ticker
+=== emergency UART ticker PASS ===
+E:\FPGA\ALST\��ί�ύ_������������_2026-11-01\FPGA_Campus_Final\tb\tb_emergency_uart_ticker.v:35: $finish called at 365000 (1ps)
+

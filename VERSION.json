@@ -1,0 +1,9 @@
+{
+  "product": "基于FPGA校园多场景智显终端",
+  "release": "10-26 TF coldboot recovery",
+  "packaged": "2026-11-02",
+  "git_commit": "68880be6044b140cbe4e59483f408af77db256b4",
+  "bit": "artifacts/BOARD_TEST_10_26_TF_COLDBOOT_RECOVERY_seed59.bit",
+  "bit_sha256": "6E948478CAED10522D6205F88F89726103610028ADDE6D09A0B617816E41528C",
+  "source_code_modified": false
+}

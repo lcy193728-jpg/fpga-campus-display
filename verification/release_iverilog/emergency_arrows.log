@@ -1,0 +1,21 @@
+E:\FPGA\ALST\_dev_sim_0b18789\src/emergency_text_map.vh:339: warning: Numeric constant truncated to 5 bits.
+E:\FPGA\ALST\_dev_sim_0b18789\src/emergency_text_map.vh:340: warning: Numeric constant truncated to 5 bits.
+E:\FPGA\ALST\_dev_sim_0b18789\src/emergency_text_map.vh:341: warning: Numeric constant truncated to 5 bits.
+E:\FPGA\ALST\_dev_sim_0b18789\src/emergency_text_map.vh:342: warning: Numeric constant truncated to 5 bits.
+E:\FPGA\ALST\_dev_sim_0b18789\sim\tb\tb_emergency_arrows.v:5: warning: Port 3 (hs_i) of module emergency_multi_overlay expects 1 bit(s), given 32.
+E:\FPGA\ALST\_dev_sim_0b18789\sim\tb\tb_emergency_arrows.v:5:        : Pruning (signed) 31 high bits of the expression.
+E:\FPGA\ALST\_dev_sim_0b18789\sim\tb\tb_emergency_arrows.v:5: warning: Port 4 (vs_i) of module emergency_multi_overlay expects 1 bit(s), given 32.
+E:\FPGA\ALST\_dev_sim_0b18789\sim\tb\tb_emergency_arrows.v:5:        : Pruning (signed) 31 high bits of the expression.
+E:\FPGA\ALST\_dev_sim_0b18789\sim\tb\tb_emergency_arrows.v:5: warning: Port 5 (de_i) of module emergency_multi_overlay expects 1 bit(s), given 32.
+E:\FPGA\ALST\_dev_sim_0b18789\sim\tb\tb_emergency_arrows.v:5:        : Pruning (signed) 31 high bits of the expression.
+E:\FPGA\ALST\_dev_sim_0b18789\sim\tb\tb_emergency_arrows.v:5: warning: Port 11 (min_tens) of module emergency_multi_overlay expects 4 bit(s), given 32.
+E:\FPGA\ALST\_dev_sim_0b18789\sim\tb\tb_emergency_arrows.v:5:        : Pruning (signed) 28 high bits of the expression.
+E:\FPGA\ALST\_dev_sim_0b18789\sim\tb\tb_emergency_arrows.v:5: warning: Port 12 (min_ones) of module emergency_multi_overlay expects 4 bit(s), given 32.
+E:\FPGA\ALST\_dev_sim_0b18789\sim\tb\tb_emergency_arrows.v:5:        : Pruning (signed) 28 high bits of the expression.
+E:\FPGA\ALST\_dev_sim_0b18789\sim\tb\tb_emergency_arrows.v:5: warning: Port 13 (sec_tens) of module emergency_multi_overlay expects 4 bit(s), given 32.
+E:\FPGA\ALST\_dev_sim_0b18789\sim\tb\tb_emergency_arrows.v:5:        : Pruning (signed) 28 high bits of the expression.
+E:\FPGA\ALST\_dev_sim_0b18789\sim\tb\tb_emergency_arrows.v:5: warning: Port 14 (sec_ones) of module emergency_multi_overlay expects 4 bit(s), given 32.
+E:\FPGA\ALST\_dev_sim_0b18789\sim\tb\tb_emergency_arrows.v:5:        : Pruning (signed) 28 high bits of the expression.
+[PASS] each emergency type displays exactly one shelter direction
+E:\FPGA\ALST\_dev_sim_0b18789\sim\tb\tb_emergency_arrows.v:20: $finish called at 325000 (1ps)
+

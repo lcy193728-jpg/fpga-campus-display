@@ -1,0 +1,20 @@
+#  if {![file exists {E:/FPGA/ALST/_dev_sim_0b18789/sim/modelsim_evidence_ascii/08_emergency_siren_work/work}]} {vlib {E:/FPGA/ALST/_dev_sim_0b18789/sim/modelsim_evidence_ascii/08_emergency_siren_work/work}} 
+#  vmap work {E:/FPGA/ALST/_dev_sim_0b18789/sim/modelsim_evidence_ascii/08_emergency_siren_work/work} 
+# Modifying modelsim.ini
+#  vlog -work work {E:/FPGA/ALST/_dev_sim_0b18789/audio_final/rtl/scene_audio_final.v} {E:/FPGA/ALST/_dev_sim_0b18789/sim/evidence/tb_siren_fast_evidence.v} 
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module scene_audio_final
+# -- Compiling module tb_siren_fast_evidence
+# 
+# Top level modules:
+# 	tb_siren_fast_evidence
+#  vsim -t 1ps -wlf {E:/FPGA/ALST/_dev_sim_0b18789/sim/modelsim_evidence_ascii/08_emergency_siren.wlf} work.tb_siren_fast_evidence 
+# vsim -t 1ps -wlf E:/FPGA/ALST/_dev_sim_0b18789/sim/modelsim_evidence_ascii/08_emergency_siren.wlf work.tb_siren_fast_evidence 
+# Loading work.tb_siren_fast_evidence
+# Loading work.scene_audio_final
+#  log -r /* 
+#  run -all 
+# [PASS] siren burst/rest controller and production 6 s constants
+# METRIC production_burst_samples=288000 production_rest_samples=288000 sample_hz=48000
+# ** Note: $finish    : E:/FPGA/ALST/_dev_sim_0b18789/sim/evidence/tb_siren_fast_evidence.v(56)
+#    Time: 7435 ns  Iteration: 1  Instance: /tb_siren_fast_evidence

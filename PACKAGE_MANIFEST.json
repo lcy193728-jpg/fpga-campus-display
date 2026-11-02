@@ -1,0 +1,2303 @@
+{
+  "release_commit": "68880be6044b140cbe4e59483f408af77db256b4",
+  "files": [
+    {
+      "source": "src/audio_sd_arbiter.v",
+      "package": "src/audio_sd_arbiter.v",
+      "sha256": "B59F64893FC30F951ABDD3925DE10400A7773E5CA81FA151D18B3516A0159439",
+      "bytes": 4987,
+      "matches_release_commit": true
+    },
+    {
+      "source": "src/bmp_read_auto.v",
+      "package": "src/bmp_read_auto.v",
+      "sha256": "241D14F76034B8D59FD304C12CCF7BAAC6552E8AEA7EEA8AC001B05A644D9C71",
+      "bytes": 80992,
+      "matches_release_commit": true
+    },
+    {
+      "source": "src/bmp_scale.v",
+      "package": "src/bmp_scale.v",
+      "sha256": "9964500BFAE01A99C8E635E0D003DE74A48B8BF3A446F84FF0B480A119812F32",
+      "bytes": 35058,
+      "matches_release_commit": true
+    },
+    {
+      "source": "src/bri_key_ctrl.v",
+      "package": "src/bri_key_ctrl.v",
+      "sha256": "08C004E9444A238A3877ED61B47AD58C74DE787B9893A6CC40C0AC696910FD18",
+      "bytes": 3760,
+      "matches_release_commit": true
+    },
+    {
+      "source": "src/color_bar.v",
+      "package": "src/color_bar.v",
+      "sha256": "3E488B2EDC8CF12C75968D5C4D0A2FB53F186A4DA06C501148DD32C68EF446B6",
+      "bytes": 9467,
+      "matches_release_commit": true
+    },
+    {
+      "source": "src/display_adjust.v",
+      "package": "src/display_adjust.v",
+      "sha256": "03ECCD18B301F09D0BD1C2E8B0AB25CE454117295C459C8BD5E56233376072E1",
+      "bytes": 105003,
+      "matches_release_commit": true
+    },
+    {
+      "source": "src/emergency_alarm_ctrl.v",
+      "package": "src/emergency_alarm_ctrl.v",
+      "sha256": "8DE74D3751B569222712C6EE8BB2D0736B4A6F6B7B8DC9CAF6CC062369A0ACAF",
+      "bytes": 2860,
+      "matches_release_commit": true
+    },
+    {
+      "source": "src/emergency_big_font_bank0.dat",
+      "package": "src/emergency_big_font_bank0.dat",
+      "sha256": "A22E21D8367D4154AECC0D4BCDD7EA46C6A18BE542CA873DF73F1CC87C79EFE2",
+      "bytes": 34816,
+      "matches_release_commit": true
+    },
+    {
+      "source": "src/emergency_big_font_bank1.dat",
+      "package": "src/emergency_big_font_bank1.dat",
+      "sha256": "5FEC31EDD2B59FE0FDFD2E8C15C9AF3977055BA3EC22CE799F01A25D8C41FEF5",
+      "bytes": 34816,
+      "matches_release_commit": true
+    },
+    {
+      "source": "src/emergency_big_font_bank2.dat",
+      "package": "src/emergency_big_font_bank2.dat",
+      "sha256": "88ABCCE472D69CDA30AF1AF293CDD885F59A3D2BD003984249C5A5D29067720B",
+      "bytes": 34816,
+      "matches_release_commit": true
+    },
+    {
+      "source": "src/emergency_big_font_bank3.dat",
+      "package": "src/emergency_big_font_bank3.dat",
+      "sha256": "E755BD51FC15050A65DBB477411377A25D2E81FDA124F9C1163128B9434BCDFC",
+      "bytes": 34816,
+      "matches_release_commit": true
+    },
+    {
+      "source": "src/emergency_big_font_bank4.dat",
+      "package": "src/emergency_big_font_bank4.dat",
+      "sha256": "813CB65B84D7FAA8BE15D42BFBEA4CC38F0EC5F84C777CE638CCEC57753796EE",
+      "bytes": 34816,
+      "matches_release_commit": true
+    },
+    {
+      "source": "src/emergency_big_font_rom.v",
+      "package": "src/emergency_big_font_rom.v",
+      "sha256": "DDD19563E31831EF255F386DEFCF8831F28919273FE7F39082E2962C2321EF21",
+      "bytes": 3334,
+      "matches_release_commit": true
+    },
+    {
+      "source": "src/emergency_cfg_frame_commit.v",
+      "package": "src/emergency_cfg_frame_commit.v",
+      "sha256": "A51C45DBF484D48AF88F1D99263B55FB20A5FEB069D4A20E1EA2D33A8EF66264",
+      "bytes": 1555,
+      "matches_release_commit": true
+    },
+    {
+      "source": "src/emergency_font_rom.v",
+      "package": "src/emergency_font_rom.v",
+      "sha256": "B25C1817CD03A9F149D5AE7F5826CB713E797D342DDC2D3F153C18B02F0F213D",
+      "bytes": 49243,
+      "matches_release_commit": true
+    },
+    {
+      "source": "src/emergency_multi_overlay.v",
+      "package": "src/emergency_multi_overlay.v",
+      "sha256": "237C7765956E3670B5FBABBA68718CAABABA302FB71D44A7F6DC40C120ED8952",
+      "bytes": 18318,
+      "matches_release_commit": true
+    },
+    {
+      "source": "src/emergency_text_map.vh",
+      "package": "src/emergency_text_map.vh",
+      "sha256": "66953B090DAEA54903FB08633AFB54F5F314248690A4319EE20FC02DBDB148A0",
+      "bytes": 15058,
+      "matches_release_commit": true
+    },
+    {
+      "source": "src/emergency_title_font_rom.v",
+      "package": "src/emergency_title_font_rom.v",
+      "sha256": "5357647CF096E7FE2052EB86F9B1888C7CAA983DA50AAD83137F485E458BC16E",
+      "bytes": 4898,
+      "matches_release_commit": true
+    },
+    {
+      "source": "src/fat32_lookup.v",
+      "package": "src/fat32_lookup.v",
+      "sha256": "32A7759E6F6433082F75FD59CE48F8D21AE440649D1C4081191CD49F04D2E2E5",
+      "bytes": 29806,
+      "matches_release_commit": true
+    },
+    {
+      "source": "src/frame_fifo_read.v",
+      "package": "src/frame_fifo_read.v",
+      "sha256": "5952075B213EC638F5C9BB238D4D4162685F9E9B5E752674F0E68A92DBEC83AC",
+      "bytes": 10172,
+      "matches_release_commit": true
+    },
+    {
+      "source": "src/frame_fifo_write.v",
+      "package": "src/frame_fifo_write.v",
+      "sha256": "9A3BE9640B5C7B54B3FC7EA210A98735B673C5FF8BD65D24D49A822A9CDA7938",
+      "bytes": 11332,
+      "matches_release_commit": true
+    },
+    {
+      "source": "src/frame_read_write.v",
+      "package": "src/frame_read_write.v",
+      "sha256": "6024C907378CF3CC3F38563C1581BC1F96737D23C125977D978EE83CCD56B780",
+      "bytes": 12108,
+      "matches_release_commit": true
+    },
+    {
+      "source": "src/hdmi/enc_file/DVITransmitter.enc.vhd",
+      "package": "src/hdmi/enc_file/DVITransmitter.enc.vhd",
+      "sha256": "FA009E816FC717374679DBA8096C518DC6F3FFBC2389D440A1724D9487EC1674",
+      "bytes": 9219,
+      "matches_release_commit": true
+    },
+    {
+      "source": "src/hdmi/enc_file/SerializerN_1_lvds.enc.vhd",
+      "package": "src/hdmi/enc_file/SerializerN_1_lvds.enc.vhd",
+      "sha256": "D5FB9B03E33A0E43398E1E963036BBD87FD386C23AF1B79F23E3D32E87B1DD63",
+      "bytes": 8076,
+      "matches_release_commit": true
+    },
+    {
+      "source": "src/hdmi/enc_file/SerializerN_1_lvds_dat.enc.vhd",
+      "package": "src/hdmi/enc_file/SerializerN_1_lvds_dat.enc.vhd",
+      "sha256": "2215E28372D39D6CB155F5B87FEB39FA578CCA39223CEDB9E712CA7413D7783E",
+      "bytes": 8250,
+      "matches_release_commit": true
+    },
+    {
+      "source": "src/hdmi/enc_file/TMDSEncoder.enc.vhd",
+      "package": "src/hdmi/enc_file/TMDSEncoder.enc.vhd",
+      "sha256": "F87572D7CE8539276E280C411FE46F42F3282210D7C53601CFD6C8ECB8C71BEB",
+      "bytes": 8736,
+      "matches_release_commit": true
+    },
+    {
+      "source": "src/hdmi/enc_file/video_tpg_1024768.enc.v",
+      "package": "src/hdmi/enc_file/video_tpg_1024768.enc.v",
+      "sha256": "2C2D7409585331A536FD36E7C78822728E56DCD6475C188C67B3D8FF4120DF64",
+      "bytes": 13750,
+      "matches_release_commit": true
+    },
+    {
+      "source": "src/hdmi/enc_file/video_tpg_1080p.enc.v",
+      "package": "src/hdmi/enc_file/video_tpg_1080p.enc.v",
+      "sha256": "8C198C42A969AFCD2DC89C224755670FCCA8CE9B8D48E85F6AECE3A9D57CAAA7",
+      "bytes": 13262,
+      "matches_release_commit": true
+    },
+    {
+      "source": "src/hdmi/enc_file/video_tpg_12801024p.enc.v",
+      "package": "src/hdmi/enc_file/video_tpg_12801024p.enc.v",
+      "sha256": "893A4685FB34681A1EBB32B1C372ED998802B9FFEFC51354D83E49F269198F1E",
+      "bytes": 13176,
+      "matches_release_commit": true
+    },
+    {
+      "source": "src/hdmi/enc_file/video_tpg_1280800.enc.v",
+      "package": "src/hdmi/enc_file/video_tpg_1280800.enc.v",
+      "sha256": "78D041C0D6C28AC9C6B2948372776C8D4115BF011BD6ABB87819DBA9649F7C9E",
+      "bytes": 13790,
+      "matches_release_commit": true
+    },
+    {
+      "source": "src/hdmi/enc_file/video_tpg_16801050p.enc.v",
+      "package": "src/hdmi/enc_file/video_tpg_16801050p.enc.v",
+      "sha256": "0F2AD886D5F920ADF117C70553AE7DFC168B33CFA2718A2503E21A4A061DB458",
+      "bytes": 13328,
+      "matches_release_commit": true
+    },
+    {
+      "source": "src/hdmi/enc_file/video_tpg_800600.enc.v",
+      "package": "src/hdmi/enc_file/video_tpg_800600.enc.v",
+      "sha256": "30F05038677D856732240427236D3F6348B0A76BA5736A8E755038D7EC13103C",
+      "bytes": 13440,
+      "matches_release_commit": true
+    },
+    {
+      "source": "src/hdmi/hdmi_tx.vhd",
+      "package": "src/hdmi/hdmi_tx.vhd",
+      "sha256": "DC91FE383C0001B1CE71B91BBD8DEEE2FF3C6FC14E5B973CB33E168653264AA5",
+      "bytes": 1873,
+      "matches_release_commit": true
+    },
+    {
+      "source": "src/meeting_ctrl.v",
+      "package": "src/meeting_ctrl.v",
+      "sha256": "0BEC70B9EE7DBC63D6B1157C67C525257E8D0D500E4A8FB4500581C31FAC1FB6",
+      "bytes": 10089,
+      "matches_release_commit": true
+    },
+    {
+      "source": "src/meeting_osd.v",
+      "package": "src/meeting_osd.v",
+      "sha256": "301F363879D6D149EA04E58B716814BD01BC9FEE2F8009B5390977379B145BA2",
+      "bytes": 17210,
+      "matches_release_commit": true
+    },
+    {
+      "source": "src/osd_engine.v",
+      "package": "src/osd_engine.v",
+      "sha256": "BC26258D3AD7526DA88BA47D6878822D0723553C5CF619B452A65191E12B9EB7",
+      "bytes": 7506,
+      "matches_release_commit": true
+    },
+    {
+      "source": "src/osd_font_rom.v",
+      "package": "src/osd_font_rom.v",
+      "sha256": "AB0A2F5E5274B04B7FC6AB01230C1A566750BD7D7D209599666C6CC88E74C1EC",
+      "bytes": 214671,
+      "matches_release_commit": true
+    },
+    {
+      "source": "src/osd_menu.v",
+      "package": "src/osd_menu.v",
+      "sha256": "757C50FB13CDF5C17CC0749C762D67C4A8A244272403077C5B99CD0565562605",
+      "bytes": 23140,
+      "matches_release_commit": true
+    },
+    {
+      "source": "src/osd_menu_aa_rom.v",
+      "package": "src/osd_menu_aa_rom.v",
+      "sha256": "5F4A94D075E87506829FAA6D861D55677F81BCA26F9BCA203ED630D97DD1061F",
+      "bytes": 29753,
+      "matches_release_commit": true
+    },
+    {
+      "source": "src/osd_scene.v",
+      "package": "src/osd_scene.v",
+      "sha256": "88E906443AD178A13417A09372B1039A52B16E9D657CAF012983532585BE633F",
+      "bytes": 24125,
+      "matches_release_commit": true
+    },
+    {
+      "source": "src/osd_welcome.v",
+      "package": "src/osd_welcome.v",
+      "sha256": "712222D8DAD5ADCF53BA0AB6C2D0CA8FECD87A6056E12EB66CDF6AB11991201A",
+      "bytes": 15175,
+      "matches_release_commit": true
+    },
+    {
+      "source": "src/quiz_ctrl.v",
+      "package": "src/quiz_ctrl.v",
+      "sha256": "00A311934A7EC9C78A1D9A1F4AEA4B88DE250C93615210F6D42EF685627008A7",
+      "bytes": 17044,
+      "matches_release_commit": true
+    },
+    {
+      "source": "src/quiz_end_commit_guard.v",
+      "package": "src/quiz_end_commit_guard.v",
+      "sha256": "BA1E1A717E71ED17DAB2AFAF7150DBEB7A88743DBEBC3F6FEFA6751237A68E94",
+      "bytes": 1902,
+      "matches_release_commit": true
+    },
+    {
+      "source": "src/quiz_scene_ctrl.v",
+      "package": "src/quiz_scene_ctrl.v",
+      "sha256": "095697B854CDC7DB46796EEE895E80647AD232D38120A067D23BA9AEC7153E2B",
+      "bytes": 6015,
+      "matches_release_commit": true
+    },
+    {
+      "source": "src/reset_sync.v",
+      "package": "src/reset_sync.v",
+      "sha256": "817E29DCA0DCBB4A256706849C0D0C1EA0A2D7DEAEFD5A9E7DC98E873D7E4469",
+      "bytes": 2283,
+      "matches_release_commit": true
+    },
+    {
+      "source": "src/scene_control.v",
+      "package": "src/scene_control.v",
+      "sha256": "0292229DADAFD305AB6C18B4DAABE0041CEC15E4D9CB5F3652004BF6E65106D3",
+      "bytes": 21795,
+      "matches_release_commit": true
+    },
+    {
+      "source": "src/scene_load_guard.v",
+      "package": "src/scene_load_guard.v",
+      "sha256": "19E957684A6857F9633FC82288B6AEBBD5DF32D6CC919A2AE8B49D7C6BACA7ED",
+      "bytes": 2630,
+      "matches_release_commit": true
+    },
+    {
+      "source": "src/sd_card/sd_card_cmd.v",
+      "package": "src/sd_card/sd_card_cmd.v",
+      "sha256": "0220AF147042E24F2DA4A56DD8C22909D1FF5B3FA2B86ACA86B3C52291ADE7C3",
+      "bytes": 8902,
+      "matches_release_commit": true
+    },
+    {
+      "source": "src/sd_card/sd_card_sec_read_write.v",
+      "package": "src/sd_card/sd_card_sec_read_write.v",
+      "sha256": "562FF43E6544728D09143FED377DFC67AF37ACE1CE3351FDCC56306B3B8A00EC",
+      "bytes": 5874,
+      "matches_release_commit": true
+    },
+    {
+      "source": "src/sd_card/sd_card_top.v",
+      "package": "src/sd_card/sd_card_top.v",
+      "sha256": "9875D2603C55DBD66C961CB26D23834F525242BA6E5209ABF5BDEEE44E8A4426",
+      "bytes": 7404,
+      "matches_release_commit": true
+    },
+    {
+      "source": "src/sd_card/spi_master.v",
+      "package": "src/sd_card/spi_master.v",
+      "sha256": "82E1DE8E67680C33EFF585A2DC4DB41007F0C498F25ED745A19CC88B89700899",
+      "bytes": 4003,
+      "matches_release_commit": true
+    },
+    {
+      "source": "src/sd_card_bmp.v",
+      "package": "src/sd_card_bmp.v",
+      "sha256": "6EDA961378E457127938052355D4B83214970F100388F7BC32CD5AF936AAF33D",
+      "bytes": 19500,
+      "matches_release_commit": true
+    },
+    {
+      "source": "src/sd_powerup_guard.v",
+      "package": "src/sd_powerup_guard.v",
+      "sha256": "64FDA5486F8A27DB2A869D15E8C95C0A41F9B85674A0C9094C15238244C492A0",
+      "bytes": 4080,
+      "matches_release_commit": true
+    },
+    {
+      "source": "src/sdram/enc_file/global_def.v",
+      "package": "src/sdram/enc_file/global_def.v",
+      "sha256": "04F854D7FE2F7816705B988EC59822FC258E4ED3A13529E36D0B9E6233A2682F",
+      "bytes": 373,
+      "matches_release_commit": true
+    },
+    {
+      "source": "src/sdram/enc_file/sdr_as_ram.enc.v",
+      "package": "src/sdram/enc_file/sdr_as_ram.enc.v",
+      "sha256": "A3555C3D2A6675DA55055651F00CB60102239042ED3E5DF06970BFEE88FFD7F1",
+      "bytes": 7515,
+      "matches_release_commit": true
+    },
+    {
+      "source": "src/sdram/enc_file/sdr_init_ref.enc.v",
+      "package": "src/sdram/enc_file/sdr_init_ref.enc.v",
+      "sha256": "D41D0E78700D109D1EDD220DB16E9620C4E781507325C2E3D2FED970482D9884",
+      "bytes": 9046,
+      "matches_release_commit": true
+    },
+    {
+      "source": "src/sdram/enc_file/sdr_wrrd.enc.v",
+      "package": "src/sdram/enc_file/sdr_wrrd.enc.v",
+      "sha256": "C7D7FE07D75F66AA88D9F986B3006319C995162434F104F9990664B374CDFDD2",
+      "bytes": 15637,
+      "matches_release_commit": true
+    },
+    {
+      "source": "src/sdram/sdram.v",
+      "package": "src/sdram/sdram.v",
+      "sha256": "E25DCF061EAC3403FF46C2B71042591D56A47D7DC6D01AB724379E7FE8B91505",
+      "bytes": 2399,
+      "matches_release_commit": true
+    },
+    {
+      "source": "src/sdram_r/sdram_para.v",
+      "package": "src/sdram_r/sdram_para.v",
+      "sha256": "81130E942A0B803C5370A2688D11A4D9DC48535EDD9BD9FAFB33203A0D5849ED",
+      "bytes": 3045,
+      "matches_release_commit": true
+    },
+    {
+      "source": "src/seg_decoder.v",
+      "package": "src/seg_decoder.v",
+      "sha256": "4592B6E4D2E9E8B7E4AB5266D850D30E43537AB9C4157D4221E3F8DFD342DECD",
+      "bytes": 766,
+      "matches_release_commit": true
+    },
+    {
+      "source": "src/seg_scan.v",
+      "package": "src/seg_scan.v",
+      "sha256": "7A875F157E86D8A2734B8533E66B6DF8D6E61F369BB61AEDFB22FA1DCB42EAEC",
+      "bytes": 3063,
+      "matches_release_commit": true
+    },
+    {
+      "source": "src/sim_modules/alarm_blink_beep_ctrl.v",
+      "package": "src/sim_modules/alarm_blink_beep_ctrl.v",
+      "sha256": "18F4203EC1AF013A999CD027E6DEFA1640DE368D03A4FC194EBA0A17C6208553",
+      "bytes": 1439,
+      "matches_release_commit": true
+    },
+    {
+      "source": "src/sim_modules/brightness_adjust.v",
+      "package": "src/sim_modules/brightness_adjust.v",
+      "sha256": "5DC426B7A0E080BA1FD66A6ED5278D0DC17EE81567718A64CF53A847955B3F61",
+      "bytes": 839,
+      "matches_release_commit": true
+    },
+    {
+      "source": "src/sim_modules/emergency_latch.v",
+      "package": "src/sim_modules/emergency_latch.v",
+      "sha256": "5D9B7EA17ECBA3D2F0C140BFCEF75758D577E74516A2C3BA07D3144605B25A50",
+      "bytes": 466,
+      "matches_release_commit": true
+    },
+    {
+      "source": "src/sim_modules/emergency_osd_overlay.v",
+      "package": "src/sim_modules/emergency_osd_overlay.v",
+      "sha256": "0543949DFEA39CE4F40F58F812FC03E71765B0504ABA5FA6BF4EB05DEF96B322",
+      "bytes": 1637,
+      "matches_release_commit": true
+    },
+    {
+      "source": "src/sim_modules/fade_transition_ctrl.v",
+      "package": "src/sim_modules/fade_transition_ctrl.v",
+      "sha256": "CF1C0BB4966436BF6D6FA6B9D993D256420E07384A829A9F876952C49295300E",
+      "bytes": 1279,
+      "matches_release_commit": true
+    },
+    {
+      "source": "src/sim_modules/key_edge_detect.v",
+      "package": "src/sim_modules/key_edge_detect.v",
+      "sha256": "CA69949217890954185CA754B2B3B68D509E7FAA3374E7FA09665E84FF39AD30",
+      "bytes": 546,
+      "matches_release_commit": true
+    },
+    {
+      "source": "src/sim_modules/key_sync_debounce.v",
+      "package": "src/sim_modules/key_sync_debounce.v",
+      "sha256": "6283A3898265A4FF08D5A4DBCE9F71CCEDBF443E3959F5F897B31504F57BC65C",
+      "bytes": 2117,
+      "matches_release_commit": true
+    },
+    {
+      "source": "src/sim_modules/priority_scheduler.v",
+      "package": "src/sim_modules/priority_scheduler.v",
+      "sha256": "343B4AD97B40733685495C89CE312D961C4807F8C950D71D20AA71DAD8E7D3F1",
+      "bytes": 801,
+      "matches_release_commit": true
+    },
+    {
+      "source": "src/sim_modules/quiz_arbiter_4ch.v",
+      "package": "src/sim_modules/quiz_arbiter_4ch.v",
+      "sha256": "B912A3F71B4391D348DCAAADB089DE1DBCE933A040E74DD5F8106AF6B8665BCF",
+      "bytes": 1578,
+      "matches_release_commit": true
+    },
+    {
+      "source": "src/sim_modules/quiz_ctrl.v",
+      "package": "src/sim_modules/quiz_ctrl.v",
+      "sha256": "0048C610BAF2B7B7E5B9043BE1908CB8B86376E67F86B3C42BEB6B15BA9B3656",
+      "bytes": 1187,
+      "matches_release_commit": true
+    },
+    {
+      "source": "src/sim_modules/quiz_timer.v",
+      "package": "src/sim_modules/quiz_timer.v",
+      "sha256": "FFE17AF8D19ED5C42707D7D8C35E70E54F0CADF7A8F3BCA7D94EAEDC62C00D9B",
+      "bytes": 3186,
+      "matches_release_commit": true
+    },
+    {
+      "source": "src/sim_modules/scene_selector.v",
+      "package": "src/sim_modules/scene_selector.v",
+      "sha256": "73B2FF69F863A2BDB9E7FD497211B10FC172E7A329CA433719683548D61E3FE4",
+      "bytes": 1385,
+      "matches_release_commit": true
+    },
+    {
+      "source": "src/sim_modules/scroll_text_ctrl.v",
+      "package": "src/sim_modules/scroll_text_ctrl.v",
+      "sha256": "F7A18CD2CA123A09A52C3ED085955A3AB590CDF60DA9C72B42762560A9242291",
+      "bytes": 1157,
+      "matches_release_commit": true
+    },
+    {
+      "source": "src/sim_modules/welcome_osd_overlay.v",
+      "package": "src/sim_modules/welcome_osd_overlay.v",
+      "sha256": "461022F29317CEB8D50F18794E7A249E95E927A6CBB725BEF8E4459628C87954",
+      "bytes": 1092,
+      "matches_release_commit": true
+    },
+    {
+      "source": "src/sync_2ff.v",
+      "package": "src/sync_2ff.v",
+      "sha256": "306CA0A93AFD7020B3AFF64CA4792928651FD90E9CA35498DBD159CE54E57019",
+      "bytes": 1421,
+      "matches_release_commit": true
+    },
+    {
+      "source": "src/top.v",
+      "package": "src/top.v",
+      "sha256": "23F58B302E86BB124C907D92D614906CBABBC65934D46C8E7BD14F77D0BAAA76",
+      "bytes": 46083,
+      "matches_release_commit": true
+    },
+    {
+      "source": "src/uart_rx_byte.v",
+      "package": "src/uart_rx_byte.v",
+      "sha256": "94A956F015E275B923C223ADF9F322B05E64142660B235DB36CC6DF35EB8CC4D",
+      "bytes": 1939,
+      "matches_release_commit": true
+    },
+    {
+      "source": "src/uart_tx_byte.v",
+      "package": "src/uart_tx_byte.v",
+      "sha256": "7FC8F30E3E017538B186EA5C8215DD2B2FE13D68CC88C276FE8B45E5DC1DB635",
+      "bytes": 1038,
+      "matches_release_commit": true
+    },
+    {
+      "source": "src/ui_key_ctrl.v",
+      "package": "src/ui_key_ctrl.v",
+      "sha256": "A4D1063955ADF2B2591FFCED93AC47900D9C360595D79A73605F9EB1D051BF67",
+      "bytes": 37390,
+      "matches_release_commit": true
+    },
+    {
+      "source": "src/video_define.v",
+      "package": "src/video_define.v",
+      "sha256": "77748966850A8F5AF0D77F2CDB08006088BA5E1A31B98391FBA6CC61C5247DA2",
+      "bytes": 21,
+      "matches_release_commit": true
+    },
+    {
+      "source": "src/video_delay.v",
+      "package": "src/video_delay.v",
+      "sha256": "F47C4B63F8BAA6D8874C87DCA5B72DFDADD19F4A107403DA98752BCE98936433",
+      "bytes": 1595,
+      "matches_release_commit": true
+    },
+    {
+      "source": "src/video_first_frame_gate.v",
+      "package": "src/video_first_frame_gate.v",
+      "sha256": "FFCF7B9E375BB9DEEB75BDCEC7E291E23F9AE1B9292E09F84F7C35A99479D894",
+      "bytes": 1968,
+      "matches_release_commit": true
+    },
+    {
+      "source": "src/video_timing_data.v",
+      "package": "src/video_timing_data.v",
+      "sha256": "C6F75501E98DD5995F687AAFB40455BEFFE45B426137B5089A73AC3A036F7282",
+      "bytes": 2432,
+      "matches_release_commit": true
+    },
+    {
+      "source": "src/welcome_cfg_frame_commit.v",
+      "package": "src/welcome_cfg_frame_commit.v",
+      "sha256": "34C7EE1767D4A24BB47930A98D1E596A7999FC97627BA5901D3C2A9C5CA976F2",
+      "bytes": 1388,
+      "matches_release_commit": true
+    },
+    {
+      "source": "src/welcome_mosaic.v",
+      "package": "src/welcome_mosaic.v",
+      "sha256": "24055EE47338021B78B014F7EC1E65A9499E5BE637352BEE8905FE29E73C036F",
+      "bytes": 4812,
+      "matches_release_commit": true
+    },
+    {
+      "source": "src/welcome_uart_controller.v",
+      "package": "src/welcome_uart_controller.v",
+      "sha256": "5BB924F7CB60F0A597B48F85AFEE053B306CC45BC69D2B4963BC93CD9254797C",
+      "bytes": 9384,
+      "matches_release_commit": true
+    },
+    {
+      "source": "src/zone_launch.v",
+      "package": "src/zone_launch.v",
+      "sha256": "A0699BBDA8D97DC78B3C7B302F7895DA63E410B4BCC3CB519BAE556AB89FBDD7",
+      "bytes": 7000,
+      "matches_release_commit": true
+    },
+    {
+      "source": "al_ip/afifo_16_32_256.ipc",
+      "package": "al_ip/afifo_16_32_256.ipc",
+      "sha256": "171B1A75793A800FBF25AF75DF300AD3AA53D923FE5B04FC91C266E0748D82DC",
+      "bytes": 883,
+      "matches_release_commit": true
+    },
+    {
+      "source": "al_ip/afifo_16_32_256.tcl",
+      "package": "al_ip/afifo_16_32_256.tcl",
+      "sha256": "5807155B00F2F749328339E01A85B4BB836F91598286DD167513836B60AF33DB",
+      "bytes": 554,
+      "matches_release_commit": true
+    },
+    {
+      "source": "al_ip/afifo_16_32_256.v",
+      "package": "al_ip/afifo_16_32_256.v",
+      "sha256": "3D29B06655482184A9AD157B9BD71B79032DEBE3199168D3B4D9570FDAC31835",
+      "bytes": 34123,
+      "matches_release_commit": true
+    },
+    {
+      "source": "al_ip/afifo_32_16_256.ipc",
+      "package": "al_ip/afifo_32_16_256.ipc",
+      "sha256": "30FCB348FD88914538E7398979DABEB0C9F5D2D950AFDD298C73D95FBEE3CC28",
+      "bytes": 884,
+      "matches_release_commit": true
+    },
+    {
+      "source": "al_ip/afifo_32_16_256.tcl",
+      "package": "al_ip/afifo_32_16_256.tcl",
+      "sha256": "5807155B00F2F749328339E01A85B4BB836F91598286DD167513836B60AF33DB",
+      "bytes": 554,
+      "matches_release_commit": true
+    },
+    {
+      "source": "al_ip/afifo_32_16_256.v",
+      "package": "al_ip/afifo_32_16_256.v",
+      "sha256": "7C3EE41F30BE75AE686C9ABFF3A840FC5439209CDA077E4AA275EAC0DAB9F564",
+      "bytes": 34123,
+      "matches_release_commit": true
+    },
+    {
+      "source": "al_ip/sys_pll.ipc",
+      "package": "al_ip/sys_pll.ipc",
+      "sha256": "6499FA9F5997894027183217CFC81123615262DE3E59F6B3C8FE9551F6259719",
+      "bytes": 1768,
+      "matches_release_commit": true
+    },
+    {
+      "source": "al_ip/sys_pll.v",
+      "package": "al_ip/sys_pll.v",
+      "sha256": "DB7F6BC7557F782285921038D01563BC9954520ECB3CA3B2D352C960C357815C",
+      "bytes": 2605,
+      "matches_release_commit": true
+    },
+    {
+      "source": "al_ip/sys_pll.vhd",
+      "package": "al_ip/sys_pll.vhd",
+      "sha256": "0BA7E030D4E3D459D6E411A037B731700F4CB259BE92B2E444B4DEBA10D301D2",
+      "bytes": 2820,
+      "matches_release_commit": true
+    },
+    {
+      "source": "al_ip/video_pll.ipc",
+      "package": "al_ip/video_pll.ipc",
+      "sha256": "822B266D3F43591828466BBD74F2BC18D6264E396258D7F0698747DBA6C0B37D",
+      "bytes": 1492,
+      "matches_release_commit": true
+    },
+    {
+      "source": "al_ip/video_pll.v",
+      "package": "al_ip/video_pll.v",
+      "sha256": "222B6D0B3D14EC92F94687943C5234E2814F5A7501F1C357678C94E9BB551D16",
+      "bytes": 2427,
+      "matches_release_commit": true
+    },
+    {
+      "source": "al_ip/video_pll.vhd",
+      "package": "al_ip/video_pll.vhd",
+      "sha256": "4C23A8A81B28C81BED4834E1E9A757DB01EEBD360C7FE3A7066F8F8F7B6A36C4",
+      "bytes": 2619,
+      "matches_release_commit": true
+    },
+    {
+      "source": "audio_board/rtl/audio_arc_calculate.v",
+      "package": "audio_board/rtl/audio_arc_calculate.v",
+      "sha256": "552D8D86AFD237666B30AE08F31247808E89EB024EFDE5EFC670B82EB617A7DC",
+      "bytes": 1702,
+      "matches_release_commit": true
+    },
+    {
+      "source": "audio_board/rtl/audio_eg4_phy.v",
+      "package": "audio_board/rtl/audio_eg4_phy.v",
+      "sha256": "C2D2C559A4C17A393AB44974AAE476E2939DB598ACAD25107931D4466C8592D4",
+      "bytes": 1975,
+      "matches_release_commit": true
+    },
+    {
+      "source": "audio_board/rtl/audio_event_cdc.v",
+      "package": "audio_board/rtl/audio_event_cdc.v",
+      "sha256": "87B3D851558323EA0DBA1F1322A0C0960703C4012AA44AF39A21A4085BD0CAB7",
+      "bytes": 4853,
+      "matches_release_commit": true
+    },
+    {
+      "source": "audio_board/rtl/audio_hdmi_output.v",
+      "package": "audio_board/rtl/audio_hdmi_output.v",
+      "sha256": "C4A9DA02B87913FBECB6926DE135583F9E1D535EF7AC09074F0F2DEAFD2ECDBD",
+      "bytes": 2266,
+      "matches_release_commit": true
+    },
+    {
+      "source": "audio_board/rtl/audio_pcm_fifo.v",
+      "package": "audio_board/rtl/audio_pcm_fifo.v",
+      "sha256": "098EC6BE62DB1AFE3385412D4DCB5B96BCFB8B43F6E53FC8A412B1A36F4BB57A",
+      "bytes": 1442,
+      "matches_release_commit": true
+    },
+    {
+      "source": "audio_board/rtl/audio_pcm_tone.v",
+      "package": "audio_board/rtl/audio_pcm_tone.v",
+      "sha256": "86364B1F1C466E03BBD58BBDACF870C4C29EB6ACEAFBCF2236E6C925DA397932",
+      "bytes": 2339,
+      "matches_release_commit": true
+    },
+    {
+      "source": "audio_board/rtl/audio_sine_init.vh",
+      "package": "audio_board/rtl/audio_sine_init.vh",
+      "sha256": "6321786D6A8A6CCBBFFADC941449A6F8BDC1F218BF38624E0612AEF9187BB1F4",
+      "bytes": 7508,
+      "matches_release_commit": true
+    },
+    {
+      "source": "audio_board/rtl/audio_src_mux.v",
+      "package": "audio_board/rtl/audio_src_mux.v",
+      "sha256": "AADF81CEF9690175D53E011146D5FC7A5FD9096C362B45CCFDABCB0252432FF7",
+      "bytes": 2403,
+      "matches_release_commit": true
+    },
+    {
+      "source": "audio_board/rtl/audio_video_phase.v",
+      "package": "audio_board/rtl/audio_video_phase.v",
+      "sha256": "2A8C1CEB3274D956CA7C74DC3DFFC1C9F6824CA9A063D8904B216151531D1C49",
+      "bytes": 1515,
+      "matches_release_commit": true
+    },
+    {
+      "source": "audio_board/rtl/hdmi_1_4b_transmitter_core_wrapper.enc.v",
+      "package": "audio_board/rtl/hdmi_1_4b_transmitter_core_wrapper.enc.v",
+      "sha256": "867E0B0BDD874BC383D00918C9E1BE3FE01EDF41F343B6A0D73E262776596A63",
+      "bytes": 328975,
+      "matches_release_commit": true
+    },
+    {
+      "source": "audio_board/rtl/hdmi_audio_acr_packetizer.v",
+      "package": "audio_board/rtl/hdmi_audio_acr_packetizer.v",
+      "sha256": "AD881027DB5AAFCB6418CCEFC306EA180750523BEA95436278C395798326712B",
+      "bytes": 2198,
+      "matches_release_commit": true
+    },
+    {
+      "source": "audio_board/rtl/hdmi_audio_infoframe_packetizer.v",
+      "package": "audio_board/rtl/hdmi_audio_infoframe_packetizer.v",
+      "sha256": "AC4AF542AA190D43323DDD45FD6EECEF712C573A4A57ABE6E91EBE5DDDC5AE61",
+      "bytes": 1584,
+      "matches_release_commit": true
+    },
+    {
+      "source": "audio_board/rtl/hdmi_audio_packet_scheduler.v",
+      "package": "audio_board/rtl/hdmi_audio_packet_scheduler.v",
+      "sha256": "216D8EE51AAC51C1EB2AC071C36ED153BEEA928CC0273D38EF59F19BF822DE8F",
+      "bytes": 3500,
+      "matches_release_commit": true
+    },
+    {
+      "source": "audio_board/rtl/hdmi_audio_sample_packetizer.v",
+      "package": "audio_board/rtl/hdmi_audio_sample_packetizer.v",
+      "sha256": "85177298BB0463D2ECFBAE2EA5A36792D0538A6A8720D890F78BA5B6597238FE",
+      "bytes": 5456,
+      "matches_release_commit": true
+    },
+    {
+      "source": "audio_board/rtl/hdmi_audio_symbol_core.v",
+      "package": "audio_board/rtl/hdmi_audio_symbol_core.v",
+      "sha256": "652A2B20EDEC0909693942E60EAB8FB4B2E5B29B99846C77135E8B64EC0A7C0E",
+      "bytes": 8064,
+      "matches_release_commit": true
+    },
+    {
+      "source": "audio_board/rtl/hdmi_avi_infoframe_packetizer.v",
+      "package": "audio_board/rtl/hdmi_avi_infoframe_packetizer.v",
+      "sha256": "F6D8634D221115D5E3CE3A4D35C3ABA4656D7783CE8D12C2CF59CF8D6EFE7A48",
+      "bytes": 1231,
+      "matches_release_commit": true
+    },
+    {
+      "source": "audio_board/rtl/hdmi_bch8.v",
+      "package": "audio_board/rtl/hdmi_bch8.v",
+      "sha256": "B8B73DBA7FDDCE6EEB49F1C6745AF8853A265B4CFC44A0CA4425B10F201CD2D9",
+      "bytes": 931,
+      "matches_release_commit": true
+    },
+    {
+      "source": "audio_board/rtl/hdmi_data_island_mapper.v",
+      "package": "audio_board/rtl/hdmi_data_island_mapper.v",
+      "sha256": "711ECA917FBCB9AA69153B0678411A155B70D05ECFFB353F9A2EEFA4E93EA542",
+      "bytes": 1648,
+      "matches_release_commit": true
+    },
+    {
+      "source": "audio_board/rtl/hdmi_data_island_scheduler.v",
+      "package": "audio_board/rtl/hdmi_data_island_scheduler.v",
+      "sha256": "3CBC82D784EE52C9A1DDF7420A7A1403429F47D99B8B4F11FE28A06911E9D1EF",
+      "bytes": 6275,
+      "matches_release_commit": true
+    },
+    {
+      "source": "audio_board/rtl/hdmi_phy_warpper.v",
+      "package": "audio_board/rtl/hdmi_phy_warpper.v",
+      "sha256": "416B082B0987001BDBC0A7E20A557CB8FB1DCA34E25DC881E6D28A8CB3CF4300",
+      "bytes": 4017,
+      "matches_release_commit": true
+    },
+    {
+      "source": "audio_board/rtl/hdmi_terc4_encoder.v",
+      "package": "audio_board/rtl/hdmi_terc4_encoder.v",
+      "sha256": "03879709456F4857D861833FD2290B4469A03E0FECB2D3F830FF939912EE8DAA",
+      "bytes": 873,
+      "matches_release_commit": true
+    },
+    {
+      "source": "audio_board/rtl/hdmi_tmds_channel_encoder.v",
+      "package": "audio_board/rtl/hdmi_tmds_channel_encoder.v",
+      "sha256": "A2A8D1422F82F3CF826DCDFC6ED824745617EA358E220021EA48F9CDA5D7AC3D",
+      "bytes": 4085,
+      "matches_release_commit": true
+    },
+    {
+      "source": "audio_board/rtl/lane_lvds_10_1.v",
+      "package": "audio_board/rtl/lane_lvds_10_1.v",
+      "sha256": "DE9529321354F04837E051D0EC1681CF44783D4BE3284703A788E081147500BC",
+      "bytes": 4421,
+      "matches_release_commit": true
+    },
+    {
+      "source": "audio_board/rtl/pcm_media_tone.v",
+      "package": "audio_board/rtl/pcm_media_tone.v",
+      "sha256": "7E69B85DC47BBF01A6E236EE418C9EC0FA4BA43B405036A33D35340B49E83108",
+      "bytes": 7135,
+      "matches_release_commit": true
+    },
+    {
+      "source": "audio_board/rtl/video_rgb_to_axis_640x480.v",
+      "package": "audio_board/rtl/video_rgb_to_axis_640x480.v",
+      "sha256": "1C8FC26C789F87227036BEA034F1AB6FC5633F2AB2684BE422C54687A290FB96",
+      "bytes": 1749,
+      "matches_release_commit": true
+    },
+    {
+      "source": "audio_board/vendor/hdmi_audio_acr_packetizer.v",
+      "package": "audio_board/vendor/hdmi_audio_acr_packetizer.v",
+      "sha256": "AD881027DB5AAFCB6418CCEFC306EA180750523BEA95436278C395798326712B",
+      "bytes": 2198,
+      "matches_release_commit": true
+    },
+    {
+      "source": "audio_board/vendor/hdmi_audio_infoframe_packetizer.v",
+      "package": "audio_board/vendor/hdmi_audio_infoframe_packetizer.v",
+      "sha256": "AC4AF542AA190D43323DDD45FD6EECEF712C573A4A57ABE6E91EBE5DDDC5AE61",
+      "bytes": 1584,
+      "matches_release_commit": true
+    },
+    {
+      "source": "audio_board/vendor/hdmi_audio_packet_scheduler.v",
+      "package": "audio_board/vendor/hdmi_audio_packet_scheduler.v",
+      "sha256": "216D8EE51AAC51C1EB2AC071C36ED153BEEA928CC0273D38EF59F19BF822DE8F",
+      "bytes": 3500,
+      "matches_release_commit": true
+    },
+    {
+      "source": "audio_board/vendor/hdmi_audio_sample_packetizer.v",
+      "package": "audio_board/vendor/hdmi_audio_sample_packetizer.v",
+      "sha256": "85177298BB0463D2ECFBAE2EA5A36792D0538A6A8720D890F78BA5B6597238FE",
+      "bytes": 5456,
+      "matches_release_commit": true
+    },
+    {
+      "source": "audio_board/vendor/hdmi_audio_symbol_core.v",
+      "package": "audio_board/vendor/hdmi_audio_symbol_core.v",
+      "sha256": "EF05EF0AA8770255D7C60A7459D63E44FE5CAF9FA3CDFA6CFA2F7E4EA5762A20",
+      "bytes": 6517,
+      "matches_release_commit": true
+    },
+    {
+      "source": "audio_board/vendor/hdmi_bch8.v",
+      "package": "audio_board/vendor/hdmi_bch8.v",
+      "sha256": "B8B73DBA7FDDCE6EEB49F1C6745AF8853A265B4CFC44A0CA4425B10F201CD2D9",
+      "bytes": 931,
+      "matches_release_commit": true
+    },
+    {
+      "source": "audio_board/vendor/hdmi_data_island_mapper.v",
+      "package": "audio_board/vendor/hdmi_data_island_mapper.v",
+      "sha256": "711ECA917FBCB9AA69153B0678411A155B70D05ECFFB353F9A2EEFA4E93EA542",
+      "bytes": 1648,
+      "matches_release_commit": true
+    },
+    {
+      "source": "audio_board/vendor/hdmi_data_island_scheduler.v",
+      "package": "audio_board/vendor/hdmi_data_island_scheduler.v",
+      "sha256": "3CBC82D784EE52C9A1DDF7420A7A1403429F47D99B8B4F11FE28A06911E9D1EF",
+      "bytes": 6275,
+      "matches_release_commit": true
+    },
+    {
+      "source": "audio_board/vendor/hdmi_terc4_encoder.v",
+      "package": "audio_board/vendor/hdmi_terc4_encoder.v",
+      "sha256": "03879709456F4857D861833FD2290B4469A03E0FECB2D3F830FF939912EE8DAA",
+      "bytes": 873,
+      "matches_release_commit": true
+    },
+    {
+      "source": "audio_board/vendor/hdmi_tmds_channel_encoder.v",
+      "package": "audio_board/vendor/hdmi_tmds_channel_encoder.v",
+      "sha256": "A2A8D1422F82F3CF826DCDFC6ED824745617EA358E220021EA48F9CDA5D7AC3D",
+      "bytes": 4085,
+      "matches_release_commit": true
+    },
+    {
+      "source": "audio_board/vendor/m06_pcm_contract_adapter.v",
+      "package": "audio_board/vendor/m06_pcm_contract_adapter.v",
+      "sha256": "33E0A6EA7F76480935C27B94EE39FF7918697EDE4555083327E96BA9834430C4",
+      "bytes": 1770,
+      "matches_release_commit": true
+    },
+    {
+      "source": "audio_board/vendor/media_hdmi_audio_bridge.v",
+      "package": "audio_board/vendor/media_hdmi_audio_bridge.v",
+      "sha256": "E41086B1D12AB4556C2152AA2F60596921D90E9FB7223E467FA433A09C2C974F",
+      "bytes": 3357,
+      "matches_release_commit": true
+    },
+    {
+      "source": "audio_board/vendor/pcm_media_tone.v",
+      "package": "audio_board/vendor/pcm_media_tone.v",
+      "sha256": "E709E9331F323A8738FEB84970B498C609A746256B1E3B78D7C02326E547B0E0",
+      "bytes": 7312,
+      "matches_release_commit": true
+    },
+    {
+      "source": "audio_board/vendor/pcm_test_tone.v",
+      "package": "audio_board/vendor/pcm_test_tone.v",
+      "sha256": "EAF6FE15573BD49062BDC9390E99F08214AF26940D23CCA9323499C63002A6FF",
+      "bytes": 2541,
+      "matches_release_commit": true
+    },
+    {
+      "source": "audio_board/vendor/PROVENANCE.md",
+      "package": "audio_board/vendor/PROVENANCE.md",
+      "sha256": "99015BCA48C6E52AD0DE4C9CBCDF94B0EDC13B4F110B99950104F40AD74E933B",
+      "bytes": 1014,
+      "matches_release_commit": true
+    },
+    {
+      "source": "audio_board/vendor/SHA256.json",
+      "package": "audio_board/vendor/SHA256.json",
+      "sha256": "5AF1EFCB0B7A6985A4760820D4DE6EB66A25F27C895F66D44A3C3ECDE10C6ACB",
+      "bytes": 1391,
+      "matches_release_commit": true
+    },
+    {
+      "source": "audio_final/rtl/audio_feature_events.v",
+      "package": "audio_final/rtl/audio_feature_events.v",
+      "sha256": "92E5E8352019178932D0F0B091E80BE134406FC54ECDD3CBFEA59D562496CBB5",
+      "bytes": 3679,
+      "matches_release_commit": true
+    },
+    {
+      "source": "audio_final/rtl/audio_sine_init.vh",
+      "package": "audio_final/rtl/audio_sine_init.vh",
+      "sha256": "6321786D6A8A6CCBBFFADC941449A6F8BDC1F218BF38624E0612AEF9187BB1F4",
+      "bytes": 7508,
+      "matches_release_commit": true
+    },
+    {
+      "source": "audio_final/rtl/audio_src_sel.v",
+      "package": "audio_final/rtl/audio_src_sel.v",
+      "sha256": "8B04A218281ED192EC7720E5DA88830D268ED6DA6D2C01E0FC63696DE62624DB",
+      "bytes": 3512,
+      "matches_release_commit": true
+    },
+    {
+      "source": "audio_final/rtl/audio_viz_overlay.v",
+      "package": "audio_final/rtl/audio_viz_overlay.v",
+      "sha256": "65EA684CE5A8D597BEE56727F3086C3AEDE7FD8E8083812D37F59ECEE6EC0B74",
+      "bytes": 14174,
+      "matches_release_commit": true
+    },
+    {
+      "source": "audio_final/rtl/scene_audio_final.v",
+      "package": "audio_final/rtl/scene_audio_final.v",
+      "sha256": "65015BA90DAFC89EC1DAF28CCF5240FF9F64965E47EECACAA47CCAB88FDC08C0",
+      "bytes": 15418,
+      "matches_release_commit": true
+    },
+    {
+      "source": "audio_final/rtl/wav_stream_player.v",
+      "package": "audio_final/rtl/wav_stream_player.v",
+      "sha256": "9B241B3D2647CD275C6D0D3339281B134166C77DAF9D20E69D58F63488B6EA0E",
+      "bytes": 14120,
+      "matches_release_commit": true
+    },
+    {
+      "source": "audio_final/integrated/top_final.v",
+      "package": "audio_final/integrated/top_final.v",
+      "sha256": "8DC08C92BBC0F7E3A963EAB3F71503D91F59EDA65E77680052A9A4F577D71F76",
+      "bytes": 89695,
+      "matches_release_commit": true
+    },
+    {
+      "source": "audio_final/tb/EG_LOGIC_BRAM_sim.v",
+      "package": "audio_final/tb/EG_LOGIC_BRAM_sim.v",
+      "sha256": "85B4C20CFEAAD8CB1F616C7D95E0F13F76A915541D5E13EA0052118199440FEF",
+      "bytes": 2738,
+      "matches_release_commit": true
+    },
+    {
+      "source": "audio_final/tb/tb_audio_viz_gate.v",
+      "package": "audio_final/tb/tb_audio_viz_gate.v",
+      "sha256": "4723AFF539D197E8123D40084CA033D5549B7ABE1A8E42EAC00C349788CB7740",
+      "bytes": 5290,
+      "matches_release_commit": true
+    },
+    {
+      "source": "audio_final/tb/tb_audio_viz_overlay.v",
+      "package": "audio_final/tb/tb_audio_viz_overlay.v",
+      "sha256": "A215A118A0806695B7EF7E6C7F04136B55450C0478B6A0F05DE91B3007802AED",
+      "bytes": 12719,
+      "matches_release_commit": true
+    },
+    {
+      "source": "audio_final/tb/tb_low_power_gating.v",
+      "package": "audio_final/tb/tb_low_power_gating.v",
+      "sha256": "CE49FF75EB2D01AF265CAA7F05790B4BA7871F2F142DE5C98B6B0CECAAEF8856",
+      "bytes": 3319,
+      "matches_release_commit": true
+    },
+    {
+      "source": "audio_final/tb/tb_scene_audio_meeting.v",
+      "package": "audio_final/tb/tb_scene_audio_meeting.v",
+      "sha256": "2283C608A41127C533AD00AC32AA8954D32C24407D68B9B0ADF3C0F0C8AC7DF9",
+      "bytes": 4189,
+      "matches_release_commit": true
+    },
+    {
+      "source": "audio_final/tb/tb_siren_dds.v",
+      "package": "audio_final/tb/tb_siren_dds.v",
+      "sha256": "994367F4421E8B59851958182147699CA04D91711462CFD64BF4900DBFC5134C",
+      "bytes": 10224,
+      "matches_release_commit": true
+    },
+    {
+      "source": "audio_final/tb/tb_volume_scale_equiv.v",
+      "package": "audio_final/tb/tb_volume_scale_equiv.v",
+      "sha256": "DC1C277E7048E42AD6717F94F0BAF9FFAC1F910AFA6F7D9BFB605A3ECB379509",
+      "bytes": 1657,
+      "matches_release_commit": true
+    },
+    {
+      "source": "sim/tb/tb_audio_chain_e2e.v",
+      "package": "sim/tb/tb_audio_chain_e2e.v",
+      "sha256": "4A0E133124A735DBEE821D79F1F57ADED6663C113E2B70C675F18598FE814B44",
+      "bytes": 16390,
+      "matches_release_commit": true
+    },
+    {
+      "source": "sim/tb/tb_audio_sd_arbiter.v",
+      "package": "sim/tb/tb_audio_sd_arbiter.v",
+      "sha256": "73F32341D024A4B80A0A9A225EC7062571CB02B42F05094C20693080B9B4AD3B",
+      "bytes": 9665,
+      "matches_release_commit": true
+    },
+    {
+      "source": "sim/tb/tb_audio_src_sel.v",
+      "package": "sim/tb/tb_audio_src_sel.v",
+      "sha256": "379A4376EB17F310FF7566377AE502C9FA0F732E6A2F3CD0BC31AEF6D03A38E9",
+      "bytes": 4648,
+      "matches_release_commit": true
+    },
+    {
+      "source": "sim/tb/tb_audio_viz_live_age.v",
+      "package": "sim/tb/tb_audio_viz_live_age.v",
+      "sha256": "44746A4989E4FBEDC67DC67214C8C524080B3496F543DC86B8324177677D86F0",
+      "bytes": 1084,
+      "matches_release_commit": true
+    },
+    {
+      "source": "sim/tb/tb_audio_viz_scene_clear.v",
+      "package": "sim/tb/tb_audio_viz_scene_clear.v",
+      "sha256": "2CB5313D62C57BE6932A7827D7EA5E252017138D1A4B5E95DE795B4B61CFE2FC",
+      "bytes": 1663,
+      "matches_release_commit": true
+    },
+    {
+      "source": "sim/tb/tb_audio_viz_window_gate.v",
+      "package": "sim/tb/tb_audio_viz_window_gate.v",
+      "sha256": "B35CA960E2FC2E5C7D7AE86DDB8DEB73272DDF85F068D895149349EF42A553B7",
+      "bytes": 2644,
+      "matches_release_commit": true
+    },
+    {
+      "source": "sim/tb/tb_bmp_scale_bram_gate.v",
+      "package": "sim/tb/tb_bmp_scale_bram_gate.v",
+      "sha256": "3C0037016C6DC435D21AB41BBB642AED0531163F0407F27E31851E7D97DBA0C6",
+      "bytes": 5878,
+      "matches_release_commit": true
+    },
+    {
+      "source": "sim/tb/tb_display_adjust_busy_handshake.v",
+      "package": "sim/tb/tb_display_adjust_busy_handshake.v",
+      "sha256": "7639F20D1BD29D3B990A4B873383B048BF587AD0630C148548CA7325E59AF295",
+      "bytes": 4555,
+      "matches_release_commit": true
+    },
+    {
+      "source": "sim/tb/tb_display_adjust_end_commit.v",
+      "package": "sim/tb/tb_display_adjust_end_commit.v",
+      "sha256": "499DB8E3DDEB91EE1F6AFFAE0D890700E21CE01B93A1750673B4C18A7E7E82FB",
+      "bytes": 2531,
+      "matches_release_commit": true
+    },
+    {
+      "source": "sim/tb/tb_display_adjust_labels.v",
+      "package": "sim/tb/tb_display_adjust_labels.v",
+      "sha256": "5A64A9217FCBE2FDD8598CAB89A221F52652EF171781AA2AD90054B20F966B9A",
+      "bytes": 3221,
+      "matches_release_commit": true
+    },
+    {
+      "source": "sim/tb/tb_display_resinfo_persistent.v",
+      "package": "sim/tb/tb_display_resinfo_persistent.v",
+      "sha256": "2714A1B84583821133DA815468D017B20AB5DE38E6B42B96A0A9D548DD35161A",
+      "bytes": 1559,
+      "matches_release_commit": true
+    },
+    {
+      "source": "sim/tb/tb_emergency_arrows.v",
+      "package": "sim/tb/tb_emergency_arrows.v",
+      "sha256": "0A95574E61BC941413B9C17915A596E007DEE6ED5285D67A308DAE8E4F852A6F",
+      "bytes": 1488,
+      "matches_release_commit": true
+    },
+    {
+      "source": "sim/tb/tb_emergency_font_native64.v",
+      "package": "sim/tb/tb_emergency_font_native64.v",
+      "sha256": "7773C4631A6C50FA3862155A87981ACF6C2B1E44C6A987DBDEFAC230A4CE4D4E",
+      "bytes": 898,
+      "matches_release_commit": true
+    },
+    {
+      "source": "sim/tb/tb_emergency_priority.v",
+      "package": "sim/tb/tb_emergency_priority.v",
+      "sha256": "24B78B9F8A4BB3F4943420F590A5F2BF05B86DA5E3E64464690D097C4365FB2E",
+      "bytes": 3393,
+      "matches_release_commit": true
+    },
+    {
+      "source": "sim/tb/tb_emergency_scene_display.v",
+      "package": "sim/tb/tb_emergency_scene_display.v",
+      "sha256": "AF6A3CD88A05DD35C65FCE92469BCBEAFDD463EE6033B74D8BDBDCE6F76996A3",
+      "bytes": 3508,
+      "matches_release_commit": true
+    },
+    {
+      "source": "sim/tb/tb_fat32_lookup.v",
+      "package": "sim/tb/tb_fat32_lookup.v",
+      "sha256": "D8F2C5B852C9D950C24AC1A768F179461C34FDEFC4AD034C8302081D505CCA39",
+      "bytes": 17505,
+      "matches_release_commit": true
+    },
+    {
+      "source": "sim/tb/tb_key_sync_edge.v",
+      "package": "sim/tb/tb_key_sync_edge.v",
+      "sha256": "1AFE047FA824E8EC4B1F2C044B4013DE9B78B53AED291D58D817F53042FB1E92",
+      "bytes": 2296,
+      "matches_release_commit": true
+    },
+    {
+      "source": "sim/tb/tb_meeting_osd_logic_equiv.v",
+      "package": "sim/tb/tb_meeting_osd_logic_equiv.v",
+      "sha256": "4DE0707F8C5EC05DAD60F77228AB7D92DD42EF865E8D9043C79FEDA5B6AD1A14",
+      "bytes": 2213,
+      "matches_release_commit": true
+    },
+    {
+      "source": "sim/tb/tb_quiz_arbiter_4ch.v",
+      "package": "sim/tb/tb_quiz_arbiter_4ch.v",
+      "sha256": "2592E1AF00343906B867F48AF6FCCE6B48627D0DF3205C12F012C586C266F20D",
+      "bytes": 2459,
+      "matches_release_commit": true
+    },
+    {
+      "source": "sim/tb/tb_quiz_ctrl.v",
+      "package": "sim/tb/tb_quiz_ctrl.v",
+      "sha256": "EA38D5BE7BEB12F82F01C35558977796BB2DDC8716B9369C6B27699E626A2470",
+      "bytes": 12599,
+      "matches_release_commit": true
+    },
+    {
+      "source": "sim/tb/tb_quiz_end_commit_guard.v",
+      "package": "sim/tb/tb_quiz_end_commit_guard.v",
+      "sha256": "A5C68CF4F97512FCB84C3D11CDFE24FC364A4BE16C38666BB99063C842D5F39F",
+      "bytes": 1432,
+      "matches_release_commit": true
+    },
+    {
+      "source": "sim/tb/tb_quiz_entry_audio_gate.v",
+      "package": "sim/tb/tb_quiz_entry_audio_gate.v",
+      "sha256": "B09EEB852ED7C21F89C3197008CE24F8EFFE3A109DCF168D62819A11945AFBE8",
+      "bytes": 2914,
+      "matches_release_commit": true
+    },
+    {
+      "source": "sim/tb/tb_quiz_key_chain.v",
+      "package": "sim/tb/tb_quiz_key_chain.v",
+      "sha256": "6237480FD08597395F3D81DC4B2E136982389A8999802E4133FE493DD4A85C37",
+      "bytes": 3736,
+      "matches_release_commit": true
+    },
+    {
+      "source": "sim/tb/tb_quiz_ranking.v",
+      "package": "sim/tb/tb_quiz_ranking.v",
+      "sha256": "3CA545D0EA192DF047509E7A8468E2F5A4EA9EBC7D11B05890E74A1C360E1854",
+      "bytes": 2165,
+      "matches_release_commit": true
+    },
+    {
+      "source": "sim/tb/tb_quiz_scene_ctrl.v",
+      "package": "sim/tb/tb_quiz_scene_ctrl.v",
+      "sha256": "D52D3B02BC13729D9697234EF60A1E9404AC72F50FD9B54D1FDA4AE7BB38AB33",
+      "bytes": 11545,
+      "matches_release_commit": true
+    },
+    {
+      "source": "sim/tb/tb_quiz_timer.v",
+      "package": "sim/tb/tb_quiz_timer.v",
+      "sha256": "B555BFA10F980AA39F8BFDA25797CA4E32D7D2982E8653F98AD6EF27AF2FFBB4",
+      "bytes": 2627,
+      "matches_release_commit": true
+    },
+    {
+      "source": "sim/tb/tb_scene_load_guard.v",
+      "package": "sim/tb/tb_scene_load_guard.v",
+      "sha256": "26FE372D0DC4CB8DAD0F4B68585EDFACCB89BAC91BB44A28C0AEFC5D318428A7",
+      "bytes": 2656,
+      "matches_release_commit": true
+    },
+    {
+      "source": "sim/tb/tb_scene_selector.v",
+      "package": "sim/tb/tb_scene_selector.v",
+      "sha256": "DD851A08DF89277C48CE8757A64147F69D1C28974467791A16D7F40283C8D547",
+      "bytes": 2337,
+      "matches_release_commit": true
+    },
+    {
+      "source": "sim/tb/tb_score_popup_equiv.v",
+      "package": "sim/tb/tb_score_popup_equiv.v",
+      "sha256": "B8267A00CEB2D2C570B81F7371F358A70D24E8A4B4FF6272C4E502CB60081166",
+      "bytes": 1588,
+      "matches_release_commit": true
+    },
+    {
+      "source": "sim/tb/tb_sd_powerup_guard.v",
+      "package": "sim/tb/tb_sd_powerup_guard.v",
+      "sha256": "A87DC614E57CF98C799AC2F3DA2125F8A7662DEE3073341A51F508D435BFC952",
+      "bytes": 2223,
+      "matches_release_commit": true
+    },
+    {
+      "source": "sim/tb/tb_spi_master_reset_idle.v",
+      "package": "sim/tb/tb_spi_master_reset_idle.v",
+      "sha256": "94BF132ABF5A057857F959C5B497E55ADB693BB42F155271B415C85A736F5FD0",
+      "bytes": 1203,
+      "matches_release_commit": true
+    },
+    {
+      "source": "sim/tb/tb_video_first_frame_gate.v",
+      "package": "sim/tb/tb_video_first_frame_gate.v",
+      "sha256": "ED691F6FB27FD718B5B72773E91097A98206B16B3D9FCC7607CFB961D723DFC1",
+      "bytes": 2589,
+      "matches_release_commit": true
+    },
+    {
+      "source": "sim/tb/tb_wav_stream_player.v",
+      "package": "sim/tb/tb_wav_stream_player.v",
+      "sha256": "D7ECBC11E416B90A894C9F0B98C7D028E10FF5EEA4581299AC78469349CDE27A",
+      "bytes": 17817,
+      "matches_release_commit": true
+    },
+    {
+      "source": "sim/tb/tb_welcome_mosaic.v",
+      "package": "sim/tb/tb_welcome_mosaic.v",
+      "sha256": "7FE9BAD357EFB11084ACD0C8E001C5276BC19EB7882E6196E3EC37D91C9C3455",
+      "bytes": 2986,
+      "matches_release_commit": true
+    },
+    {
+      "source": "sim/tb/tb_welcome_scene_effects_v2.v",
+      "package": "sim/tb/tb_welcome_scene_effects_v2.v",
+      "sha256": "8ADE0DC38FC5B19DC0EDCE98A1B5B12435BEBC5C41D3E5E06A3E6F0B057951ED",
+      "bytes": 3705,
+      "matches_release_commit": true
+    },
+    {
+      "source": "sim/tb/tb_zone_launch.v",
+      "package": "sim/tb/tb_zone_launch.v",
+      "sha256": "3526D38B747A382884240AE01E18D3E7F3CBE713825DF84713716B1D4B039478",
+      "bytes": 21660,
+      "matches_release_commit": true
+    },
+    {
+      "source": "tb/tb_bmp_2x_decim.v",
+      "package": "tb/tb_bmp_2x_decim.v",
+      "sha256": "1359F85178AE79A45F490195322B04B25DDFB228CF6DA90A7A32A32BDDD1B431",
+      "bytes": 15759,
+      "matches_release_commit": true
+    },
+    {
+      "source": "tb/tb_bmp_multires.v",
+      "package": "tb/tb_bmp_multires.v",
+      "sha256": "A0E62741B3A5FEB0D7ABAE4E0F9DEF1A17C8B60B292447EBED5135A68DA2C18F",
+      "bytes": 19152,
+      "matches_release_commit": true
+    },
+    {
+      "source": "tb/tb_bmp_read_auto.v",
+      "package": "tb/tb_bmp_read_auto.v",
+      "sha256": "B3C945D47E7136826A9A686A06F7B850C2147379A0CC33B2937A02C6324130AC",
+      "bytes": 27103,
+      "matches_release_commit": true
+    },
+    {
+      "source": "tb/tb_bmp_scale.v",
+      "package": "tb/tb_bmp_scale.v",
+      "sha256": "C79B4EDCD9AC7A79E2DADFDAD41352D5235F55CE0A2997EA85ACAE991D52D187",
+      "bytes": 16591,
+      "matches_release_commit": true
+    },
+    {
+      "source": "tb/tb_display_adjust.v",
+      "package": "tb/tb_display_adjust.v",
+      "sha256": "AE5B091CD1FA6F89718A04DBCB5FA9E87557BE98D401FC41348CAE4847412BB5",
+      "bytes": 32086,
+      "matches_release_commit": true
+    },
+    {
+      "source": "tb/tb_display_contrast.v",
+      "package": "tb/tb_display_contrast.v",
+      "sha256": "45C195D1E628D8DE2C3770B1216ADC20EAA19FF94F67EE4E97335C58D3FE42AB",
+      "bytes": 17433,
+      "matches_release_commit": true
+    },
+    {
+      "source": "tb/tb_display_score.v",
+      "package": "tb/tb_display_score.v",
+      "sha256": "05718E405A3D8DE281CF208FAA422B33094BF12A96A57F0FC46D40513FBE4C8E",
+      "bytes": 16923,
+      "matches_release_commit": true
+    },
+    {
+      "source": "tb/tb_emergency_alarm_ctrl.v",
+      "package": "tb/tb_emergency_alarm_ctrl.v",
+      "sha256": "391895B018DBC52DD76FFD41BB4CAB504EB809D3C5B673DC1FC05058994E4B21",
+      "bytes": 2376,
+      "matches_release_commit": true
+    },
+    {
+      "source": "tb/tb_emergency_uart_ticker.v",
+      "package": "tb/tb_emergency_uart_ticker.v",
+      "sha256": "0FD172F58C3848FF315B94EE3352F1C2DDCC81884BD91595ED438ACC31DF915A",
+      "bytes": 1886,
+      "matches_release_commit": true
+    },
+    {
+      "source": "tb/tb_meeting_ctrl.v",
+      "package": "tb/tb_meeting_ctrl.v",
+      "sha256": "3E0A86E3B3B2B151254DC78DA32636675BDC8A78DE88E1A7B9CC49F68F92C72F",
+      "bytes": 6734,
+      "matches_release_commit": true
+    },
+    {
+      "source": "tb/tb_meeting_osd.v",
+      "package": "tb/tb_meeting_osd.v",
+      "sha256": "DD3D20D412CC796097F685E0349A44D2052DCF00E697663BB6A6B9C6CF29B9F3",
+      "bytes": 8680,
+      "matches_release_commit": true
+    },
+    {
+      "source": "tb/tb_osd_engine.v",
+      "package": "tb/tb_osd_engine.v",
+      "sha256": "8F0264FFD1EC7C22DA12665976BDEDE725C2D5281773F4A7052726CCA5166027",
+      "bytes": 10745,
+      "matches_release_commit": true
+    },
+    {
+      "source": "tb/tb_osd_menu.v",
+      "package": "tb/tb_osd_menu.v",
+      "sha256": "1E90A18BEA2C465A86CA357A2BE9429014AFD8EFF8C3928114840E4CF8A2DF9D",
+      "bytes": 22653,
+      "matches_release_commit": true
+    },
+    {
+      "source": "tb/tb_osd_scene.v",
+      "package": "tb/tb_osd_scene.v",
+      "sha256": "48E35119705E2928AB8CFA44734492CAD893B1F1578BD17B36B5C0D05B6C55E4",
+      "bytes": 37171,
+      "matches_release_commit": true
+    },
+    {
+      "source": "tb/tb_osd_welcome.v",
+      "package": "tb/tb_osd_welcome.v",
+      "sha256": "1CA2407E4D72EC4C9EA537A6B2A455054FC0DACEA201E8B99F8691E388567DFA",
+      "bytes": 17511,
+      "matches_release_commit": true
+    },
+    {
+      "source": "tb/tb_quiz_ctrl.v",
+      "package": "tb/tb_quiz_ctrl.v",
+      "sha256": "E869FF2938E3836960BA60FEAEE9F31F1E5F2F884A88EA5A944C78B904729B1B",
+      "bytes": 7601,
+      "matches_release_commit": true
+    },
+    {
+      "source": "tb/tb_scene_control.v",
+      "package": "tb/tb_scene_control.v",
+      "sha256": "FD0650713490441780952B2E2226DB0D5E4651225283CA47357423554863DF72",
+      "bytes": 11495,
+      "matches_release_commit": true
+    },
+    {
+      "source": "tb/tb_ui_key_ctrl.v",
+      "package": "tb/tb_ui_key_ctrl.v",
+      "sha256": "4A31C2AD322F80D873070AFA26CA91AAA0D38B7CA23E0ABF738F777FD4B34049",
+      "bytes": 29990,
+      "matches_release_commit": true
+    },
+    {
+      "source": "tb/tb_ui_key_ctrl_meeting.v",
+      "package": "tb/tb_ui_key_ctrl_meeting.v",
+      "sha256": "9B34EAEBACE6F00DB6DDB6575626E777EA84C1C99400EE5A10C269BAE6EF4A10",
+      "bytes": 4584,
+      "matches_release_commit": true
+    },
+    {
+      "source": "tb/tb_welcome_uart.v",
+      "package": "tb/tb_welcome_uart.v",
+      "sha256": "BBE5785E8D4464F894DD08438C817931FF265440AA426D05676C307F4540D82F",
+      "bytes": 5596,
+      "matches_release_commit": true
+    },
+    {
+      "source": "sim/evidence/tb_evidence_core_timing.v",
+      "package": "sim/evidence/tb_evidence_core_timing.v",
+      "sha256": "639A4ADD749C9504AF361E52B7768811F111363D75D8EEBC7BA3B2903DC9BAAC",
+      "bytes": 3297,
+      "matches_release_commit": false
+    },
+    {
+      "source": "sim/evidence/tb_meeting_ctrl_evidence.v",
+      "package": "sim/evidence/tb_meeting_ctrl_evidence.v",
+      "sha256": "0D937FEF38D6F5248CD4B824F9DA7E4A3B25ADE3A38E85F4998A469E7B9E326A",
+      "bytes": 1983,
+      "matches_release_commit": false
+    },
+    {
+      "source": "sim/evidence/tb_siren_fast_evidence.v",
+      "package": "sim/evidence/tb_siren_fast_evidence.v",
+      "sha256": "35348CD76B54CEFE4A69617D4C7457CA141EC1FED60F0F29BDCB595FF9F69413",
+      "bytes": 2633,
+      "matches_release_commit": false
+    },
+    {
+      "source": "audio_board/integrated/audio.sdc",
+      "package": "audio_board/integrated/audio.sdc",
+      "sha256": "5AA5CB07E4942C2BF300EA39215B01790DE67FDD6A0F7B8FF53729011304D815",
+      "bytes": 10529,
+      "matches_release_commit": true
+    },
+    {
+      "source": "top.adc",
+      "package": "top.adc",
+      "sha256": "79C4F5FE19734B4F350FF76DD230DF84A8E0AB4ACC209FFECAF979FE91F1B2B9",
+      "bytes": 6118,
+      "matches_release_commit": true
+    },
+    {
+      "source": "artifacts/BOARD_TEST_10_26_TF_COLDBOOT_RECOVERY_seed59.bit",
+      "package": "artifacts/BOARD_TEST_10_26_TF_COLDBOOT_RECOVERY_seed59.bit",
+      "sha256": "6E948478CAED10522D6205F88F89726103610028ADDE6D09A0B617816E41528C",
+      "bytes": 722744,
+      "matches_release_commit": true
+    },
+    {
+      "source": "pic_sdram_audio_final.al",
+      "package": "pic_sdram_audio_final.al",
+      "sha256": "13C8F5796915B9C21A176AC32C1A080E487835428A2A0F3DF3C75DA0ADBA7335",
+      "bytes": 28270,
+      "matches_release_commit": true,
+      "package_metadata_only_adjustment": "Project Path changed to .; source list, compile order, device and constraints unchanged"
+    },
+    {
+      "source": "tools/welcome_uart_gui.py",
+      "package": "tools/welcome_uart_gui.py",
+      "sha256": "42A1CCE5D8C7347E5028D11D7140241B9D29C8238E40651524E65A3FF77E1A49",
+      "bytes": 10487,
+      "matches_release_commit": true
+    },
+    {
+      "source": "tools/tf_media_manager.py",
+      "package": "tools/tf_media_manager.py",
+      "sha256": "FFFF03585AC1B526BCF1403577FB944A074B77A71F774DA1FA40F95EECC5D2F8",
+      "bytes": 22686,
+      "matches_release_commit": true
+    },
+    {
+      "source": "tools/test_tf_media_manager.py",
+      "package": "tools/test_tf_media_manager.py",
+      "sha256": "675341D12E645E35D176760906C88EF8D1F6CAB227F5FE9C5739CACF30D34CC6",
+      "bytes": 4199,
+      "matches_release_commit": true
+    },
+    {
+      "source": "tools/启动迎新串口上位机.bat",
+      "package": "tools/启动迎新串口上位机.bat",
+      "sha256": "8B6847B8F2C26EE9429DBD1530353D606EBEEC227D3AFE4AA3D6CEAD0046579D",
+      "bytes": 503,
+      "matches_release_commit": true
+    },
+    {
+      "source": "tools/以管理员身份启动素材管理器.bat",
+      "package": "tools/以管理员身份启动素材管理器.bat",
+      "sha256": "8EDD1DFF5BFB2D42BEC3DDBBB4EFC8CE61DBD143BE3E7E01B8B94BFE5D93D490",
+      "bytes": 503,
+      "matches_release_commit": true
+    },
+    {
+      "source": "tools/find_bmp.py",
+      "package": "tools/find_bmp.py",
+      "sha256": "B6EB0473AE60119813D8A9B1973612A8E1F4743EBF18C3C8478D2CE735194562",
+      "bytes": 14865,
+      "matches_release_commit": true
+    },
+    {
+      "source": "tools/gen_emergency_osd.py",
+      "package": "tools/gen_emergency_osd.py",
+      "sha256": "FB92120244DC0392619B203A9404FEE7B4C3D6B92C8ADCCF86468EF968D85405",
+      "bytes": 3467,
+      "matches_release_commit": true
+    },
+    {
+      "source": "tools/gen_osd_font.py",
+      "package": "tools/gen_osd_font.py",
+      "sha256": "F27C82D9F0CFC988E02733BCE65362B538275F67007EC22E2A21438B471CBC91",
+      "bytes": 26602,
+      "matches_release_commit": true
+    },
+    {
+      "source": "tools/gen_ui_aa_fonts.py",
+      "package": "tools/gen_ui_aa_fonts.py",
+      "sha256": "CD568F890AB7ADF469A4F34D8B06F99012126F520F3DDE6B6395AD615BEFEE7F",
+      "bytes": 8244,
+      "matches_release_commit": true
+    },
+    {
+      "source": "tools/gen_quiz_question_bmp.py",
+      "package": "tools/gen_quiz_question_bmp.py",
+      "sha256": "CDFB3C7265C1F8214CA9CE9FC5E7F7FEDD47FBB3F27B674980F3CD531EADB677",
+      "bytes": 5516,
+      "matches_release_commit": true
+    },
+    {
+      "source": "tools/gen_quiz_set.py",
+      "package": "tools/gen_quiz_set.py",
+      "sha256": "6C75A2A3D6066CEBD3C488A72E12A6ED14F5BF53F68BA46DD0A3142DBE356C45",
+      "bytes": 9848,
+      "matches_release_commit": true
+    },
+    {
+      "source": "tools/gen_quiz_team_bmps.py",
+      "package": "tools/gen_quiz_team_bmps.py",
+      "sha256": "454CE71EFDCF4E2414856B990E58903BD9A9365AE07B58DB6820A3E6C9AEF666",
+      "bytes": 6789,
+      "matches_release_commit": true
+    },
+    {
+      "source": "tools/preview_emergency_types.py",
+      "package": "tools/preview_emergency_types.py",
+      "sha256": "1EE4377737AAA4E97B40ACB916BA767B4984CEE9048438AE080B8A25DF9B33C0",
+      "bytes": 2994,
+      "matches_release_commit": true
+    },
+    {
+      "source": "tools/preview_osd.py",
+      "package": "tools/preview_osd.py",
+      "sha256": "4A764435FAB77B0F53031C21843EED0AEFC0A59EABF07D6C45792A9417631286",
+      "bytes": 9217,
+      "matches_release_commit": true
+    },
+    {
+      "source": "tools/raw_read_check.py",
+      "package": "tools/raw_read_check.py",
+      "sha256": "874F64502E80BCD5371962FD5028AB0B908175BEDB0FBBF9B679269B654F0F2D",
+      "bytes": 1081,
+      "matches_release_commit": true
+    },
+    {
+      "source": "tools/sdcard_music.py",
+      "package": "tools/sdcard_music.py",
+      "sha256": "C3E2092202ED2D880569EF7C7D423B430E1DE04C08C01B91B35916DE10836113",
+      "bytes": 18424,
+      "matches_release_commit": true
+    },
+    {
+      "source": "tools/run_iverilog_full_regression.ps1",
+      "package": "tools/run_iverilog_full_regression.ps1",
+      "sha256": "B1A6C7575D0371904D88D4CA9441E8E2474299297DF4ECE5CC4D5F98DEE52372",
+      "bytes": 11566,
+      "matches_release_commit": false
+    },
+    {
+      "source": "tools/analyze_scene_audio_vcd.ps1",
+      "package": "tools/analyze_scene_audio_vcd.ps1",
+      "sha256": "7345C1C49E3DDF07914B67376FF4FBDF021BA87A125E58A40A3E69D257F2EAEF",
+      "bytes": 3217,
+      "matches_release_commit": true
+    },
+    {
+      "source": "tools/build_tf_coldboot_recovery_seed59.tcl",
+      "package": "verification/release_build_original.tcl",
+      "sha256": "24CEA2C5D0AAC4A2C8F84790942E0D9D573A8D53A2DF6878F687304A48647B89",
+      "bytes": 951,
+      "matches_release_commit": true
+    },
+    {
+      "source": "_build_tf_coldboot_recovery_seed59/final.area",
+      "package": "verification/physical/final.area",
+      "sha256": "BB68FDC9FC544EDA5F5EA1B7EC0D1932F71CB844368534C3B52BAC66296E85F6",
+      "bytes": 33362,
+      "matches_release_commit": true
+    },
+    {
+      "source": "_build_tf_coldboot_recovery_seed59/final.timing",
+      "package": "verification/physical/final.timing",
+      "sha256": "306FB148915F4422F36B6407FDD83FF1A6262B79DAEC6C0F8AF27DFF474EFD1F",
+      "bytes": 1453953,
+      "matches_release_commit": true
+    },
+    {
+      "source": "_build_tf_coldboot_recovery_seed59/final_timing.rpt",
+      "package": "verification/physical/final_timing.rpt",
+      "sha256": "FCE6418145FB282A96EC7AB7A0FB072C9C564BDBEDE449D6D9AA25F227076B91",
+      "bytes": 1458915,
+      "matches_release_commit": false
+    },
+    {
+      "source": "_build_tf_coldboot_recovery_seed59/route.qor",
+      "package": "verification/physical/route.qor",
+      "sha256": "C765C45039D3A788844164590437BBE254D9E1A6E181A20FAB988C0E45D22939",
+      "bytes": 1313,
+      "matches_release_commit": true
+    },
+    {
+      "source": "_build_tf_coldboot_recovery_seed59/gate.qor",
+      "package": "verification/physical/gate.qor",
+      "sha256": "571687B8D3EE0AE6A55C6D301A1EB3378DCB2A8D4904E0DA013B687EFC4AB275",
+      "bytes": 7433,
+      "matches_release_commit": false
+    },
+    {
+      "source": "_build_tf_coldboot_recovery_seed59/place.qor",
+      "package": "verification/physical/place.qor",
+      "sha256": "2825DF3BA9F2A92E43D0BF2787EB1FE1F948ED182A8696DCEA6A241063485E04",
+      "bytes": 1741,
+      "matches_release_commit": false
+    },
+    {
+      "source": "delivery/10-26-final/仿真数据/02_原始日志/audio_chain_e2e.log",
+      "package": "verification/release_iverilog/audio_chain_e2e.log",
+      "sha256": "F2C9FA950831130D65D283A92B284558C92C4ACF1A097570232D63E7AD241CDD",
+      "bytes": 10281,
+      "matches_release_commit": false
+    },
+    {
+      "source": "delivery/10-26-final/仿真数据/02_原始日志/audio_sd_arbiter.log",
+      "package": "verification/release_iverilog/audio_sd_arbiter.log",
+      "sha256": "059753334959F2900EB751B814F985E5ABE61BBE4F092A281156242A525A0ABB",
+      "bytes": 263,
+      "matches_release_commit": false
+    },
+    {
+      "source": "delivery/10-26-final/仿真数据/02_原始日志/audio_src_sel.log",
+      "package": "verification/release_iverilog/audio_src_sel.log",
+      "sha256": "FA860E10DEBCCA79777F00D907F88F6025664425D686E48A06FA1825B05AFF30",
+      "bytes": 252,
+      "matches_release_commit": false
+    },
+    {
+      "source": "delivery/10-26-final/仿真数据/02_原始日志/audio_viz_gate.log",
+      "package": "verification/release_iverilog/audio_viz_gate.log",
+      "sha256": "6B76679FA1983FAB7A64B742B967DF3D10371120F4E76B638E20C45FBAB45851",
+      "bytes": 1052,
+      "matches_release_commit": false
+    },
+    {
+      "source": "delivery/10-26-final/仿真数据/02_原始日志/audio_viz_live_age.log",
+      "package": "verification/release_iverilog/audio_viz_live_age.log",
+      "sha256": "60071B54755BE45CD28CDB2AEEFA81EA8AAF15959A64E29D06C4153EAFEFC05B",
+      "bytes": 160,
+      "matches_release_commit": false
+    },
+    {
+      "source": "delivery/10-26-final/仿真数据/02_原始日志/audio_viz_scene_clear.log",
+      "package": "verification/release_iverilog/audio_viz_scene_clear.log",
+      "sha256": "68519B52D4928D71B59032A214465E21702733E89AAC50146CE19170CD66529E",
+      "bytes": 1822,
+      "matches_release_commit": false
+    },
+    {
+      "source": "delivery/10-26-final/仿真数据/02_原始日志/audio_viz_window_gate.log",
+      "package": "verification/release_iverilog/audio_viz_window_gate.log",
+      "sha256": "A75B29E7E3191834683D4A876BF09B786D9E5D219C90B583CF9333D9811C6EC5",
+      "bytes": 525,
+      "matches_release_commit": false
+    },
+    {
+      "source": "delivery/10-26-final/仿真数据/02_原始日志/bmp_2x_decim.log",
+      "package": "verification/release_iverilog/bmp_2x_decim.log",
+      "sha256": "DB0D40DE83735EE523906C77A660C211FA3D47B2C1DB799560E4D3266424AF58",
+      "bytes": 1264,
+      "matches_release_commit": false
+    },
+    {
+      "source": "delivery/10-26-final/仿真数据/02_原始日志/bmp_multires.log",
+      "package": "verification/release_iverilog/bmp_multires.log",
+      "sha256": "54A9EBCFF31FEB1B19718917B84270D9CE143A6C6A73F73DDC4E282C422936AE",
+      "bytes": 2173,
+      "matches_release_commit": false
+    },
+    {
+      "source": "delivery/10-26-final/仿真数据/02_原始日志/bmp_read_auto.log",
+      "package": "verification/release_iverilog/bmp_read_auto.log",
+      "sha256": "76381ED912E58E38FAFE5C2EA667CDC1A199BC571FAF41209BEDE9271A94955D",
+      "bytes": 14976,
+      "matches_release_commit": false
+    },
+    {
+      "source": "delivery/10-26-final/仿真数据/02_原始日志/bmp_scale.log",
+      "package": "verification/release_iverilog/bmp_scale.log",
+      "sha256": "5A893FC700C02CFF374249958ABC6FB67191F63ADE025DC01D0F5B01E9345BA6",
+      "bytes": 2007,
+      "matches_release_commit": false
+    },
+    {
+      "source": "delivery/10-26-final/仿真数据/02_原始日志/bmp_scale_bram_gate.log",
+      "package": "verification/release_iverilog/bmp_scale_bram_gate.log",
+      "sha256": "0AA1FAD0442E6A334D93A69ECB7E59DDA3E86C0F72232FA694ACD99A92E927A0",
+      "bytes": 379,
+      "matches_release_commit": false
+    },
+    {
+      "source": "delivery/10-26-final/仿真数据/02_原始日志/display_adjust.log",
+      "package": "verification/release_iverilog/display_adjust.log",
+      "sha256": "28A243D0372105FF5CA79449DDF014C16E8154374D83FC63FA867BA1C9A922DF",
+      "bytes": 4240,
+      "matches_release_commit": false
+    },
+    {
+      "source": "delivery/10-26-final/仿真数据/02_原始日志/display_adjust_busy.log",
+      "package": "verification/release_iverilog/display_adjust_busy.log",
+      "sha256": "807B13C5E5DC4B56C46AD51428786EFC9C325453E7DC312AA9C7453AA9BB71C0",
+      "bytes": 187,
+      "matches_release_commit": false
+    },
+    {
+      "source": "delivery/10-26-final/仿真数据/02_原始日志/display_adjust_commit.log",
+      "package": "verification/release_iverilog/display_adjust_commit.log",
+      "sha256": "6122B0D59DC38619175CFB0AA1928815CD612390D702FB935F28B4FA85AAA660",
+      "bytes": 175,
+      "matches_release_commit": false
+    },
+    {
+      "source": "delivery/10-26-final/仿真数据/02_原始日志/display_adjust_labels.log",
+      "package": "verification/release_iverilog/display_adjust_labels.log",
+      "sha256": "5BC2FA81017104C6D70D9F907AF5C1BEC4AC796C998E5DCE85E9EA6C9929D283",
+      "bytes": 320,
+      "matches_release_commit": false
+    },
+    {
+      "source": "delivery/10-26-final/仿真数据/02_原始日志/display_contrast.log",
+      "package": "verification/release_iverilog/display_contrast.log",
+      "sha256": "B3C6A7C87168832C795A53985EF282B0CCE668BC934B455BD45A471ED4924569",
+      "bytes": 2136,
+      "matches_release_commit": false
+    },
+    {
+      "source": "delivery/10-26-final/仿真数据/02_原始日志/display_resinfo.log",
+      "package": "verification/release_iverilog/display_resinfo.log",
+      "sha256": "FFEAABFA2BDE0447F91BD37B17E4B1F7478B2601B859241F737581DADFDA5106",
+      "bytes": 5849,
+      "matches_release_commit": false
+    },
+    {
+      "source": "delivery/10-26-final/仿真数据/02_原始日志/emergency_alarm_ctrl.log",
+      "package": "verification/release_iverilog/emergency_alarm_ctrl.log",
+      "sha256": "1A203E029EBBBFD853E1DF876D333E699FB23C3646DF78C8EFFA95CCF9C5E47F",
+      "bytes": 165,
+      "matches_release_commit": false
+    },
+    {
+      "source": "delivery/10-26-final/仿真数据/02_原始日志/emergency_arrows.log",
+      "package": "verification/release_iverilog/emergency_arrows.log",
+      "sha256": "C99A8CDA55CA584440D244382B24D8E1DA103B0EAA20FCE4FBB0419A50951B23",
+      "bytes": 2503,
+      "matches_release_commit": false
+    },
+    {
+      "source": "delivery/10-26-final/仿真数据/02_原始日志/emergency_font64.log",
+      "package": "verification/release_iverilog/emergency_font64.log",
+      "sha256": "A93A97414EC6012DA20DF79A358F13FECE8EDE85C42C8EB2DD4D0F9E88A89D7B",
+      "bytes": 169,
+      "matches_release_commit": false
+    },
+    {
+      "source": "delivery/10-26-final/仿真数据/02_原始日志/emergency_priority.log",
+      "package": "verification/release_iverilog/emergency_priority.log",
+      "sha256": "4068D6AECF0B823834F0AF4AE8BD83C3488B1999FE3C1B286F36F8B2B9A22A80",
+      "bytes": 138,
+      "matches_release_commit": false
+    },
+    {
+      "source": "delivery/10-26-final/仿真数据/02_原始日志/emergency_uart_ticker.log",
+      "package": "verification/release_iverilog/emergency_uart_ticker.log",
+      "sha256": "DF8586B6EC99614BD36EBEDC05805785DFEB281A5585B292AD4C29748F9A6D62",
+      "bytes": 1899,
+      "matches_release_commit": false
+    },
+    {
+      "source": "delivery/10-26-final/仿真数据/02_原始日志/fat32_lookup.log",
+      "package": "verification/release_iverilog/fat32_lookup.log",
+      "sha256": "359979BFC7EB96655CFE4AB8DAEEDCCDDE60206F502FF39320A9AB498FD32E1E",
+      "bytes": 2662,
+      "matches_release_commit": false
+    },
+    {
+      "source": "delivery/10-26-final/仿真数据/02_原始日志/key_sync_edge.log",
+      "package": "verification/release_iverilog/key_sync_edge.log",
+      "sha256": "EA6931D8D5D0FC9057F5B506C892C764F5F44D3EC96FC94A384670D3572A1A9A",
+      "bytes": 132,
+      "matches_release_commit": false
+    },
+    {
+      "source": "delivery/10-26-final/仿真数据/02_原始日志/low_power_activity.log",
+      "package": "verification/release_iverilog/low_power_activity.log",
+      "sha256": "C3662FC863972493BA86C3DD772834711D1BA427232829A78DAE72A35C73E8FE",
+      "bytes": 2190,
+      "matches_release_commit": false
+    },
+    {
+      "source": "delivery/10-26-final/仿真数据/02_原始日志/low_power_activity_analysis.log",
+      "package": "verification/release_iverilog/low_power_activity_analysis.log",
+      "sha256": "D95E37DDEFE4571A5C60FDF204C5288DAA4146B38F775DC4DD2832854F76D79E",
+      "bytes": 129,
+      "matches_release_commit": false
+    },
+    {
+      "source": "delivery/10-26-final/仿真数据/02_原始日志/meeting_ctrl_evidence.log",
+      "package": "verification/release_iverilog/meeting_ctrl_evidence.log",
+      "sha256": "D85DD003E3E388DEDF9DE18C519F01DC23879B3EC44DB0BCC11162B07C486BD4",
+      "bytes": 177,
+      "matches_release_commit": false
+    },
+    {
+      "source": "delivery/10-26-final/仿真数据/02_原始日志/meeting_osd.log",
+      "package": "verification/release_iverilog/meeting_osd.log",
+      "sha256": "0138F6E97804582D102BBA9E7D994D42AF2D981A3126C6B237D09788F3BDBDE0",
+      "bytes": 1723,
+      "matches_release_commit": false
+    },
+    {
+      "source": "delivery/10-26-final/仿真数据/02_原始日志/meeting_osd_equiv.log",
+      "package": "verification/release_iverilog/meeting_osd_equiv.log",
+      "sha256": "2FCA4C5092D55470AD6BF4475DDB07DBBEAF67555CD4FE6300FD73B7F34767FC",
+      "bytes": 175,
+      "matches_release_commit": false
+    },
+    {
+      "source": "delivery/10-26-final/仿真数据/02_原始日志/osd_engine.log",
+      "package": "verification/release_iverilog/osd_engine.log",
+      "sha256": "95F89578E41A79E8315F1E84930F3A60A5BE1B7F2AADC4AC942823D41476671E",
+      "bytes": 537,
+      "matches_release_commit": false
+    },
+    {
+      "source": "delivery/10-26-final/仿真数据/02_原始日志/osd_menu.log",
+      "package": "verification/release_iverilog/osd_menu.log",
+      "sha256": "55C52E6D6075173CC85BD6ADF0274F9BA89456E49F673939E6A2508F5F704979",
+      "bytes": 2642,
+      "matches_release_commit": false
+    },
+    {
+      "source": "delivery/10-26-final/仿真数据/02_原始日志/osd_scene.log",
+      "package": "verification/release_iverilog/osd_scene.log",
+      "sha256": "D22D5DC65D699193183F0511FEE60A259A551FB4FA7D7B38C7E5E0B730F61A5B",
+      "bytes": 3397,
+      "matches_release_commit": false
+    },
+    {
+      "source": "delivery/10-26-final/仿真数据/02_原始日志/osd_welcome.log",
+      "package": "verification/release_iverilog/osd_welcome.log",
+      "sha256": "4190609382CC138092F6B9B47607BD497ED45C5C297083EC80DC6CBFBF0E506A",
+      "bytes": 1615,
+      "matches_release_commit": false
+    },
+    {
+      "source": "delivery/10-26-final/仿真数据/02_原始日志/python_tools_compile.log",
+      "package": "verification/release_iverilog/python_tools_compile.log",
+      "sha256": "E5DE089D3BF068D680009C69FEDBEB8D5C608E728E7946829C492C4D083421B7",
+      "bytes": 46,
+      "matches_release_commit": false
+    },
+    {
+      "source": "delivery/10-26-final/仿真数据/02_原始日志/quiz_arbiter_4ch.log",
+      "package": "verification/release_iverilog/quiz_arbiter_4ch.log",
+      "sha256": "432BF0300BDD87329386DD6C8CBF6C13221FD554CEECD8FF2B5FD711EE047579",
+      "bytes": 134,
+      "matches_release_commit": false
+    },
+    {
+      "source": "delivery/10-26-final/仿真数据/02_原始日志/quiz_ctrl.log",
+      "package": "verification/release_iverilog/quiz_ctrl.log",
+      "sha256": "2A972211158FF47C5F10813AF2881CC39FC53A1D75C063D8D1EDD6DBEA1C9C9F",
+      "bytes": 3105,
+      "matches_release_commit": false
+    },
+    {
+      "source": "delivery/10-26-final/仿真数据/02_原始日志/quiz_end_commit_guard.log",
+      "package": "verification/release_iverilog/quiz_end_commit_guard.log",
+      "sha256": "E0D7211AE9213C3A8596CCAC182249398060D40A5DA2062B553F7022D2C726A4",
+      "bytes": 152,
+      "matches_release_commit": false
+    },
+    {
+      "source": "delivery/10-26-final/仿真数据/02_原始日志/quiz_entry_audio_gate.log",
+      "package": "verification/release_iverilog/quiz_entry_audio_gate.log",
+      "sha256": "27BC0ACAA9158059A9F98DD84DFBB8D64264BEF92CB89830EF61B17E8C52878A",
+      "bytes": 170,
+      "matches_release_commit": false
+    },
+    {
+      "source": "delivery/10-26-final/仿真数据/02_原始日志/quiz_key_chain.log",
+      "package": "verification/release_iverilog/quiz_key_chain.log",
+      "sha256": "66F4F8B15FEB5029F1DFEF10A77A6677307564B3075208CBD595B969E98BA189",
+      "bytes": 135,
+      "matches_release_commit": false
+    },
+    {
+      "source": "delivery/10-26-final/仿真数据/02_原始日志/quiz_ranking.log",
+      "package": "verification/release_iverilog/quiz_ranking.log",
+      "sha256": "FEB7237E10D17712315439D272D0D60ADF65C081D553CDBD267E68C43AF1B041",
+      "bytes": 5307,
+      "matches_release_commit": false
+    },
+    {
+      "source": "delivery/10-26-final/仿真数据/02_原始日志/quiz_timer.log",
+      "package": "verification/release_iverilog/quiz_timer.log",
+      "sha256": "43E4E7F91E8CE5642CE13C19EF20B57514CD9AAD0849C3BC669D41CC327AB897",
+      "bytes": 129,
+      "matches_release_commit": false
+    },
+    {
+      "source": "delivery/10-26-final/仿真数据/02_原始日志/scene_audio_meeting.log",
+      "package": "verification/release_iverilog/scene_audio_meeting.log",
+      "sha256": "51D68BF4790B12534C1260F3AA03D7A3AECDF7A9F7A7626F4905840EA0501D05",
+      "bytes": 570,
+      "matches_release_commit": false
+    },
+    {
+      "source": "delivery/10-26-final/仿真数据/02_原始日志/scene_control.log",
+      "package": "verification/release_iverilog/scene_control.log",
+      "sha256": "20481B1D665222C11B1714434E0C650E27408BC662D39756F1EF89679C94EA95",
+      "bytes": 1627,
+      "matches_release_commit": false
+    },
+    {
+      "source": "delivery/10-26-final/仿真数据/02_原始日志/scene_load_guard.log",
+      "package": "verification/release_iverilog/scene_load_guard.log",
+      "sha256": "D0D03D0CC6F09227CA09DF772D6C42867C1AE17F7B5B77961512AE12AC09066B",
+      "bytes": 169,
+      "matches_release_commit": false
+    },
+    {
+      "source": "delivery/10-26-final/仿真数据/02_原始日志/scene_selector.log",
+      "package": "verification/release_iverilog/scene_selector.log",
+      "sha256": "E8851608D68790274F2D2A8FA26363B8EB7FA0C0926F1BE4AA73E0617C8BFD34",
+      "bytes": 130,
+      "matches_release_commit": false
+    },
+    {
+      "source": "delivery/10-26-final/仿真数据/02_原始日志/score_popup_equiv.log",
+      "package": "verification/release_iverilog/score_popup_equiv.log",
+      "sha256": "865BA7A54C9C62C9CEE47F8AF813281DC113D05A2CA60B03A5323F7D7E147DC1",
+      "bytes": 170,
+      "matches_release_commit": false
+    },
+    {
+      "source": "delivery/10-26-final/仿真数据/02_原始日志/sd_powerup_guard.log",
+      "package": "verification/release_iverilog/sd_powerup_guard.log",
+      "sha256": "E62D20540E636F4F08EB6760DE9E1AA2CFEBB681EAC26723772E0954C169DD59",
+      "bytes": 146,
+      "matches_release_commit": false
+    },
+    {
+      "source": "delivery/10-26-final/仿真数据/02_原始日志/siren_fast_evidence.log",
+      "package": "verification/release_iverilog/siren_fast_evidence.log",
+      "sha256": "4AEDC06B83373FE8632CD261C7C765DBA32B7DD56D2EEACDE6319E0A28AD06DB",
+      "bytes": 259,
+      "matches_release_commit": false
+    },
+    {
+      "source": "delivery/10-26-final/仿真数据/02_原始日志/spi_reset_idle.log",
+      "package": "verification/release_iverilog/spi_reset_idle.log",
+      "sha256": "19A5493A1DEC5B2BA656E581638F37B067BB37312A081AC51DD1E553F7328BF3",
+      "bytes": 153,
+      "matches_release_commit": false
+    },
+    {
+      "source": "delivery/10-26-final/仿真数据/02_原始日志/tf_media_manager_tests.log",
+      "package": "verification/release_iverilog/tf_media_manager_tests.log",
+      "sha256": "9C3670F574B59E2A0618B7F6AAC7C4F6F408C66B85AFA887A30E16E23A311599",
+      "bytes": 107,
+      "matches_release_commit": false
+    },
+    {
+      "source": "delivery/10-26-final/仿真数据/02_原始日志/ui_key_ctrl.log",
+      "package": "verification/release_iverilog/ui_key_ctrl.log",
+      "sha256": "682738CB1932759204395D17D2D152C69243A6F8854FBA1C2E9F14B9C79B3154",
+      "bytes": 8574,
+      "matches_release_commit": false
+    },
+    {
+      "source": "delivery/10-26-final/仿真数据/02_原始日志/ui_key_ctrl_meeting.log",
+      "package": "verification/release_iverilog/ui_key_ctrl_meeting.log",
+      "sha256": "730B892D42278A6E65323A856FBACF723F6F2EB82C7884D29BB47D7B3D1C58BA",
+      "bytes": 1331,
+      "matches_release_commit": false
+    },
+    {
+      "source": "delivery/10-26-final/仿真数据/02_原始日志/video_first_frame_gate.log",
+      "package": "verification/release_iverilog/video_first_frame_gate.log",
+      "sha256": "2C2484BAC4171814212A1F7693CA903688392A2CEC240A8D333149E828369C8C",
+      "bytes": 176,
+      "matches_release_commit": false
+    },
+    {
+      "source": "delivery/10-26-final/仿真数据/02_原始日志/volume_scale_equiv.log",
+      "package": "verification/release_iverilog/volume_scale_equiv.log",
+      "sha256": "E6FB73617BCC5F85BE2A9A3FCBB929237971EDF01A113D26B0914625E461C4CF",
+      "bytes": 178,
+      "matches_release_commit": false
+    },
+    {
+      "source": "delivery/10-26-final/仿真数据/02_原始日志/wav_stream_player.log",
+      "package": "verification/release_iverilog/wav_stream_player.log",
+      "sha256": "E6D296D9ECCAEC3676588E5CBFAECB4EE6BBF9662F25DFEAE10351F36C2093F1",
+      "bytes": 277,
+      "matches_release_commit": false
+    },
+    {
+      "source": "delivery/10-26-final/仿真数据/02_原始日志/welcome_mosaic.log",
+      "package": "verification/release_iverilog/welcome_mosaic.log",
+      "sha256": "9B464DD66681F7DCEEEDB1B4B6CC6D37CA127E154189472AEB7F0D95373B534D",
+      "bytes": 1159,
+      "matches_release_commit": false
+    },
+    {
+      "source": "delivery/10-26-final/仿真数据/02_原始日志/welcome_scene_effects.log",
+      "package": "verification/release_iverilog/welcome_scene_effects.log",
+      "sha256": "C80BC6A55AA2E32FEAE77E3F7EE63BE85DAF10C630C2BFC465EB36917C83C781",
+      "bytes": 373,
+      "matches_release_commit": false
+    },
+    {
+      "source": "delivery/10-26-final/仿真数据/02_原始日志/welcome_uart.log",
+      "package": "verification/release_iverilog/welcome_uart.log",
+      "sha256": "3376355C30604A41E5D4B5856497AB586DACD64751355FA8886C9F74F60CEB75",
+      "bytes": 685,
+      "matches_release_commit": false
+    },
+    {
+      "source": "delivery/10-26-final/仿真数据/02_原始日志/zone_launch.log",
+      "package": "verification/release_iverilog/zone_launch.log",
+      "sha256": "B2CB967C44CE90CF9D44FBB263B4474577C2465C700594AE37A65BC01B29AAE0",
+      "bytes": 1430,
+      "matches_release_commit": false
+    },
+    {
+      "source": "delivery/10-26-final/仿真数据/02_原始日志/summary.txt",
+      "package": "verification/release_iverilog/summary.txt",
+      "sha256": "411426F7354C39B888CC8C2C4480E1BEDA4D12D58C7D7EC8F11DDF7CC422C574",
+      "bytes": 1397,
+      "matches_release_commit": false
+    },
+    {
+      "source": "sim/modelsim_evidence_ascii/01_coldboot_spi_quiz.log",
+      "package": "verification/release_modelsim/01_coldboot_spi_quiz.log",
+      "sha256": "6D72F05CA95CE669294842C4E1B2A5F47475C65BB7D829EE3F8B130439B32E77",
+      "bytes": 1638,
+      "matches_release_commit": false
+    },
+    {
+      "source": "sim/modelsim_evidence_ascii/02_first_frame_gate.log",
+      "package": "verification/release_modelsim/02_first_frame_gate.log",
+      "sha256": "150E70F6AADCF02A0EED8DCC1D40AA3D7C7B5EEFA503174CBE9A6FBB66FFBE92",
+      "bytes": 1340,
+      "matches_release_commit": false
+    },
+    {
+      "source": "sim/modelsim_evidence_ascii/03_scene_load_guard.log",
+      "package": "verification/release_modelsim/03_scene_load_guard.log",
+      "sha256": "FCCAC95247F09A52A3A1D2ADAD96E28049D0D6553E7178374D147240D172A7A2",
+      "bytes": 1273,
+      "matches_release_commit": false
+    },
+    {
+      "source": "sim/modelsim_evidence_ascii/04_quiz_key_arbiter.log",
+      "package": "verification/release_modelsim/04_quiz_key_arbiter.log",
+      "sha256": "21A801F5ED204A23883506BA6B5FBC16E9EACC55FF32352FA148B7639D649F60",
+      "bytes": 1564,
+      "matches_release_commit": false
+    },
+    {
+      "source": "sim/modelsim_evidence_ascii/05_quiz_end_commit.log",
+      "package": "verification/release_modelsim/05_quiz_end_commit.log",
+      "sha256": "2B9AA13B9FDF8C935DDFC1E2215A4AC1731DE86DAE5B71235C51174AAD0A4A02",
+      "bytes": 1301,
+      "matches_release_commit": false
+    },
+    {
+      "source": "sim/modelsim_evidence_ascii/06_uart_config_commit.log",
+      "package": "verification/release_modelsim/06_uart_config_commit.log",
+      "sha256": "81EA934441C7F252F852769D4ACF246241739F695040F49F49FFDAF5586C7CB5",
+      "bytes": 2364,
+      "matches_release_commit": false
+    },
+    {
+      "source": "sim/modelsim_evidence_ascii/07_meeting_control.log",
+      "package": "verification/release_modelsim/07_meeting_control.log",
+      "sha256": "9C93362452FC817F2CD0E876DF0DC8D94FFFEE46D865EF386606C559EBBA0C95",
+      "bytes": 1305,
+      "matches_release_commit": false
+    },
+    {
+      "source": "sim/modelsim_evidence_ascii/08_emergency_siren.log",
+      "package": "verification/release_modelsim/08_emergency_siren.log",
+      "sha256": "4232B042B5FD431691E374C7048CE47BC67BA33D054080623E8ADBE1A11C6D45",
+      "bytes": 1402,
+      "matches_release_commit": false
+    },
+    {
+      "source": "sim/modelsim_evidence_ascii/09_audio_viz_clear.log",
+      "package": "verification/release_modelsim/09_audio_viz_clear.log",
+      "sha256": "E9A22BEC9F40E2937D758709BD4CB87595AD027FFE6CBD5BD14C0BEBAC9803A0",
+      "bytes": 3363,
+      "matches_release_commit": false
+    },
+    {
+      "source": "sim/modelsim_evidence_ascii/10_bmp_multires.log",
+      "package": "verification/release_modelsim/10_bmp_multires.log",
+      "sha256": "3CB756CF353D7AC291E469EDF9485B58EDED7C43E9698ADD89C0F94E3B072454",
+      "bytes": 3469,
+      "matches_release_commit": false
+    },
+    {
+      "source": "sim/modelsim_evidence_ascii/11_sd_bus_handoff.log",
+      "package": "verification/release_modelsim/11_sd_bus_handoff.log",
+      "sha256": "A4EBA7636ACD310F12B70D5C4F18E14BA6C1E4FD253A1A6DFDD4B360A1451790",
+      "bytes": 2601,
+      "matches_release_commit": false
+    },
+    {
+      "source": "sim/modelsim_evidence_ascii/12_ui_key_control.log",
+      "package": "verification/release_modelsim/12_ui_key_control.log",
+      "sha256": "F98A5C104BB9ED9EC618B86368F7494DCF07C2BB901213A325CBC02DAD14BAB4",
+      "bytes": 9867,
+      "matches_release_commit": false
+    },
+    {
+      "source": "delivery/10-19-final/05_uart_tool/迎新流动通知串口使用说明.md",
+      "package": "docs/uart/迎新流动通知串口使用说明.md",
+      "sha256": "105F5168EFF2E74FA909888E67EC5A35361120B5F2B92264ECEABAED77C67B5E",
+      "bytes": 2672,
+      "matches_release_commit": true
+    },
+    {
+      "source": "delivery/10-19-final/05_uart_tool/README.md",
+      "package": "docs/uart/README.md",
+      "sha256": "15B326A7FC87091C744075B6E5F824B97B987A2F08C247D81100809362E9D01F",
+      "bytes": 2466,
+      "matches_release_commit": true
+    },
+    {
+      "source": "使用手册.md",
+      "package": "docs/原版使用手册_操作映射参考.md",
+      "sha256": "A60DF9EA40082F241D91865672960E1EECA241682EDC31D63EF0E2FA32B2BF0E",
+      "bytes": 15979,
+      "matches_release_commit": true
+    },
+    {
+      "source": "图片/_quiz_team/QUIZ1.BMP",
+      "package": "media_examples/_quiz_team/QUIZ1.BMP",
+      "sha256": "9B02612ACF25552682DB0DCC6F9CDE10847AAE6F4E217C3FAC625EDC92DF4846",
+      "bytes": 921654,
+      "matches_release_commit": false
+    },
+    {
+      "source": "图片/_quiz_team/QUIZ2.BMP",
+      "package": "media_examples/_quiz_team/QUIZ2.BMP",
+      "sha256": "E3D4D0162F012EF0550854EE4C480CDD5F2F3A2D041564A8F33AAA70328DC642",
+      "bytes": 921654,
+      "matches_release_commit": false
+    },
+    {
+      "source": "图片/_quiz_team/QUIZ3.BMP",
+      "package": "media_examples/_quiz_team/QUIZ3.BMP",
+      "sha256": "1AC794E73097AE4E28320013A7F85C9B4968388CE525255B4D5E700D81F7EDC5",
+      "bytes": 921654,
+      "matches_release_commit": false
+    },
+    {
+      "source": "图片/_quiz_team/QUIZ4.BMP",
+      "package": "media_examples/_quiz_team/QUIZ4.BMP",
+      "sha256": "410B6EE6EAB08CE4609D1BD0F8192870E0EE82114FCDDC8D4A9C050378F24BC0",
+      "bytes": 921654,
+      "matches_release_commit": false
+    },
+    {
+      "source": "图片/_quiz_team/QUIZ5.BMP",
+      "package": "media_examples/_quiz_team/QUIZ5.BMP",
+      "sha256": "0E62E7E05CB21F68938AAC56427C3743A6FEA47369B8F3A4C366ED932FFF5B8E",
+      "bytes": 921654,
+      "matches_release_commit": false
+    },
+    {
+      "source": "图片/_quiz_team/QUIZ6.BMP",
+      "package": "media_examples/_quiz_team/QUIZ6.BMP",
+      "sha256": "32222AE3B5B4C3123E07046B88055F418BC6DD2749CD9F9DFFC64969C55D5F7F",
+      "bytes": 921654,
+      "matches_release_commit": false
+    },
+    {
+      "source": "图片/_quiz_team/QUIZ7.BMP",
+      "package": "media_examples/_quiz_team/QUIZ7.BMP",
+      "sha256": "F773DB3DA625FAEE99DF65E3A1C2081A2DCC06EE6F2C1AEBD8B649EA32E441AB",
+      "bytes": 921654,
+      "matches_release_commit": false
+    },
+    {
+      "source": "图片/_quiz_team/QUIZ8.BMP",
+      "package": "media_examples/_quiz_team/QUIZ8.BMP",
+      "sha256": "31B1224099EF0B5B5F21716A63993358EBA914734567ECD1482C01E1C632DE83",
+      "bytes": 921654,
+      "matches_release_commit": false
+    }
+  ],
+  "packaged": "2026-11-02",
+  "package_checks": {
+    "iverilog_pass": 56,
+    "iverilog_total": 56,
+    "modelsim_completed": 12,
+    "td_independent_elaborate_and_optimize_rtl": "PASS",
+    "new_place_route_run": false
+  }
+}

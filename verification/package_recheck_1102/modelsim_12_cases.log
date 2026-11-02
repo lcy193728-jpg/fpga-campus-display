@@ -1,0 +1,507 @@
+# do E:/FPGA/ALST/tmp/judge_package_1101/modelsim_full.do 
+# E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final
+# E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/sim/modelsim_representative
+# 0
+# reading D:\Quat\modelsim_ase\win32aloem/../modelsim.ini
+# 0
+# E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/sim/modelsim_representative/01_coldboot_spi_quiz_work/work
+# Copying D:\Quat\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied D:\Quat\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# reading modelsim.ini
+# E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/src/sd_powerup_guard.v E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/src/sd_card/spi_master.v E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/src/sim_modules/quiz_arbiter_4ch.v E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/sim/evidence/tb_evidence_core_timing.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module sd_powerup_guard
+# -- Compiling module spi_master
+# -- Compiling module quiz_arbiter_4ch
+# -- Compiling module tb_evidence_core_timing
+# 
+# Top level modules:
+# 	tb_evidence_core_timing
+# reading modelsim.ini
+# vsim -onfinish stop -t 1ps work.tb_evidence_core_timing 
+# Loading work.tb_evidence_core_timing
+# Loading work.sd_powerup_guard
+# Loading work.spi_master
+# Loading work.quiz_arbiter_4ch
+# [PASS] evidence core timing: guard retry, SPI idle, quiz grant
+# METRIC quiz_arbiter_grant_cycles=1 clock_mhz=100 latency_ns=10
+# ** Note: $finish    : E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/sim/evidence/tb_evidence_core_timing.v(94)
+#    Time: 205 ns  Iteration: 1  Instance: /tb_evidence_core_timing
+# Break in Module tb_evidence_core_timing at E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/sim/evidence/tb_evidence_core_timing.v line 94
+# Stopped at E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/sim/evidence/tb_evidence_core_timing.v line 94 
+# 0
+# E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/sim/modelsim_representative/02_first_frame_gate_work/work
+# Modifying modelsim.ini
+# reading modelsim.ini
+# E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/src/video_first_frame_gate.v E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/sim/tb/tb_video_first_frame_gate.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module video_first_frame_gate
+# -- Compiling module tb_video_first_frame_gate
+# 
+# Top level modules:
+# 	tb_video_first_frame_gate
+# vsim -onfinish stop -t 1ps work.tb_video_first_frame_gate 
+# Loading work.tb_video_first_frame_gate
+# Loading work.video_first_frame_gate
+# [PASS] cold boot stays black until first complete frame and VS boundary
+# ** Note: $finish    : E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/sim/tb/tb_video_first_frame_gate.v(86)
+#    Time: 423 ns  Iteration: 0  Instance: /tb_video_first_frame_gate
+# Break in Module tb_video_first_frame_gate at E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/sim/tb/tb_video_first_frame_gate.v line 86
+# Stopped at E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/sim/tb/tb_video_first_frame_gate.v line 86 
+# 0
+# E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/sim/modelsim_representative/03_scene_load_guard_work/work
+# Modifying modelsim.ini
+# reading modelsim.ini
+# E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/src/scene_load_guard.v E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/sim/tb/tb_scene_load_guard.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module scene_load_guard
+# -- Compiling module tb_scene_load_guard
+# 
+# Top level modules:
+# 	tb_scene_load_guard
+# vsim -onfinish stop -t 1ps work.tb_scene_load_guard 
+# Loading work.tb_scene_load_guard
+# Loading work.scene_load_guard
+# [PASS] scene guard waits for source completion and target SDRAM commit
+# ** Note: $finish    : E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/sim/tb/tb_scene_load_guard.v(75)
+#    Time: 256 ns  Iteration: 0  Instance: /tb_scene_load_guard
+# Break in Module tb_scene_load_guard at E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/sim/tb/tb_scene_load_guard.v line 75
+# Stopped at E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/sim/tb/tb_scene_load_guard.v line 75 
+# 0
+# E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/sim/modelsim_representative/04_quiz_key_arbiter_work/work
+# Modifying modelsim.ini
+# reading modelsim.ini
+# E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/src/sim_modules/key_sync_debounce.v E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/src/sim_modules/key_edge_detect.v E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/src/sim_modules/quiz_arbiter_4ch.v E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/sim/tb/tb_quiz_key_chain.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module key_sync_debounce
+# -- Compiling module key_edge_detect
+# -- Compiling module quiz_arbiter_4ch
+# -- Compiling module tb_quiz_key_chain
+# 
+# Top level modules:
+# 	tb_quiz_key_chain
+# vsim -onfinish stop -t 1ps work.tb_quiz_key_chain 
+# Loading work.tb_quiz_key_chain
+# Loading work.quiz_arbiter_4ch
+# Loading work.key_sync_debounce
+# Loading work.key_edge_detect
+# PASS: tb_quiz_key_chain completed.
+# Break in Module tb_quiz_key_chain at E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/sim/tb/tb_quiz_key_chain.v line 153
+# Stopped at E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/sim/tb/tb_quiz_key_chain.v line 153 
+# 0
+# E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/sim/modelsim_representative/05_quiz_end_commit_work/work
+# Modifying modelsim.ini
+# reading modelsim.ini
+# E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/src/quiz_end_commit_guard.v E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/sim/tb/tb_quiz_end_commit_guard.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module quiz_end_commit_guard
+# -- Compiling module tb_quiz_end_commit_guard
+# 
+# Top level modules:
+# 	tb_quiz_end_commit_guard
+# vsim -onfinish stop -t 1ps work.tb_quiz_end_commit_guard 
+# Loading work.tb_quiz_end_commit_guard
+# Loading work.quiz_end_commit_guard
+# [PASS] end-page commit survives busy/finish race
+# ** Note: $finish    : E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/sim/tb/tb_quiz_end_commit_guard.v(34)
+#    Time: 165 ns  Iteration: 1  Instance: /tb_quiz_end_commit_guard
+# Break in Module tb_quiz_end_commit_guard at E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/sim/tb/tb_quiz_end_commit_guard.v line 34
+# Stopped at E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/sim/tb/tb_quiz_end_commit_guard.v line 34 
+# 0
+# E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/sim/modelsim_representative/06_uart_config_commit_work/work
+# Modifying modelsim.ini
+# reading modelsim.ini
+# E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/src/uart_rx_byte.v E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/src/uart_tx_byte.v E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/src/welcome_uart_controller.v E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/src/welcome_cfg_frame_commit.v E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/src/emergency_cfg_frame_commit.v E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/tb/tb_welcome_uart.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module uart_rx_byte
+# -- Compiling module uart_tx_byte
+# -- Compiling module welcome_uart_controller
+# -- Compiling module welcome_cfg_frame_commit
+# -- Compiling module emergency_cfg_frame_commit
+# -- Compiling module tb_welcome_uart
+# 
+# Top level modules:
+# 	tb_welcome_uart
+# vsim -onfinish stop -t 1ps work.tb_welcome_uart 
+# Loading work.tb_welcome_uart
+# Loading work.welcome_uart_controller
+# Loading work.uart_rx_byte
+# Loading work.uart_tx_byte
+# Loading work.welcome_cfg_frame_commit
+# Loading work.emergency_cfg_frame_commit
+# [PASS] system defaults
+# [PASS] video defaults
+# [PASS] emergency type defaults
+# [PASS] text command decoded
+# [PASS] CDC holds until frame boundary
+# [PASS] text committed at frame boundary
+# [PASS] speed command
+# [PASS] pause command
+# [PASS] restore default command
+# [PASS] emergency text command decoded
+# [PASS] y CDC holds until frame boundary
+# [PASS] text committed at frame boundary
+# [PASS] emergency speed command
+# [PASS] emergency pause command
+# [PASS] restore emergency defaults
+# [PASS]  complete ACK frames transmitted
+# [PASS] reply UART framing
+# === welcome UART/CDC regression PASS ===
+# ** Note: $finish    : E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/tb/tb_welcome_uart.v(97)
+#    Time: 91590 ns  Iteration: 1  Instance: /tb_welcome_uart
+# Break in Module tb_welcome_uart at E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/tb/tb_welcome_uart.v line 97
+# Stopped at E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/tb/tb_welcome_uart.v line 97 
+# 0
+# E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/sim/modelsim_representative/07_meeting_control_work/work
+# Modifying modelsim.ini
+# reading modelsim.ini
+# E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/src/meeting_ctrl.v E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/sim/evidence/tb_meeting_ctrl_evidence.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module meeting_ctrl
+# -- Compiling module tb_meeting_ctrl_evidence
+# 
+# Top level modules:
+# 	tb_meeting_ctrl_evidence
+# vsim -onfinish stop -t 1ps work.tb_meeting_ctrl_evidence 
+# Loading work.tb_meeting_ctrl_evidence
+# Loading work.meeting_ctrl
+# [PASS] meeting agenda timing, warning, auto-next and terminal idle
+# ** Note: $finish    : E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/sim/evidence/tb_meeting_ctrl_evidence.v(35)
+#    Time: 1940 ns  Iteration: 1  Instance: /tb_meeting_ctrl_evidence
+# Break in Module tb_meeting_ctrl_evidence at E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/sim/evidence/tb_meeting_ctrl_evidence.v line 35
+# Stopped at E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/sim/evidence/tb_meeting_ctrl_evidence.v line 35 
+# 0
+# E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/sim/modelsim_representative/08_emergency_siren_work/work
+# Modifying modelsim.ini
+# reading modelsim.ini
+# E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/audio_final/rtl/scene_audio_final.v E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/sim/evidence/tb_siren_fast_evidence.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module scene_audio_final
+# -- Compiling module tb_siren_fast_evidence
+# 
+# Top level modules:
+# 	tb_siren_fast_evidence
+# vsim -onfinish stop -t 1ps work.tb_siren_fast_evidence 
+# Loading work.tb_siren_fast_evidence
+# Loading work.scene_audio_final
+# [PASS] siren burst/rest controller and production 6 s constants
+# METRIC production_burst_samples=288000 production_rest_samples=288000 sample_hz=48000
+# ** Note: $finish    : E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/sim/evidence/tb_siren_fast_evidence.v(56)
+#    Time: 7435 ns  Iteration: 1  Instance: /tb_siren_fast_evidence
+# Break in Module tb_siren_fast_evidence at E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/sim/evidence/tb_siren_fast_evidence.v line 56
+# Stopped at E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/sim/evidence/tb_siren_fast_evidence.v line 56 
+# 0
+# E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/sim/modelsim_representative/09_audio_viz_clear_work/work
+# Modifying modelsim.ini
+# reading modelsim.ini
+# E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/audio_final/rtl/audio_viz_overlay.v E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/sim/tb/tb_audio_viz_scene_clear.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module audio_viz_overlay
+# -- Compiling module EG_LOGIC_BRAM
+# -- Compiling module tb_audio_viz_scene_clear
+# 
+# Top level modules:
+# 	tb_audio_viz_scene_clear
+# vsim -onfinish stop -t 1ps work.tb_audio_viz_scene_clear 
+# Loading work.tb_audio_viz_scene_clear
+# Loading work.audio_viz_overlay
+# Loading work.EG_LOGIC_BRAM
+# ** Warning: (vsim-3015) E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/sim/tb/tb_audio_viz_scene_clear.v(22): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'hs_i'. The port definition is at: E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/audio_final/rtl/audio_viz_overlay.v(54).
+# 
+#         Region: /tb_audio_viz_scene_clear/dut
+# ** Warning: (vsim-3015) E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/sim/tb/tb_audio_viz_scene_clear.v(22): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'vs_i'. The port definition is at: E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/audio_final/rtl/audio_viz_overlay.v(54).
+# 
+#         Region: /tb_audio_viz_scene_clear/dut
+# ** Warning: (vsim-3015) E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/sim/tb/tb_audio_viz_scene_clear.v(22): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'de_i'. The port definition is at: E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/audio_final/rtl/audio_viz_overlay.v(54).
+# 
+#         Region: /tb_audio_viz_scene_clear/dut
+# ** Warning: (vsim-3015) E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/sim/tb/tb_audio_viz_scene_clear.v(22): [PCDPC] - Port size (12 or 12) does not match connection size (32) for port 'px_x'. The port definition is at: E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/audio_final/rtl/audio_viz_overlay.v(55).
+# 
+#         Region: /tb_audio_viz_scene_clear/dut
+# ** Warning: (vsim-3015) E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/sim/tb/tb_audio_viz_scene_clear.v(22): [PCDPC] - Port size (12 or 12) does not match connection size (32) for port 'px_y'. The port definition is at: E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/audio_final/rtl/audio_viz_overlay.v(55).
+# 
+#         Region: /tb_audio_viz_scene_clear/dut
+# ** Warning: (vsim-3015) E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/sim/tb/tb_audio_viz_scene_clear.v(22): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'meet_warn_lv'. The port definition is at: E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/audio_final/rtl/audio_viz_overlay.v(56).
+# 
+#         Region: /tb_audio_viz_scene_clear/dut
+# [PASS] visualization history is cleared on scene change
+# ** Note: $finish    : E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/sim/tb/tb_audio_viz_scene_clear.v(37)
+#    Time: 10415 ns  Iteration: 1  Instance: /tb_audio_viz_scene_clear
+# Break in Module tb_audio_viz_scene_clear at E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/sim/tb/tb_audio_viz_scene_clear.v line 37
+# Stopped at E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/sim/tb/tb_audio_viz_scene_clear.v line 37 
+# 0
+# E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/sim/modelsim_representative/10_bmp_multires_work/work
+# Modifying modelsim.ini
+# reading modelsim.ini
+# E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/src/bmp_read_auto.v E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/tb/tb_bmp_multires.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module bmp_read_auto
+# -- Compiling module tb_bmp_multires
+# 
+# Top level modules:
+# 	tb_bmp_multires
+# vsim -onfinish stop -t 1ps work.tb_bmp_multires 
+# Loading work.tb_bmp_multires
+# Loading work.bmp_read_auto
+# ** Warning: (vsim-3017) E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/tb/tb_bmp_multires.v(137): [TFMPC] - Too few port connections. Expected 31, found 29.
+# 
+#         Region: /tb_bmp_multires/dut
+# ** Warning: (vsim-3722) E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/tb/tb_bmp_multires.v(137): [TFMPC] - Missing connection for port 'key_jump'.
+# 
+# ** Warning: (vsim-3722) E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/tb/tb_bmp_multires.v(137): [TFMPC] - Missing connection for port 'jump_idx'.
+# 
+# ========================================================
+#  tb_bmp_multires : å¤šåˆ†è¾¨ç‡è‡ªé€‚åº”(320/640/1024 â†’ 640 åˆ—)
+# ========================================================
+# --------------------------------------------------------
+#  ç”¨ä¾‹: ÿ¼ 2ÿ— +ÿÿÿ¨ 240ÿÿÿŒ (img_v2x=1)
+#   è¾“å‡ºåƒç´ æ•° = 153600 (æœŸæœ› 153600)
+#   bmp_error  = 0
+#   img_res    = 0 (æœŸæœ› 0)  img_v2x = 1 (æœŸæœ› 1)
+# t=9257635000  [PASS] ÿÿÿåÿÿÿ´ÿÿÿ°ÿÿÿçÿ® =ÿÿÿŒÿÿÿÃ—640
+# t=9257635000  [PASS] ÿÿÿƒÿÿÿ ÿÿÿäÿÿÿœÿÿÿ›ÿÿÿåÿÿÿ¸ÿÿÿ´
+# t=9257635000  [PASS] ÿÿÿªÿÿÿšÿÿ‡/ÿÿÿæÿÿÿ–ÿÿÿ—ÿÿÿ…ÿÿ¶)
+# t=9257635000  [PASS] img_reÿÿÿˆÿÿÿ¨ÿÿÿçÿÿÿ­ÿÿÿ®
+# t=9257635000  [PASS] img_v2xÿÿÿµÿÿ‘ ÿÿ— ÿÿÿåÿÿÿ­ÿÿÿ®
+# --------------------------------------------------------
+#  ç”¨ä¾‹: 80  ÿÿ’ 1:1 ÿÿÿéÿš +ÿÿÿ¨ 480ÿÿÿŒ
+#   è¾“å‡ºåƒç´ æ•° = 307200 (æœŸæœ› 307200)
+#   bmp_error  = 0
+#   img_res    = 1 (æœŸæœ› 1)  img_v2x = 0 (æœŸæœ› 0)
+# t=18538615000  [PASS] ÿÿÿåÿÿÿ´ÿÿÿ°ÿÿÿçÿ® =ÿÿÿŒÿÿÿÃ—640
+# t=18538615000  [PASS] ÿÿÿƒÿÿÿ ÿÿÿäÿÿÿœÿÿÿ›ÿÿÿåÿÿÿ¸ÿÿÿ´
+# t=18538615000  [PASS] ÿÿÿªÿÿÿšÿÿ‡/ÿÿÿæÿÿÿ–ÿÿÿ—ÿÿÿ…ÿÿ¶)
+# t=18538615000  [PASS] img_reÿÿÿˆÿÿÿ¨ÿÿÿçÿÿÿ­ÿÿÿ®
+# t=18538615000  [PASS] img_v2xÿÿÿµÿÿ‘ ÿÿ— ÿÿÿåÿÿÿ­ÿÿÿ®
+# --------------------------------------------------------
+#  ç”¨ä¾‹: ÿÿÿƒÿÿÿ ÿÿÿçÿ± +ÿÿÿÿÿÿèÿŒ 5ÿÿÿŒ
+#   è¾“å‡ºåƒç´ æ•° = 307200 (æœŸæœ› 307200)
+#   bmp_error  = 0
+#   img_res    = 2 (æœŸæœ› 2)  img_v2x = 0 (æœŸæœ› 0)
+# t=42280795000  [PASS] ÿÿÿåÿÿÿ´ÿÿÿ°ÿÿÿçÿ® =ÿÿÿŒÿÿÿÃ—640
+# t=42280795000  [PASS] ÿÿÿƒÿÿÿ ÿÿÿäÿÿÿœÿÿÿ›ÿÿÿåÿÿÿ¸ÿÿÿ´
+# t=42280795000  [PASS] ÿÿÿªÿÿÿšÿÿ‡/ÿÿÿæÿÿÿ–ÿÿÿ—ÿÿÿ…ÿÿ¶)
+# t=42280795000  [PASS] img_reÿÿÿˆÿÿÿ¨ÿÿÿçÿÿÿ­ÿÿÿ®
+# t=42280795000  [PASS] img_v2xÿÿÿµÿÿ‘ ÿÿ— ÿÿÿåÿÿÿ­ÿÿÿ®
+# ========================================================
+# === [ALL PASS] tb_bmp_multires ===
+# ========================================================
+# ** Note: $finish    : E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/tb/tb_bmp_multires.v(422)
+#    Time: 42280795 ns  Iteration: 1  Instance: /tb_bmp_multires
+# Break in Module tb_bmp_multires at E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/tb/tb_bmp_multires.v line 422
+# Stopped at E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/tb/tb_bmp_multires.v line 422 
+# 0
+# E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/sim/modelsim_representative/11_sd_bus_handoff_work/work
+# Modifying modelsim.ini
+# reading modelsim.ini
+# E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/src/zone_launch.v E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/src/audio_sd_arbiter.v E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/sim/tb/tb_zone_launch.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module zone_launch
+# -- Compiling module audio_sd_arbiter
+# -- Compiling module tb_zone_launch
+# 
+# Top level modules:
+# 	tb_zone_launch
+# vsim -onfinish stop -t 1ps work.tb_zone_launch 
+# Loading work.tb_zone_launch
+# Loading work.zone_launch
+# Loading work.audio_sd_arbiter
+# 
+# ========== zone_launch åœè½¦/äº¤æ£’æ¡æ‰‹ä¸“é¡¹ä»¿çœŸ ==========
+# [PASS] æÿÿÿ¡ÿÿÿ¨ÿÿ§(zone_launch) æ­£ç¡®æ¡æ‰‹ 0 è¿ä¾‹(A1/A2/A3/A4 å…¨è¿‡)
+#   [VIOL-A1] t=54765000 lu_req å½“æ‹ bmp_go ä»ä¸º 1 (naive=1)
+#   [VIOL-A2] t=54775000 bmp ä¸ lu åŒæ—¶è¯·æ±‚æ€»çº¿ (naive=1)
+#   [VIOL-A3] t=54775000 æŸ¥è¡¨é€šè·¯æ”¶åˆ°ä¸²æ‰‡åŒºæ•°æ®: è¯·æ±‚=0 åºå·=101 æ”¶åˆ°=a5 åº”ä¸º=65 (naive=1)
+#   [VIOL-A3] t=54785000 æŸ¥è¡¨é€šè·¯æ”¶åˆ°ä¸²æ‰‡åŒºæ•°æ®: è¯·æ±‚=0 åºå·=102 æ”¶åˆ°=a6 åº”ä¸º=66 (naive=1)
+#   [VIOL-A3] t=54795000 æŸ¥è¡¨é€šè·¯æ”¶åˆ°ä¸²æ‰‡åŒºæ•°æ®: è¯·æ±‚=0 åºå·=103 æ”¶åˆ°=a7 åº”ä¸º=67 (naive=1)
+#   [VIOL-A3] t=54805000 æŸ¥è¡¨é€šè·¯æ”¶åˆ°ä¸²æ‰‡åŒºæ•°æ®: è¯·æ±‚=0 åºå·=104 æ”¶åˆ°=a8 åº”ä¸º=68 (naive=1)
+#   [VIOL-A3] t=54815000 æŸ¥è¡¨é€šè·¯æ”¶åˆ°ä¸²æ‰‡åŒºæ•°æ®: è¯·æ±‚=0 åºå·=105 æ”¶åˆ°=a9 åº”ä¸º=69 (naive=1)
+#   [VIOL-A3] t=54825000 æŸ¥è¡¨é€šè·¯æ”¶åˆ°ä¸²æ‰‡åŒºæ•°æ®: è¯·æ±‚=0 åºå·=106 æ”¶åˆ°=aa åº”ä¸º=6a (naive=1)
+#   [VIOL-A3] t=54835000 æŸ¥è¡¨é€šè·¯æ”¶åˆ°ä¸²æ‰‡åŒºæ•°æ®: è¯·æ±‚=0 åºå·=107 æ”¶åˆ°=ab åº”ä¸º=6b (naive=1)
+#   [VIOL-A3] t=54845000 æŸ¥è¡¨é€šè·¯æ”¶åˆ°ä¸²æ‰‡åŒºæ•°æ®: è¯·æ±‚=0 åºå·=108 æ”¶åˆ°=ac åº”ä¸º=6c (naive=1)
+# [PASS] ÿÿÿåÿÿÿ…§(sd_init_done&~lu_busy) æœ´ç´ å†™æ³•æ£€å‡º 414 å¤„è¿ä¾‹(A1=1 A2=1 A3=411 A4=1) â†’ ç”¨ä¾‹æœ‰åˆ¤åˆ«åŠ›
+# 
+# ==== å…¨éƒ¨ PASS (0 FAIL) ====
+# 
+# ** Note: $finish    : E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/sim/tb/tb_zone_launch.v(479)
+#    Time: 102005 ns  Iteration: 1  Instance: /tb_zone_launch
+# Break in Module tb_zone_launch at E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/sim/tb/tb_zone_launch.v line 479
+# Stopped at E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/sim/tb/tb_zone_launch.v line 479 
+# 0
+# E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/sim/modelsim_representative/12_ui_key_control_work/work
+# Modifying modelsim.ini
+# reading modelsim.ini
+# E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/src/ui_key_ctrl.v E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/tb/tb_ui_key_ctrl.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ui_key_ctrl
+# -- Compiling module ui_key_dbnc
+# -- Compiling module tb_ui_key_ctrl
+# 
+# Top level modules:
+# 	tb_ui_key_ctrl
+# vsim -onfinish stop -t 1ps work.tb_ui_key_ctrl 
+# Loading work.tb_ui_key_ctrl
+# Loading work.ui_key_ctrl
+# Loading work.ui_key_dbnc
+# ** Warning: (vsim-3017) E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/tb/tb_ui_key_ctrl.v(96): [TFMPC] - Too few port connections. Expected 34, found 28.
+# 
+#         Region: /tb_ui_key_ctrl/dut
+# ** Warning: (vsim-3722) E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/tb/tb_ui_key_ctrl.v(96): [TFMPC] - Missing connection for port 'key1_pl'.
+# 
+# ** Warning: (vsim-3722) E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/tb/tb_ui_key_ctrl.v(96): [TFMPC] - Missing connection for port 'key2_pl'.
+# 
+# ** Warning: (vsim-3722) E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/tb/tb_ui_key_ctrl.v(96): [TFMPC] - Missing connection for port 'key3_pl'.
+# 
+# ** Warning: (vsim-3722) E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/tb/tb_ui_key_ctrl.v(96): [TFMPC] - Missing connection for port 'key4_pl'.
+# 
+# ** Warning: (vsim-3722) E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/tb/tb_ui_key_ctrl.v(96): [TFMPC] - Missing connection for port 'score_up_lv'.
+# 
+# ** Warning: (vsim-3722) E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/tb/tb_ui_key_ctrl.v(96): [TFMPC] - Missing connection for port 'score_dn_lv'.
+# 
+# t=245000  [PASS] ÿÿÿÿÿÿ¼ÿÿÿ¾4(100%)/ÿÿÿåÿÿÿ½ÿÿÿ­
+# t=245000  [PASS] ÿÿÿ¹ÿÿÿåÿÿÿ¡£ = ÿÿÿ—1.0,ÿÿÿÿÿ¯)
+# t=245000  [PASS] ÿÿÿœÿÿÿäÿÿÿÿÿÿºÿÿÿéÿÿÿšÿÿÿ€ÿÿ´)
+# t=245000  [PASS] ÿÿÿéÿÿÿ®ÿÿÿæÿÿÿÿÿÿ°ÿÿÿæÿÿÿ¿ÿÿÿ
+# t=3245000  [PASS] KEÿÿÿçÿÿÿæÿ‰ -ÿÿÿ¨ÿÿÿÿÿÿºÿÿÿ¦
+# t=6245000  [PASS] KEÿÿÿçÿÿÿæÿ‰ -ÿÿÿ¨ÿÿÿÿÿÿ¼ÿÿÿ¾
+# t=9245000  [PASS] ÿÿÿ¬ÿÿÿ‰ -> ÿÿÿåÿ3 ÿÿÿæÿÿÿ‘ÿÿÿŸ
+# t=12245000  [PASS] ÿÿÿ¬ÿÿÿ‰ -> ÿÿÿåÿ4 ÿÿÿèÿÿÿ®ÿÿÿ¶
+# t=15245000  [PASS] KEÿÿÿçÿÿÿæÿ‰ -ÿÿÿ¨ÿÿÿÿÿÿŸÿÿÿ
+# t=18245000  [PASS] ÿÿÿæÿÿÿ¼ÿÿÿåÿÿÿ¾ÿÿÿ‡ÿÿÿæÿÿÿ¼ÿÿÿ³
+# t=21245000  [PASS] ÿÿÿŒ‰ ->ÿÿÿ¡ÿÿ7ÿÿÿ¬ÿÿÿåÿÿÿ¼ÿÿÿ³
+# t=24245000  [PASS]  -> ÿÿÿåÿ0 ÿÿÿçÿÿÿåÿÿÿÿÿÿÿÿ•)
+# t=27245000  [PASS] KEÿÿÿçÿÿÿæÿ‰ -ÿÿÿ¨ÿÿÿÿÿÿºÿÿÿ¦
+# t=27245000  [PASS] ÿÿÿ¯ÿÿÿçÿÿÿ¸ÿÿÿ¹ÿÿÿéÿÿÿ¡ÿÿÿ» 8)
+# t=30245000  [PASS] æÿÿÿ¼1 KEY3(ÿÿ ) -> ÿÿÿåÿ¦ 9
+# t=33245000  [PASS] ÿ¨ÿÿÿ1 KEÿÿÿåÿ ) ÿÿÿäÿÿÿº¦ 10
+# t=36245000  [PASS] æÿÿÿ¼1 KEY2(ÿÿ) -> ÿÿÿåÿ¦ 9
+# t=57245000  [PASS] ÿ‰ KEY3 ÿÿÿäÿÿÿºÿÿÿŠÿÿÿéÿÿÿ½ 15
+# t=60245000  [PASS] ÿÿÿ¸ÿÿÿÿÿÿæÿ‰ KEY3 ÿÿÿäÿÿÿŒ 15
+# t=108245000  [PASS] ÿÿ‰ KEY2 -> ÿÿÿåÿÿÿ¸ÿÿÿÿÿÿäÿ 0
+# t=111245000  [PASS] ÿÿÿäÿÿÿ™ÿÿÿÿÿ‰ KEY2 -> ÿÿÿæÿ 0
+# t=135245000  [PASS] ÿÿÿ¼1 KÿÿÿÃ—8 -ÿÿÿºÿÿÿ¦ÿÿÿåÿ° 8
+# t=135245000  [PASS] ÿÿÿçÿÿÿ”ÿÿÿ£ÿÿÿäÿÿÿ‘ res_chg_pl
+# t=138245000  [PASS] KEY1 -ÿÿÿ¨ÿÿÿÿÿÿ¼ÿÿÿ¾
+# t=141245000  [PASS] 3 ->ÿÿÿ©ÿÿ¾ ÿÿÿäÿÿÿ‘ res_chg_pl
+# t=144245000  [PASS] 3 ->ÿÿÿ©ÿÿ¾ ÿÿÿäÿÿÿ‘ res_chg_pl
+# t=147245000  [PASS] ÿÿÿåÿ2 KEY3 -> ÿÿÿæÿ¾ 7ÿÿÿŠÿÿ)
+# t=150245000  [PASS] KEY3 -> ÿÿÿæÿ 7ÿÿÿ”ÿÿÿåÿÿÿ„ÿÿÿ²
+# t=153245000  [PASS] 2 ->ÿÿÿ©ÿÿ¾ ÿÿÿäÿÿÿ‘ res_chg_pl
+# t=171245000  [PASS] ÿÿ‰ KEY2 -> ÿÿÿæÿÿÿ¸ÿÿÿÿÿÿäÿ 0
+# t=174245000  [PASS] KEY2 -> ÿÿÿæÿ 0ÿÿÿ”ÿÿÿåÿÿÿ„ÿÿÿ²
+# t=186245000  [PASS] ÿÿ¾ 4(100%) ÿÿÿºÿÿÿ¦ÿÿÿèÿÿÿ”ÿÿÿ¨
+# t=189245000  [PASS] ÿÿÿ¡ÿÿ3ÿÿÿ¨ÿÿŸ(ÿÿÿèÿÿÿ‘ÿÿÿŸÿÿ£)
+# t=204245000  [PASS] KEY1 ÿÿÿæÿÿÿ¼ÿÿÿåÿÿÿ‰ÿÿÿˆÿÿÿ¾
+# t=204245000  [PASS] ÿÿ¯/ÿÿÿæÿÿÿ¼ÿÿÿÿÿÿäÿÿÿ¾ÿÿÿ‚ÿÿ¤)
+# t=207295000  [PASS] 0 KEY3 ÿÿÿäÿÿÿ”ÿÿÿ‹ÿÿÿåÿÿÿ„ÿÿÿ²
+# t=207295000  [PASS] ÿÿÿæÿÿÿŠÿÿÿ‡ÿÿÿ¨ÿÿÿçÿ± KEY4 ÿÿ§)
+# t=207295000  [PASS] 0 KEY3 ÿÿÿäÿÿÿ”ÿÿÿŠÿÿÿåÿÿÿ„ÿÿÿ²
+# t=210345000  [PASS] ÿ  KEY2 ÿÿÿäÿÿÿ”ÿÿÿŠÿÿÿåÿÿÿ„ÿÿÿ²
+# t=210345000  [PASS] ÿÿÿäÿÿÿˆÿÿÿ¾ÿÿÿŠÿÿÿÿÿÿäÿÿÿ‡ÿÿÿ¨
+# t=213395000  [PASS] ÿ  KEY2 ÿÿÿäÿÿÿÿÿÿŠÿÿÿåÿÿÿ„ÿÿÿ²
+# t=213395000  [PASS] ÿÿÿ§ÿÿÿéÿÿÿ§ÿÿÿ€ÿÿÿåÿÿÿ‰ÿÿÿœÿÿ¨)
+# t=216395000  [PASS] ÿÿÿ¡ÿÿ0 KEY4 ->ÿÿÿ¬ÿÿÿåÿÿÿÿÿÿ 
+# t=216445000  [PASS] ÿÿÿåÿÿÿ•ÿÿÿ¾ÿÿÿåÿÿÿ‰ÿÿÿ¾ÿÿÿåÿ· 3
+# t=219445000  [PASS] ÿÿÿåÿÿÿˆÿÿÿ‹ÿÿÿåÿ , ÿÿÿæÿÿÿ‰ÿÿÿ¨
+# t=222445000  [PASS] ÿÿÿªÿÿÿèÿÿÿ’ÿÿÿÿÿÿ°ÿÿÿäÿÿÿ¸º 0)
+# t=228445000  [PASS] ÿÿ¦)ÿÿÿ‰ KEY4 ->ÿÿÿ ÿÿÿäÿÿÿŠÿÿÿœ
+# t=249445000  [PASS] ÿÿÿˆÿÿÿ¡ÿÿ0ÿÿÿ†ÿÿÿåÿÿÿ»ÿÿÿ¨ÿÿ‹)
+# t=252445000  [PASS]  KEY4 ->ÿÿÿ‹ÿÿ¨(ÿÿÿæÿÿÿˆÿÿÿ¢ÿÿ)
+# t=252505000  [PASS] ÿÿÿ‰ÿÿÿ‚ÿÿÿåÿÿÿ½ÿÿÿºÿÿÿåÿÿÿ½ÿÿÿ­
+# t=255505000  [PASS] KEY4 -> ÿÿÿåÿÿÿçÿÿÿ¼ÿÿÿ¡ÿÿ0ÿÿ)
+# t=258505000  [PASS] ÿÿÿåÿÿÿ›ÿÿÿªÿÿÿèÿÿÿ’ÿÿÿ¸ÿÿÿ»ÿÿ¾)
+# t=261505000  [PASS]  KEY3 ->ÿÿÿªÿÿÿäÿÿÿºÿÿÿäÿÿÿˆÿÿÿ¾
+# t=267505000  [PASS]  KEY3 ->ÿÿÿªÿÿÿçÿÿÿ”ÿÿÿäÿÿÿˆÿÿÿ¾
+# t=270505000  [PASS] ÿ2 KEY2 -> ÿÿÿæÿÿÿ›ÿÿÿ° 4(100%)
+# t=291505000  [PASS] ÿÿÿ›ÿÿÿæÿÿÿŠÿÿÿÿÿÿæÿÿÿµÿÿÿ•ÿÿµ)
+# t=295905000  [PASS] ÿÿÿåÿ 1->2,ÿÿÿªÿÿÿéÿÿÿœÿÿÿÿÿ)
+# t=297805000  [PASS] ÿÿÿæÿÿÿ¡ÿÿÿ 4, ÿÿÿéÿÿÿ½ÿÿÿ‰ÿÿ²)
+# t=302205000  [PASS]  -> ÿÿÿæÿ¾ 4->6(ÿÿÿæÿÿÿ¸ÿÿÿ¢ÿÿ®)
+# t=305205000  [PASS] KEY1 -> ÿÿÿåÿ3 ÿÿÿæÿÿÿ‘ÿÿÿŸ
+# t=305205000  [PASS] RVALÿÿÿ€ÿÿ´,ÿÿÿ˜ÿÿÿèÿÿÿ¸ÿÿÿÿÿ˜)
+# t=308205000  [PASS] åÿÿÿœÿÿÿ£ KEY3 ->ÿÿÿâÿ’5s
+# t=311205000  [PASS] ÿ‘ÿÿÿŸÿÿ£ KEY3 -> ÿÿÿ†’10s
+# t=314205000  [PASS] ÿÿ¨ÿÿÿæÿ£ KEY3 -> 1ÿÿÿ†’30s
+# t=317205000  [PASS] ÿ£ KEY3 ÿÿÿéÿÿÿÿÿÿ• -> ÿÿÿâÿ’2s
+# t=317205000  [PASS] ÿÿÿŸÿÿ° 200_000_000(ÿÿÿÃ—100MHz)
+# t=320205000  [PASS] ÿ£ KEY2 ÿÿÿåÿÿÿÿÿÿ• -> ÿÿÿ†’30s
+# t=323205000  [PASS] ÿÿ¨ÿÿÿæÿ£ KEY2 -> 3ÿÿÿ†’10s
+# t=326205000  [PASS] ÿ‘ÿÿÿŸÿÿ£ KEY2 -> ÿÿÿâÿ’5s
+# t=329205000  [PASS] ÿ£ KEY2 -> 5ÿÿÿ’ÿÿÿèÿÿÿ›ÿÿÿ˜ÿÿ¤)
+# t=329205000  [PASS] ÿÿÿ‰ÿÿ²)ÿÿÿäÿÿÿ§ÿÿÿ‘ÿÿÿæÿÿÿ‡ÿÿÿ½
+# t=329205000  [PASS] ÿÿÿæÿÿÿéÿÿÿ±ÿÿÿ®ÿÿÿåÿÿÿ˜ÿÿÿ’ÿÿ°)
+# t=364205000  [PASS] ÿÿÿåÿÿÿÿÿÿÿÿÿÿÿÿåÿÿÿ§ÿÿÿ¾ÿÿº)
+# t=382205000  [PASS] KÿÿÿÃ—6 -ÿÿÿ¨ÿÿÿÿÿÿºÿÿÿ¦
+# t=385205000  [PASS] ÿ¦ -ÿÿÿ¿ÿÿÿÿÿ­, disp_seÿÿÿºÿÿÿ¦
+# t=388205000  [PASS] ÿÿÿÿÿÿçÿÿÿ˜ÿÿÿºÿÿÿåÿÿÿ€¼ 2 ÿÿ’)
+# t=423205000  [PASS] ÿÿÿ¼ÿÿÿ¾ÿÿ¼)ÿÿÿ¨ÿÿÿÿÿÿèÿÿÿ¸ÿÿÿ˜
+# t=429205000  [PASS] KEY1 -> ÿÿÿåÿ4 ÿÿÿèÿÿÿ®ÿÿÿ¶
+# t=432205000  [PASS] KEY1 -ÿÿÿ¨ÿÿÿÿÿÿŸÿÿÿ
+# t=432205000  [PASS] £ = ÿÿÿ—1.0,ÿÿÿÿÿÿåÿÿÿÿÿÿ£ÿÿ„)
+# t=435205000  [PASS] ÿÿÿºÿÿÿäÿÿÿŒ disp_sÿÿÿéÿÿÿ‡(5)
+# t=456205000  [PASS] ÿÿÿ‡ÿÿÿŠÿÿÿéÿÿÿ½ 15ÿÿÿˆÿ—1.875)
+# t=459205000  [PASS] ÿÿÿ¸ÿÿÿÿÿÿæÿ‰ KEY3 ÿÿÿäÿÿÿŒ 15
+# t=507205000  [PASS] ÿÿÿéÿÿÿ‡ÿÿÿ‹ÿÿÿéÿÿÿ½ 0(ÿÿÿ™ÿÿ³)
+# t=510205000  [PASS] ÿÿÿäÿÿÿ™ÿÿÿÿÿ‰ KEY2 -> ÿÿÿæÿ 0
+# t=534205000  [PASS] KEY3ÿ—8 ÿÿÿéÿÿÿ‡ÿÿÿÿÿ° ÿÿÿ—1.0)
+# t=534205000  [PASS] ÿÿÿçÿÿÿ”ÿÿÿ£ÿÿÿ‚ÿÿÿäÿÿÿ¸ÿÿÿ²ÿÿ°)
+# t=534205000  [PASS] ÿÿÿˆÿÿÿ¾ÿÿÿäÿÿÿ§ÿÿÿ‘ÿÿÿæÿÿÿ‡ÿÿÿ½
+# t=537205000  [PASS] 5 ->ÿÿÿ¡ÿÿ6ÿÿÿ˜ÿÿÿåÿÿÿ˜ÿÿÿ³ÿÿ­)
+# t=540205000  [PASS] 6 KEY3 ÿÿÿæÿÿÿ¼ÿÿÿ†ÿÿÿçÿÿÿ¸ÿÿÿ¾
+# t=543205000  [PASS] 6 KEY2 ÿÿÿåÿÿÿ—ÿÿÿ†ÿÿÿçÿÿÿ¸ÿÿÿ¾
+# t=546205000  [PASS] ÿÿÿ¨ÿÿÿÿÿÿ»ÿÿÿ¤ÿÿÿèÿÿÿ…ÿÿÿ³ÿÿ­)
+# t=549205000  [PASS] ÿÿ¡ÿÿ7 KEY3 ->ÿÿÿ“ÿÿÿéÿÿÿµÿÿÿ‹
+# t=552205000  [PASS] ÿÿ¡ÿÿ7 KEY2 ->ÿÿÿ³ÿÿÿéÿÿÿµÿÿÿ‹
+# t=555205000  [PASS] ÿÿÿåÿ7 ÿÿÿæÿÿÿ¼ÿÿÿåÿÿÿÿÿÿÿÿ•)
+# t=555205000  [PASS] ÿÿÿ¤ÿÿÿÿÿÿåÿ0(ÿÿÿæÿÿÿ¸ÿÿÿ€ÿÿµ)
+# t=555255000  [PASS] ÿÿÿçÿÿÿÿÿÿ¬ÿÿÿ»ÿÿÿ«ÿÿ¾,ÿÿÿ˜ÿÿ¤)
+# t=558255000  [PASS] Y3 -ÿÿÿ‘ÿÿÿ¦ÿÿÿåÿ‹ 0ÿÿ’1ÿÿÿ°ÿÿ‡)
+# t=558255000  [PASS] ÿÿÿ¸ÿÿÿ‡ÿÿ¾ ÿÿÿ¸ÿÿÿ›ÿÿÿåÿÿÿÿÿÿ 
+# t=561255000  [PASS] ÿÿÿèÿÿÿ±ÿÿÿ‹ÿÿÿ†ÿÿÿæÿÿÿŠÿÿÿ©ÿÿ”)
+# t=564255000  [PASS] Y3 -ÿÿÿ‘ÿÿÿ¦ÿÿÿåÿ‹ 2ÿÿ’3ÿÿÿÿÿ£)
+# t=567255000  [PASS] ÿÿÿ0 KEÿÿÿåÿÿÿ¡ÿÿÿ¯ÿÿ• -> 3ÿÿ’0
+# t=570255000  [PASS] ÿÿÿ0 KEÿÿÿåÿÿÿºÿÿÿ¯ÿÿ• -> 0ÿÿ’3
+# t=573255000  [PASS] ÿÿÿ0 KEY2 -ÿÿÿ‘ÿÿÿ¦ÿÿÿåÿ‹ 3ÿÿ’2
+# t=576255000  [PASS] ÿÿÿ0 KEY2 -ÿÿÿ‘ÿÿÿ¦ÿÿÿåÿ‹ 2ÿÿ’1
+# t=579255000  [PASS] ÿÿÿ0 KEY2 -ÿÿÿ‘ÿÿÿ¦ÿÿÿåÿ‹ 1ÿÿ’0
+# t=582255000  [PASS] åÿÿÿ€¥ KEY1 -ÿÿÿ¨ÿÿÿÿÿÿºÿÿÿ¦
+# t=585255000  [PASS]  KEY3 ->ÿÿÿªÿÿÿäÿÿÿºÿÿÿäÿÿÿˆÿÿÿ¾
+# t=588255000  [PASS] ÿ2 ÿÿÿ¯ÿÿÿ”ÿÿ¦(ÿÿÿæÿÿÿ¡ÿÿÿ²ÿÿ )
+# t=591255000  [PASS] ÿÿÿæÿÿÿºÿÿÿ¯ÿÿÿ£ÿÿÿäÿÿÿ˜ÿÿÿ©ÿÿ¾)
+# t=591255000  [PASS] ÿÿÿæÿÿÿ§ÿÿÿ°ÿÿÿåÿÿÿæÿÿÿ‘ÿÿÿŸÿÿ£)
+# t=594255000  [PASS] ÿÿÿ¡ÿÿ2 KEY2 ->ÿÿÿ¹ÿÿÿåÿÿÿ›ÿÿÿ€
+# t=597255000  [PASS] ÿÿÿ¨ÿÿÿ3 = ÿÿÿéÿÿÿæÿÿÿ½ÿÿÿÿÿ»)
+# t=600255000  [PASS] ÿÿÿƒÿÿÿéÿÿÿæÿÿÿ½ÿÿÿ«ÿÿ½=ÿÿÿåÿ3)
+# t=603255000  [PASS] ÿÿ¯ ÿÿÿåÿ3 KEY2 -> ÿÿÿéÿÿÿ›ÿÿÿ€
+# t=606255000  [PASS] ÿÿÿæÿÿÿ›ÿÿÿ¡ÿÿ0ÿÿÿ³ÿÿ‡ 4/5 ÿÿ£)
+# t=609305000  [PASS] ÿÿÿ‰ÿÿ²,ÿÿÿ†ÿÿÿæÿÿÿ‡ÿÿÿ¨ÿÿÿ‹ÿÿ¨)
+# t=645355000  [PASS] KEY1 -> ÿÿÿåÿ4(ÿÿÿåÿÿÿ¯ÿÿÿ”ÿÿ¦)
+# t=645355000  [PASS] ÿÿÿåÿÿÿ“ÿÿÿ¯ÿÿÿ£ÿÿÿæÿÿÿ¯ÿÿÿ”ÿÿ¦)
+# t=648355000  [PASS] ÿÿÿ’ÿÿÿ¸ÿÿÿÿÿÿåÿÿÿäÿÿÿ°ÿÿÿ¨ÿÿŸ)
+# t=651355000  [PASS] ÿÿÿ¡ÿÿ4 KEY2 ->ÿÿÿ¹ÿÿÿåÿ¦ 9ÿÿ’8
+# t=666405000  [PASS] KEY1 -> ÿÿÿåÿ3(ÿÿÿåÿÿÿ¯ÿÿÿ”ÿÿ¦)
+# t=669405000  [PASS] ÿ’9(ÿÿÿçÿÿÿœÿÿÿ¯ÿÿÿèÿÿÿ’ÿÿÿ¨ÿÿŸ)
+# t=672405000  [PASS] ÿÿÿ¡ÿÿ3 KEY2 ->ÿÿÿ¹ÿÿÿåÿ¦ 9ÿÿ’8
+# t=678405000  [PASS] ÿÿÿÿÿ‰ ÿÿÿåÿÿÿ¯ÿÿÿ¦ÿÿÿåÿÿÿˆ° 10
+# t=681405000  [PASS] ÿÿÿ™¯ KEY1 -ÿÿÿ¨ÿÿÿÿÿÿ®ÿÿÿ†ÿÿ£)
+# t=684405000  [PASS] Y3 -ÿÿÿ¯ÿÿÿ”ÿÿÿäÿÿÿÿÿÿ»ÿÿÿ¯ 10)
+# t=687405000  [PASS] Y2 -ÿÿÿ¯ÿÿÿ”ÿÿÿäÿÿÿÿÿÿ»ÿÿÿ¯ 10)
+# t=705455000  [PASS] ÿÿÿ¡ÿÿÿˆÿÿÿ¶ÿÿÿäÿ(1ÿÿÿ¸ÿÿÿÿÿ )
+# t=753455000  [PASS] ÿÿÿæÿÿÿåÿÿÿºÿÿÿ³ÿÿ(ÿÿÿ¸ÿÿÿÿÿ)
+# t=777455000  [PASS] ÿÿÿæÿÿÿºÿÿÿ£ÿÿÿÿÿÿåÿ° 8
+# t=786505000  [PASS] KEY1 -> ÿÿÿåÿ2(ÿÿÿåÿÿÿ¯ÿÿÿ”ÿÿ¦)
+# t=789505000  [PASS] ÿÿÿ¡ÿÿ2 KEY3 ->ÿÿÿ¹ÿÿÿåÿ¦ 8ÿÿ’9
+# t=792505000  [PASS] ÿÿÿ¡ÿÿ2 KEY2 ->ÿÿÿ¹ÿÿÿåÿ¦ 9ÿÿ’8
+# t=795505000  [PASS] ÿ¯ KEY1 ÿÿÿæÿÿÿ¼ÿÿÿåÿÿÿºÿÿÿ³ÿÿ)
+# t=798505000  [PASS] ÿÿ¯ ÿÿÿåÿ3 KEY3 -> ÿÿÿéÿ 8ÿÿ’9
+# t=801505000  [PASS] ÿÿ¯ ÿÿÿåÿ3 KEY2 -> ÿÿÿéÿ 9ÿÿ’8
+# t=804505000  [PASS] 3 -ÿÿÿ›ÿÿÿ¡ÿÿ0ÿÿÿ³ÿÿ‡ 4/5 ÿÿ£)
+# === ui_key_ctrl ä»¿çœŸç»“æŸ,å¤±è´¥æ•°=0 ===
+# === [ALL PASS] ===
+# ** Note: $finish    : E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/tb/tb_ui_key_ctrl.v(544)
+#    Time: 804555 ns  Iteration: 1  Instance: /tb_ui_key_ctrl
+# Break in Module tb_ui_key_ctrl at E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/tb/tb_ui_key_ctrl.v line 544
+# Stopped at E:/FPGA/ALST/tmp/judge_package_1101/repro_project/FPGA_Campus_Final/tb/tb_ui_key_ctrl.v line 544 
+# 0

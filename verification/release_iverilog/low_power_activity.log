@@ -1,0 +1,46 @@
+VCD info: dumpfile scene_audio_lp_activity.vcd opened for output.
+[PASS] DDS phases stay frozen in IDLE
+[PASS] DDS phases stay frozen in IDLE
+[PASS] DDS phases stay frozen in IDLE
+[PASS] DDS phases stay frozen in IDLE
+[PASS] DDS phases stay frozen in IDLE
+[PASS] DDS phases stay frozen in IDLE
+[PASS] DDS phases stay frozen in IDLE
+[PASS] DDS phases stay frozen in IDLE
+[PASS] 48 kHz sample cadence continues in IDLE
+[PASS] DDS phases stay frozen in IDLE
+[PASS] alarm rest segment remains exact silence
+[PASS] alarm rest segment remains exact silence
+[PASS] DDS phases stay frozen during alarm rest
+[PASS] alarm rest segment remains exact silence
+[PASS] DDS phases stay frozen during alarm rest
+[PASS] alarm rest segment remains exact silence
+[PASS] DDS phases stay frozen during alarm rest
+[PASS] alarm rest segment remains exact silence
+[PASS] DDS phases stay frozen during alarm rest
+[PASS] alarm rest segment remains exact silence
+[PASS] DDS phases stay frozen during alarm rest
+[PASS] alarm rest segment remains exact silence
+[PASS] DDS phases stay frozen during alarm rest
+[PASS] alarm rest segment remains exact silence
+[PASS] DDS phases stay frozen during alarm rest
+[PASS] alarm rest segment remains exact silence
+[PASS] DDS phases stay frozen during alarm rest
+[PASS] alarm rest segment remains exact silence
+[PASS] DDS phases stay frozen during alarm rest
+[PASS] alarm rest segment remains exact silence
+[PASS] DDS phases stay frozen during alarm rest
+[PASS] alarm rest segment remains exact silence
+[PASS] DDS phases stay frozen during alarm rest
+[PASS] alarm rest segment remains exact silence
+[PASS] DDS phases stay frozen during alarm rest
+[PASS] alarm rest segment remains exact silence
+[PASS] DDS phases stay frozen during alarm rest
+[PASS] alarm rest segment remains exact silence
+[PASS] DDS phases stay frozen during alarm rest
+[PASS] alarm rest segment remains exact silence
+[PASS] DDS phases stay frozen during alarm rest
+[PASS] emergency state remains ALARM
+[PASS] 48 kHz sample cadence continues during alarm rest
+ALL TESTS PASSED (checks 43)
+.\audio_final\tb\tb_low_power_gating.v:90: $finish called at 1187780000 (1ps)

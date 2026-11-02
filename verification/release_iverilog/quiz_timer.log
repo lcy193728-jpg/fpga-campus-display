@@ -1,0 +1,3 @@
+PASS: tb_quiz_timer completed.
+E:\FPGA\ALST\_dev_sim_0b18789\sim\tb\tb_quiz_timer.v:111: $stop called at 8514500001000 (1ps)
+

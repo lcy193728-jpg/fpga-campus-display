@@ -1,0 +1,4 @@
+==== tb_audio_viz_live_age checks=500 fails=0 ====
+RESULT: PASS
+E:\FPGA\ALST\��ί�ύ_������������_2026-11-01\FPGA_Campus_Final\sim\tb\tb_audio_viz_live_age.v:31: $finish called at 0 (1ps)
+

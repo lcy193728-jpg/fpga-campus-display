@@ -1,0 +1,37 @@
+#  if {![file exists {E:/FPGA/ALST/_dev_sim_0b18789/sim/modelsim_evidence_ascii/11_sd_bus_handoff_work/work}]} {vlib {E:/FPGA/ALST/_dev_sim_0b18789/sim/modelsim_evidence_ascii/11_sd_bus_handoff_work/work}} 
+#  vmap work {E:/FPGA/ALST/_dev_sim_0b18789/sim/modelsim_evidence_ascii/11_sd_bus_handoff_work/work} 
+# Modifying modelsim.ini
+#  vlog -work work {E:/FPGA/ALST/_dev_sim_0b18789/src/zone_launch.v} {E:/FPGA/ALST/_dev_sim_0b18789/src/audio_sd_arbiter.v} {E:/FPGA/ALST/_dev_sim_0b18789/sim/tb/tb_zone_launch.v} 
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module zone_launch
+# -- Compiling module audio_sd_arbiter
+# -- Compiling module tb_zone_launch
+# 
+# Top level modules:
+# 	tb_zone_launch
+#  vsim -t 1ps -wlf {E:/FPGA/ALST/_dev_sim_0b18789/sim/modelsim_evidence_ascii/11_sd_bus_handoff.wlf} work.tb_zone_launch 
+# vsim -t 1ps -wlf E:/FPGA/ALST/_dev_sim_0b18789/sim/modelsim_evidence_ascii/11_sd_bus_handoff.wlf work.tb_zone_launch 
+# Loading work.tb_zone_launch
+# Loading work.zone_launch
+# Loading work.audio_sd_arbiter
+#  log -r /* 
+#  run -all 
+# 
+# ========== zone_launch 停车/交棒握手专项仿真 ==========
+# [PASS] ������������(zone_launch) 正确握手 0 违例(A1/A2/A3/A4 全过)
+#   [VIOL-A1] t=54765000 lu_req 当拍 bmp_go 仍为 1 (naive=1)
+#   [VIOL-A2] t=54775000 bmp 与 lu 同时请求总线 (naive=1)
+#   [VIOL-A3] t=54775000 查表通路收到串扇区数据: 请求=0 序号=101 收到=a5 应为=65 (naive=1)
+#   [VIOL-A3] t=54785000 查表通路收到串扇区数据: 请求=0 序号=102 收到=a6 应为=66 (naive=1)
+#   [VIOL-A3] t=54795000 查表通路收到串扇区数据: 请求=0 序号=103 收到=a7 应为=67 (naive=1)
+#   [VIOL-A3] t=54805000 查表通路收到串扇区数据: 请求=0 序号=104 收到=a8 应为=68 (naive=1)
+#   [VIOL-A3] t=54815000 查表通路收到串扇区数据: 请求=0 序号=105 收到=a9 应为=69 (naive=1)
+#   [VIOL-A3] t=54825000 查表通路收到串扇区数据: 请求=0 序号=106 收到=aa 应为=6a (naive=1)
+#   [VIOL-A3] t=54835000 查表通路收到串扇区数据: 请求=0 序号=107 收到=ab 应为=6b (naive=1)
+#   [VIOL-A3] t=54845000 查表通路收到串扇区数据: 请求=0 序号=108 收到=ac 应为=6c (naive=1)
+# [PASS] ���������(sd_init_done&~lu_busy) 朴素写法检出 414 处违例(A1=1 A2=1 A3=411 A4=1) → 用例有判别力
+# 
+# ==== 全部 PASS (0 FAIL) ====
+# 
+# ** Note: $finish    : E:/FPGA/ALST/_dev_sim_0b18789/sim/tb/tb_zone_launch.v(479)
+#    Time: 102005 ns  Iteration: 1  Instance: /tb_zone_launch

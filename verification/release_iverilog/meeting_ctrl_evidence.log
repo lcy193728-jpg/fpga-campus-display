@@ -1,0 +1,3 @@
+[PASS] meeting agenda timing, warning, auto-next and terminal idle
+E:\FPGA\ALST\_dev_sim_0b18789\sim\evidence\tb_meeting_ctrl_evidence.v:35: $finish called at 1940000 (1ps)
+

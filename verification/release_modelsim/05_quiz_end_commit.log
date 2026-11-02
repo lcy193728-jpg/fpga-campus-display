@@ -1,0 +1,19 @@
+#  if {![file exists {E:/FPGA/ALST/_dev_sim_0b18789/sim/modelsim_evidence_ascii/05_quiz_end_commit_work/work}]} {vlib {E:/FPGA/ALST/_dev_sim_0b18789/sim/modelsim_evidence_ascii/05_quiz_end_commit_work/work}} 
+#  vmap work {E:/FPGA/ALST/_dev_sim_0b18789/sim/modelsim_evidence_ascii/05_quiz_end_commit_work/work} 
+# Modifying modelsim.ini
+#  vlog -work work {E:/FPGA/ALST/_dev_sim_0b18789/src/quiz_end_commit_guard.v} {E:/FPGA/ALST/_dev_sim_0b18789/sim/tb/tb_quiz_end_commit_guard.v} 
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module quiz_end_commit_guard
+# -- Compiling module tb_quiz_end_commit_guard
+# 
+# Top level modules:
+# 	tb_quiz_end_commit_guard
+#  vsim -t 1ps -wlf {E:/FPGA/ALST/_dev_sim_0b18789/sim/modelsim_evidence_ascii/05_quiz_end_commit.wlf} work.tb_quiz_end_commit_guard 
+# vsim -t 1ps -wlf E:/FPGA/ALST/_dev_sim_0b18789/sim/modelsim_evidence_ascii/05_quiz_end_commit.wlf work.tb_quiz_end_commit_guard 
+# Loading work.tb_quiz_end_commit_guard
+# Loading work.quiz_end_commit_guard
+#  log -r /* 
+#  run -all 
+# [PASS] end-page commit survives busy/finish race
+# ** Note: $finish    : E:/FPGA/ALST/_dev_sim_0b18789/sim/tb/tb_quiz_end_commit_guard.v(34)
+#    Time: 165 ns  Iteration: 1  Instance: /tb_quiz_end_commit_guard

@@ -1,0 +1,6 @@
+====================================================
+tb_audio_src_sel: checks=20 fails=0
+RESULT: PASS
+====================================================
+E:\FPGA\ALST\��ί�ύ_������������_2026-11-01\FPGA_Campus_Final\sim\tb\tb_audio_src_sel.v:102: $finish called at 7000 (1ps)
+

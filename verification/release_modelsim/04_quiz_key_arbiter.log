@@ -1,0 +1,24 @@
+#  if {![file exists {E:/FPGA/ALST/_dev_sim_0b18789/sim/modelsim_evidence_ascii/04_quiz_key_arbiter_work/work}]} {vlib {E:/FPGA/ALST/_dev_sim_0b18789/sim/modelsim_evidence_ascii/04_quiz_key_arbiter_work/work}} 
+#  vmap work {E:/FPGA/ALST/_dev_sim_0b18789/sim/modelsim_evidence_ascii/04_quiz_key_arbiter_work/work} 
+# Modifying modelsim.ini
+#  vlog -work work {E:/FPGA/ALST/_dev_sim_0b18789/src/sim_modules/key_sync_debounce.v} {E:/FPGA/ALST/_dev_sim_0b18789/src/sim_modules/key_edge_detect.v} {E:/FPGA/ALST/_dev_sim_0b18789/src/sim_modules/quiz_arbiter_4ch.v} {E:/FPGA/ALST/_dev_sim_0b18789/sim/tb/tb_quiz_key_chain.v} 
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module key_sync_debounce
+# -- Compiling module key_edge_detect
+# -- Compiling module quiz_arbiter_4ch
+# -- Compiling module tb_quiz_key_chain
+# 
+# Top level modules:
+# 	tb_quiz_key_chain
+#  vsim -t 1ps -wlf {E:/FPGA/ALST/_dev_sim_0b18789/sim/modelsim_evidence_ascii/04_quiz_key_arbiter.wlf} work.tb_quiz_key_chain 
+# vsim -t 1ps -wlf E:/FPGA/ALST/_dev_sim_0b18789/sim/modelsim_evidence_ascii/04_quiz_key_arbiter.wlf work.tb_quiz_key_chain 
+# Loading work.tb_quiz_key_chain
+# Loading work.quiz_arbiter_4ch
+# Loading work.key_sync_debounce
+# Loading work.key_edge_detect
+#  log -r /* 
+#  run -all 
+# PASS: tb_quiz_key_chain completed.
+# Break in Module tb_quiz_key_chain at E:/FPGA/ALST/_dev_sim_0b18789/sim/tb/tb_quiz_key_chain.v line 153
+# Stopped at E:/FPGA/ALST/_dev_sim_0b18789/sim/tb/tb_quiz_key_chain.v line 153 
+#  quit -f 

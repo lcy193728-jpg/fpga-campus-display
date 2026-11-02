@@ -1,0 +1,12 @@
+---- A: 进入会议(菜单→会议) ----
+[PASS] 样本全静音(无背景音乐)
+---- B: 会议中长时间停留 ----
+[PASS] ��������������������������������
+---- C: 会议 WARN 提示音 ----
+[PASS] 事件触发提示音(非静音)
+---- D: 提示音播完回静音 ----
+[PASS] ��示音播完后自动回静音
+==== tb_scene_audio_meeting: checks=4 fails=0 ====
+RESULT: PASS
+E:\FPGA\ALST\��ί�ύ_������������_2026-11-01\FPGA_Campus_Final\audio_final\tb\tb_scene_audio_meeting.v:93: $finish called at 286812960000 (1ps)
+

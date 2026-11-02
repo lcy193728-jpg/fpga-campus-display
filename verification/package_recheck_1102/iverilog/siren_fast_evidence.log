@@ -1,0 +1,4 @@
+[PASS] siren burst/rest controller and production 6 s constants
+METRIC production_burst_samples=288000 production_rest_samples=288000 sample_hz=48000
+E:\FPGA\ALST\��ί�ύ_������������_2026-11-01\FPGA_Campus_Final\sim\evidence\tb_siren_fast_evidence.v:56: $finish called at 7435000 (1ps)
+

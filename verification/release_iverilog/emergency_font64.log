@@ -1,0 +1,3 @@
+[PASS] 19 native-64 glyphs contain core and AA edge coverage
+E:\FPGA\ALST\_dev_sim_0b18789\sim\tb\tb_emergency_font_native64.v:24: $finish called at 778236000 (1ps)
+

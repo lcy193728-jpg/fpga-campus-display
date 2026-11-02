@@ -1,0 +1,141 @@
+=== tb_audio_chain_e2e start ===
+[tr] t=895000 sd_read=1 owner=0 wstate=1 cur_lba=300000 srvst=0 srv_cnt=0 wr_ptr=0
+[srv-req] t=895000 latch lba=300000
+[tr] t=905000 sd_read=1 owner=2 wstate=1 cur_lba=300000 srvst=1 srv_cnt=0 wr_ptr=0
+[tr] t=1235000 sd_read=1 owner=2 wstate=1 cur_lba=300000 srvst=2 srv_cnt=0 wr_ptr=0
+[wr] t=1255000 wr_ptr=0 sample=0
+[wr] t=1275000 wr_ptr=1 sample=0
+[tr] t=6355000 sd_read=1 owner=2 wstate=1 cur_lba=300000 srvst=3 srv_cnt=511 wr_ptr=255
+[tr] t=6365000 sd_read=1 owner=2 wstate=1 cur_lba=300000 srvst=0 srv_cnt=511 wr_ptr=256
+[srv-req] t=6365000 latch lba=300000
+[tr] t=6375000 sd_read=1 owner=0 wstate=1 cur_lba=300001 srvst=1 srv_cnt=511 wr_ptr=256
+[tr] t=6385000 sd_read=1 owner=2 wstate=1 cur_lba=300001 srvst=1 srv_cnt=511 wr_ptr=256
+[tr] t=6705000 sd_read=1 owner=2 wstate=1 cur_lba=300001 srvst=2 srv_cnt=0 wr_ptr=256
+[wr] t=6725000 wr_ptr=256 sample=0
+[wr] t=7365000 wr_ptr=288 sample=0
+[tr] t=11825000 sd_read=1 owner=2 wstate=1 cur_lba=300001 srvst=3 srv_cnt=511 wr_ptr=511
+[tr] t=11835000 sd_read=1 owner=2 wstate=1 cur_lba=300001 srvst=0 srv_cnt=511 wr_ptr=512
+[srv-req] t=11835000 latch lba=300001
+[tr] t=11845000 sd_read=1 owner=0 wstate=1 cur_lba=300002 srvst=1 srv_cnt=511 wr_ptr=512
+[tr] t=11855000 sd_read=1 owner=2 wstate=1 cur_lba=300002 srvst=1 srv_cnt=511 wr_ptr=512
+[tr] t=12175000 sd_read=1 owner=2 wstate=1 cur_lba=300002 srvst=2 srv_cnt=0 wr_ptr=512
+[wr] t=12195000 wr_ptr=512 sample=0
+[srv] lba=300001 off=60 byte=0
+[srv] lba=300001 off=61 byte=0
+[srv] lba=300001 off=62 byte=0
+[srv] lba=300001 off=63 byte=0
+[srv] lba=300001 off=64 byte=240
+[srv] lba=300001 off=65 byte=8
+[srv] lba=300001 off=66 byte=241
+[srv] lba=300001 off=67 byte=8
+[srv] lba=300001 off=68 byte=242
+[tr] t=17295000 sd_read=1 owner=2 wstate=1 cur_lba=300002 srvst=3 srv_cnt=511 wr_ptr=767
+[tr] t=17305000 sd_read=1 owner=2 wstate=1 cur_lba=300002 srvst=0 srv_cnt=511 wr_ptr=768
+[srv-req] t=17305000 latch lba=300002
+[tr] t=17315000 sd_read=1 owner=0 wstate=1 cur_lba=300003 srvst=1 srv_cnt=511 wr_ptr=768
+[tr] t=17325000 sd_read=1 owner=2 wstate=1 cur_lba=300003 srvst=1 srv_cnt=511 wr_ptr=768
+[tr] t=17645000 sd_read=1 owner=2 wstate=1 cur_lba=300003 srvst=2 srv_cnt=0 wr_ptr=768
+[tr] t=22765000 sd_read=1 owner=2 wstate=1 cur_lba=300003 srvst=3 srv_cnt=511 wr_ptr=1023
+[tr] t=22775000 sd_read=1 owner=2 wstate=1 cur_lba=300003 srvst=0 srv_cnt=511 wr_ptr=1024
+[srv-req] t=22775000 latch lba=300003
+[tr] t=22785000 sd_read=1 owner=0 wstate=1 cur_lba=300004 srvst=1 srv_cnt=511 wr_ptr=1024
+[tr] t=22795000 sd_read=1 owner=2 wstate=1 cur_lba=300004 srvst=1 srv_cnt=511 wr_ptr=1024
+[tr] t=23115000 sd_read=1 owner=2 wstate=1 cur_lba=300004 srvst=2 srv_cnt=0 wr_ptr=1024
+[tr] t=28235000 sd_read=1 owner=2 wstate=1 cur_lba=300004 srvst=3 srv_cnt=511 wr_ptr=1279
+[tr] t=28245000 sd_read=1 owner=2 wstate=1 cur_lba=300004 srvst=0 srv_cnt=511 wr_ptr=1280
+[srv-req] t=28245000 latch lba=300004
+[tr] t=28255000 sd_read=1 owner=0 wstate=1 cur_lba=300005 srvst=1 srv_cnt=511 wr_ptr=1280
+[tr] t=28265000 sd_read=1 owner=2 wstate=1 cur_lba=300005 srvst=1 srv_cnt=511 wr_ptr=1280
+[tr] t=28585000 sd_read=1 owner=2 wstate=1 cur_lba=300005 srvst=2 srv_cnt=0 wr_ptr=1280
+[tr] t=33705000 sd_read=1 owner=2 wstate=1 cur_lba=300005 srvst=3 srv_cnt=511 wr_ptr=1535
+[tr] t=33715000 sd_read=1 owner=2 wstate=1 cur_lba=300005 srvst=0 srv_cnt=511 wr_ptr=1536
+[srv-req] t=33715000 latch lba=300005
+[tr] t=33725000 sd_read=1 owner=0 wstate=1 cur_lba=300006 srvst=1 srv_cnt=511 wr_ptr=1536
+[tr] t=33735000 sd_read=1 owner=2 wstate=1 cur_lba=300006 srvst=1 srv_cnt=511 wr_ptr=1536
+[tr] t=34055000 sd_read=1 owner=2 wstate=1 cur_lba=300006 srvst=2 srv_cnt=0 wr_ptr=1536
+[tr] t=39175000 sd_read=1 owner=2 wstate=1 cur_lba=300006 srvst=3 srv_cnt=511 wr_ptr=1791
+[tr] t=39185000 sd_read=1 owner=2 wstate=1 cur_lba=300006 srvst=0 srv_cnt=511 wr_ptr=1792
+[srv-req] t=39185000 latch lba=300006
+[tr] t=39195000 sd_read=0 owner=0 wstate=2 cur_lba=300007 srvst=1 srv_cnt=511 wr_ptr=1792
+[tr] t=39525000 sd_read=0 owner=0 wstate=2 cur_lba=300007 srvst=2 srv_cnt=0 wr_ptr=1792
+---- [diag] 对齐 tick 抓 15 拍 ----
+[diag] t=42060000 tick=1 wav_ready=0 mux_busy=0 mux_sv=1 mux_bit=8 launch=0 zero_valid=1 media_valid=1 rd_ptr=1
+[diag] t=42100000 tick=1 wav_ready=1 mux_busy=0 mux_sv=1 mux_bit=8 launch=1 zero_valid=1 media_valid=1 rd_ptr=1
+[diag] t=42140000 tick=0 wav_ready=0 mux_busy=1 mux_sv=0 mux_bit=0 launch=0 zero_valid=1 media_valid=1 rd_ptr=2
+[diag] t=42180000 tick=0 wav_ready=0 mux_busy=1 mux_sv=0 mux_bit=1 launch=0 zero_valid=1 media_valid=1 rd_ptr=2
+[diag] t=42220000 tick=0 wav_ready=0 mux_busy=1 mux_sv=0 mux_bit=2 launch=0 zero_valid=1 media_valid=1 rd_ptr=2
+[diag] t=42260000 tick=0 wav_ready=0 mux_busy=1 mux_sv=0 mux_bit=3 launch=0 zero_valid=1 media_valid=1 rd_ptr=2
+[diag] t=42300000 tick=0 wav_ready=0 mux_busy=1 mux_sv=0 mux_bit=4 launch=0 zero_valid=1 media_valid=1 rd_ptr=2
+[diag] t=42340000 tick=0 wav_ready=0 mux_busy=1 mux_sv=0 mux_bit=5 launch=0 zero_valid=1 media_valid=1 rd_ptr=2
+[diag] t=42380000 tick=0 wav_ready=0 mux_busy=1 mux_sv=0 mux_bit=6 launch=0 zero_valid=1 media_valid=1 rd_ptr=2
+[diag] t=42420000 tick=0 wav_ready=0 mux_busy=1 mux_sv=0 mux_bit=7 launch=0 zero_valid=1 media_valid=1 rd_ptr=2
+[diag] t=42460000 tick=0 wav_ready=0 mux_busy=1 mux_sv=0 mux_bit=8 launch=0 zero_valid=1 media_valid=1 rd_ptr=2
+[diag] t=42500000 tick=0 wav_ready=0 mux_busy=0 mux_sv=1 mux_bit=8 launch=0 zero_valid=1 media_valid=1 rd_ptr=2
+[diag] t=42540000 tick=0 wav_ready=0 mux_busy=0 mux_sv=1 mux_bit=8 launch=0 zero_valid=1 media_valid=1 rd_ptr=2
+[diag] t=42580000 tick=0 wav_ready=0 mux_busy=0 mux_sv=1 mux_bit=8 launch=0 zero_valid=1 media_valid=1 rd_ptr=2
+[diag] t=42620000 tick=0 wav_ready=0 mux_busy=0 mux_sv=1 mux_bit=8 launch=0 zero_valid=1 media_valid=1 rd_ptr=2
+---- [diag] end ----
+[tr] t=44645000 sd_read=0 owner=0 wstate=2 cur_lba=300007 srvst=3 srv_cnt=511 wr_ptr=1792
+[tr] t=44655000 sd_read=0 owner=0 wstate=2 cur_lba=300007 srvst=0 srv_cnt=511 wr_ptr=1792
+[hb t=1000000000 ns] primed=1 wav_left=0 audio_left=0 rd_ptr=47 lvl_rd=1745 srv=0 req=0
+[hb t=2000000000 ns] primed=1 wav_left=0 audio_left=0 rd_ptr=95 lvl_rd=1697 srv=0 req=0
+[hb t=3000000000 ns] primed=1 wav_left=0 audio_left=0 rd_ptr=143 lvl_rd=1649 srv=0 req=0
+[hb t=4000000000 ns] primed=1 wav_left=0 audio_left=0 rd_ptr=191 lvl_rd=1601 srv=0 req=0
+[hb t=5000000000 ns] primed=1 wav_left=0 audio_left=0 rd_ptr=239 lvl_rd=1553 srv=0 req=0
+[tr] t=5354665000 sd_read=1 owner=0 wstate=1 cur_lba=300007 srvst=0 srv_cnt=511 wr_ptr=1792
+[srv-req] t=5354665000 latch lba=300007
+[tr] t=5354675000 sd_read=1 owner=2 wstate=1 cur_lba=300007 srvst=1 srv_cnt=511 wr_ptr=1792
+[tr] t=5355005000 sd_read=1 owner=2 wstate=1 cur_lba=300007 srvst=2 srv_cnt=0 wr_ptr=1792
+[tr] t=5360125000 sd_read=1 owner=2 wstate=1 cur_lba=300007 srvst=3 srv_cnt=511 wr_ptr=2047
+[tr] t=5360135000 sd_read=1 owner=2 wstate=1 cur_lba=300007 srvst=0 srv_cnt=511 wr_ptr=0
+[srv-req] t=5360135000 latch lba=300007
+[tr] t=5360145000 sd_read=0 owner=0 wstate=2 cur_lba=300008 srvst=1 srv_cnt=511 wr_ptr=0
+[tr] t=5360475000 sd_read=0 owner=0 wstate=2 cur_lba=300008 srvst=2 srv_cnt=0 wr_ptr=0
+[tr] t=5365595000 sd_read=0 owner=0 wstate=2 cur_lba=300008 srvst=3 srv_cnt=511 wr_ptr=0
+[tr] t=5365605000 sd_read=0 owner=0 wstate=2 cur_lba=300008 srvst=0 srv_cnt=511 wr_ptr=0
+[hb t=6000000000 ns] primed=1 wav_left=0 audio_left=0 rd_ptr=287 lvl_rd=1761 srv=0 req=0
+[chk] t=6042140000 cnt=290 rd_ptr=290 rd_addr=289 rd_q=0 wav_left=0 wr_ptr=0
+[chk] buffer 首个非零下标 = 544 (期望 288)
+[chk] buffer[286..291] = 0 0 0 0 0 0
+[hb t=7000000000 ns] primed=1 wav_left=0 audio_left=0 rd_ptr=335 lvl_rd=1713 srv=0 req=0
+[hb t=8000000000 ns] primed=1 wav_left=0 audio_left=0 rd_ptr=383 lvl_rd=1665 srv=0 req=0
+[hb t=9000000000 ns] primed=1 wav_left=0 audio_left=0 rd_ptr=431 lvl_rd=1617 srv=0 req=0
+[hb t=10000000000 ns] primed=1 wav_left=0 audio_left=0 rd_ptr=479 lvl_rd=1569 srv=0 req=0
+[tr] t=10687985000 sd_read=1 owner=0 wstate=1 cur_lba=300008 srvst=0 srv_cnt=511 wr_ptr=0
+[srv-req] t=10687985000 latch lba=300008
+[tr] t=10687995000 sd_read=1 owner=2 wstate=1 cur_lba=300008 srvst=1 srv_cnt=511 wr_ptr=0
+[tr] t=10688325000 sd_read=1 owner=2 wstate=1 cur_lba=300008 srvst=2 srv_cnt=0 wr_ptr=0
+[wr] t=10688345000 wr_ptr=0 sample=4048
+[wr] t=10688365000 wr_ptr=1 sample=4049
+[tr] t=10693445000 sd_read=1 owner=2 wstate=1 cur_lba=300008 srvst=3 srv_cnt=511 wr_ptr=255
+[tr] t=10693455000 sd_read=1 owner=2 wstate=1 cur_lba=300008 srvst=0 srv_cnt=511 wr_ptr=256
+[srv-req] t=10693455000 latch lba=300008
+[tr] t=10693465000 sd_read=0 owner=0 wstate=2 cur_lba=300009 srvst=1 srv_cnt=511 wr_ptr=256
+[tr] t=10693795000 sd_read=0 owner=0 wstate=2 cur_lba=300009 srvst=2 srv_cnt=0 wr_ptr=256
+[tr] t=10698915000 sd_read=0 owner=0 wstate=2 cur_lba=300009 srvst=3 srv_cnt=511 wr_ptr=256
+[tr] t=10698925000 sd_read=0 owner=0 wstate=2 cur_lba=300009 srvst=0 srv_cnt=511 wr_ptr=256
+[hb t=11000000000 ns] primed=1 wav_left=0 audio_left=0 rd_ptr=527 lvl_rd=1777 srv=0 req=0
+[hb t=12000000000 ns] primed=1 wav_left=2318 audio_left=2317 rd_ptr=575 lvl_rd=1729 srv=0 req=0
+----------------------------------------------------
+primed 首次=1         : t=22940 ns  (wav_primed=1)
+wav_left 首次非零     : t=11354700 ns  (nonzero cycles=16154)
+audio_left 首次非零   : t=11375820 ns  (nonzero cycles=15626)
+media_ready 脉冲数    : 577
+wav_ready 脉冲数      : 577
+48kHz tick 数         : 576
+tick && wav_ready 同拍: 576  <== 必须 >0 播放器才会推进
+播放器推进条件命中    : 575
+audio_pcm_valid 拍数  : 294805
+mux accepted_pairs    : 577
+player sample_counter : 576
+player wr_ptr/rd_ptr  : 256 / 576
+player wstate         : 2
+level_rd / level_wr   : 1728 / 1728
+----------------------------------------------------
+调试字节(与板上同编码) D[7:0]={primed1,pcm_nz,out_nz,send,bytes,req,sel_wav,primed}
+  = {1,1,1,1,1,0,1,1}
+----------------------------------------------------
+RESULT: PASS  (末端 PCM 出现非零 → 音频链在仿真中打通)
+=== tb_audio_chain_e2e end ===
+E:\FPGA\ALST\��ί�ύ_������������_2026-11-01\FPGA_Campus_Final\sim\tb\tb_audio_chain_e2e.v:363: $finish called at 12000860000 (1ps)
+

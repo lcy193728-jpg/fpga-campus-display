@@ -1,0 +1,61 @@
+#  if {![file exists {E:/FPGA/ALST/_dev_sim_0b18789/sim/modelsim_evidence_ascii/10_bmp_multires_work/work}]} {vlib {E:/FPGA/ALST/_dev_sim_0b18789/sim/modelsim_evidence_ascii/10_bmp_multires_work/work}} 
+#  vmap work {E:/FPGA/ALST/_dev_sim_0b18789/sim/modelsim_evidence_ascii/10_bmp_multires_work/work} 
+# Modifying modelsim.ini
+#  vlog -work work {E:/FPGA/ALST/_dev_sim_0b18789/src/bmp_read_auto.v} {E:/FPGA/ALST/_dev_sim_0b18789/tb/tb_bmp_multires.v} 
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module bmp_read_auto
+# -- Compiling module tb_bmp_multires
+# 
+# Top level modules:
+# 	tb_bmp_multires
+#  vsim -t 1ps -wlf {E:/FPGA/ALST/_dev_sim_0b18789/sim/modelsim_evidence_ascii/10_bmp_multires.wlf} work.tb_bmp_multires 
+# vsim -t 1ps -wlf E:/FPGA/ALST/_dev_sim_0b18789/sim/modelsim_evidence_ascii/10_bmp_multires.wlf work.tb_bmp_multires 
+# Loading work.tb_bmp_multires
+# Loading work.bmp_read_auto
+# ** Warning: (vsim-3017) E:/FPGA/ALST/_dev_sim_0b18789/tb/tb_bmp_multires.v(137): [TFMPC] - Too few port connections. Expected 31, found 29.
+# 
+#         Region: /tb_bmp_multires/dut
+# ** Warning: (vsim-3722) E:/FPGA/ALST/_dev_sim_0b18789/tb/tb_bmp_multires.v(137): [TFMPC] - Missing connection for port 'key_jump'.
+# 
+# ** Warning: (vsim-3722) E:/FPGA/ALST/_dev_sim_0b18789/tb/tb_bmp_multires.v(137): [TFMPC] - Missing connection for port 'jump_idx'.
+# 
+#  log -r /* 
+#  run -all 
+# ========================================================
+#  tb_bmp_multires : å¤šåˆ†è¾¨ç‡è‡ªé€‚åº”(320/640/1024 â†’ 640 åˆ—)
+# ========================================================
+# --------------------------------------------------------
+#  ç”¨ä¾‹: ÿ¼ 2ÿ— +ÿÿÿ¨ 240ÿÿÿŒ (img_v2x=1)
+#   è¾“å‡ºåƒç´ æ•° = 153600 (æœŸæœ› 153600)
+#   bmp_error  = 0
+#   img_res    = 0 (æœŸæœ› 0)  img_v2x = 1 (æœŸæœ› 1)
+# t=9257635000  [PASS] ÿÿÿåÿÿÿ´ÿÿÿ°ÿÿÿçÿ® =ÿÿÿŒÿÿÿÃ—640
+# t=9257635000  [PASS] ÿÿÿƒÿÿÿ ÿÿÿäÿÿÿœÿÿÿ›ÿÿÿåÿÿÿ¸ÿÿÿ´
+# t=9257635000  [PASS] ÿÿÿªÿÿÿšÿÿ‡/ÿÿÿæÿÿÿ–ÿÿÿ—ÿÿÿ…ÿÿ¶)
+# t=9257635000  [PASS] img_reÿÿÿˆÿÿÿ¨ÿÿÿçÿÿÿ­ÿÿÿ®
+# t=9257635000  [PASS] img_v2xÿÿÿµÿÿ‘ ÿÿ— ÿÿÿåÿÿÿ­ÿÿÿ®
+# --------------------------------------------------------
+#  ç”¨ä¾‹: 80  ÿÿ’ 1:1 ÿÿÿéÿš +ÿÿÿ¨ 480ÿÿÿŒ
+#   è¾“å‡ºåƒç´ æ•° = 307200 (æœŸæœ› 307200)
+#   bmp_error  = 0
+#   img_res    = 1 (æœŸæœ› 1)  img_v2x = 0 (æœŸæœ› 0)
+# t=18538615000  [PASS] ÿÿÿåÿÿÿ´ÿÿÿ°ÿÿÿçÿ® =ÿÿÿŒÿÿÿÃ—640
+# t=18538615000  [PASS] ÿÿÿƒÿÿÿ ÿÿÿäÿÿÿœÿÿÿ›ÿÿÿåÿÿÿ¸ÿÿÿ´
+# t=18538615000  [PASS] ÿÿÿªÿÿÿšÿÿ‡/ÿÿÿæÿÿÿ–ÿÿÿ—ÿÿÿ…ÿÿ¶)
+# t=18538615000  [PASS] img_reÿÿÿˆÿÿÿ¨ÿÿÿçÿÿÿ­ÿÿÿ®
+# t=18538615000  [PASS] img_v2xÿÿÿµÿÿ‘ ÿÿ— ÿÿÿåÿÿÿ­ÿÿÿ®
+# --------------------------------------------------------
+#  ç”¨ä¾‹: ÿÿÿƒÿÿÿ ÿÿÿçÿ± +ÿÿÿÿÿÿèÿŒ 5ÿÿÿŒ
+#   è¾“å‡ºåƒç´ æ•° = 307200 (æœŸæœ› 307200)
+#   bmp_error  = 0
+#   img_res    = 2 (æœŸæœ› 2)  img_v2x = 0 (æœŸæœ› 0)
+# t=42280795000  [PASS] ÿÿÿåÿÿÿ´ÿÿÿ°ÿÿÿçÿ® =ÿÿÿŒÿÿÿÃ—640
+# t=42280795000  [PASS] ÿÿÿƒÿÿÿ ÿÿÿäÿÿÿœÿÿÿ›ÿÿÿåÿÿÿ¸ÿÿÿ´
+# t=42280795000  [PASS] ÿÿÿªÿÿÿšÿÿ‡/ÿÿÿæÿÿÿ–ÿÿÿ—ÿÿÿ…ÿÿ¶)
+# t=42280795000  [PASS] img_reÿÿÿˆÿÿÿ¨ÿÿÿçÿÿÿ­ÿÿÿ®
+# t=42280795000  [PASS] img_v2xÿÿÿµÿÿ‘ ÿÿ— ÿÿÿåÿÿÿ­ÿÿÿ®
+# ========================================================
+# === [ALL PASS] tb_bmp_multires ===
+# ========================================================
+# ** Note: $finish    : E:/FPGA/ALST/_dev_sim_0b18789/tb/tb_bmp_multires.v(422)
+#    Time: 42280795 ns  Iteration: 1  Instance: /tb_bmp_multires

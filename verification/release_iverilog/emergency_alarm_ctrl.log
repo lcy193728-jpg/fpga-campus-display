@@ -1,0 +1,3 @@
+PASS: emergency timer 1Hz BCD, rolls at 60s, clears on entry/exit
+E:\FPGA\ALST\_dev_sim_0b18789\tb\tb_emergency_alarm_ctrl.v:54: $finish called at 1725000 (1ps)
+

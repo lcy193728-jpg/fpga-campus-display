@@ -1,0 +1,3 @@
+[PASS] sd_powerup_guard cold-start/retry timing
+E:\FPGA\ALST\_dev_sim_0b18789\sim\tb\tb_sd_powerup_guard.v:38: $finish called at 300000 (1ps)
+

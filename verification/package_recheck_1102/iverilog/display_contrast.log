@@ -1,0 +1,49 @@
+
+[Case1] con=8(k=128, 中性): 整帧应逐位等于输入(数学恒等)
+  [PASS] case�������� passthru px = 51200 (exp 51200)
+  [PASS] cas��������� unknown px = 0 (exp 0)
+  [PASS] case�������� passthru px = 51200 (exp 51200)
+  [PASS] cas��������� unknown px = 0 (exp 0)
+  [PASS] case�������� passthru px = 51200 (exp 51200)
+  [PASS] cas��������� unknown px = 0 (exp 0)
+
+[Case2] con=15(k=233) 像素算术
+        期望: in=64→11, in=192→244, in=128→128
+  [PASS] case2 in=64 result px = 51200 (exp 51200)
+  [PASS] case2 in=64 unknown = 0 (exp 0)
+        (64 -> 11, 暗部更暗 ✓)
+  [PASS] case2 in=192 result px = 51200 (exp 51200)
+        (192 -> 244, 亮部更亮 ✓)
+  [PASS] case2 in=128 result px = 51200 (exp 51200)
+        (128 -> 128, 中灰不动 ✓)
+
+[Case3] con=0(k=8) 像素算术: 暗部抬升 → 对比度降至最弱
+        期望: in=64→124, in=192→132
+  [PASS] case3 in=64 result px = 51200 (exp 51200)
+        (64 -> 124, 向中灰抬升 ✓)
+  [PASS] case3 in=192 result px = 51200 (exp 51200)
+        (192 -> 132, 向中灰压低 ✓)
+
+[Case4] HUD 条几何: con=12 → 描边286 / 品红FG=648 / 深槽BG=162
+  [PASS] case4 bar border = 286 (exp 286)
+  [PASS] case4 bar FG = 648 (exp 648)
+  [PASS] case4 bar BG = 162 (exp 162)
+  [PASS] case4 bar total = 51200 (exp 51200)
+
+[Case5] HUD 条几何: con=8 → 品红FG=432 / 深槽BG=378
+  [PASS] case5 bar border = 286 (exp 286)
+  [PASS] case5 bar FG = 432 (exp 432)
+  [PASS] case5 bar BG = 378 (exp 378)
+  [PASS] case5 bar total = 51200 (exp 51200)
+
+[Case6] 提示条自动消失(VOL_HOLD_FRAMES=30 帧后)
+  [PASS] case6 bar border gone = 0 (exp 0)
+  [PASS] case6 bar FG gone = 0 (exp 0)
+  [PASS] case6 bar BG gone = 0 (exp 0)
+  [PASS] case6 full frame = 51200 (exp 51200)
+
+==================================================
+  ** ALL PASS (0 FAIL)
+==================================================
+E:\FPGA\ALST\��ί�ύ_������������_2026-11-01\FPGA_Campus_Final\tb\tb_display_contrast.v:400: $finish called at 304124381000 (1ps)
+

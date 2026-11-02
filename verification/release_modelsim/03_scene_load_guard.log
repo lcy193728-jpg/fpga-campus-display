@@ -1,0 +1,19 @@
+#  if {![file exists {E:/FPGA/ALST/_dev_sim_0b18789/sim/modelsim_evidence_ascii/03_scene_load_guard_work/work}]} {vlib {E:/FPGA/ALST/_dev_sim_0b18789/sim/modelsim_evidence_ascii/03_scene_load_guard_work/work}} 
+#  vmap work {E:/FPGA/ALST/_dev_sim_0b18789/sim/modelsim_evidence_ascii/03_scene_load_guard_work/work} 
+# Modifying modelsim.ini
+#  vlog -work work {E:/FPGA/ALST/_dev_sim_0b18789/src/scene_load_guard.v} {E:/FPGA/ALST/_dev_sim_0b18789/sim/tb/tb_scene_load_guard.v} 
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module scene_load_guard
+# -- Compiling module tb_scene_load_guard
+# 
+# Top level modules:
+# 	tb_scene_load_guard
+#  vsim -t 1ps -wlf {E:/FPGA/ALST/_dev_sim_0b18789/sim/modelsim_evidence_ascii/03_scene_load_guard.wlf} work.tb_scene_load_guard 
+# vsim -t 1ps -wlf E:/FPGA/ALST/_dev_sim_0b18789/sim/modelsim_evidence_ascii/03_scene_load_guard.wlf work.tb_scene_load_guard 
+# Loading work.tb_scene_load_guard
+# Loading work.scene_load_guard
+#  log -r /* 
+#  run -all 
+# [PASS] scene guard waits for source completion and target SDRAM commit
+# ** Note: $finish    : E:/FPGA/ALST/_dev_sim_0b18789/sim/tb/tb_scene_load_guard.v(75)
+#    Time: 256 ns  Iteration: 0  Instance: /tb_scene_load_guard

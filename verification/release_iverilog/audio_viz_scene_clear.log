@@ -1,0 +1,15 @@
+E:\FPGA\ALST\_dev_sim_0b18789\sim\tb\tb_audio_viz_scene_clear.v:18: warning: Port 3 (hs_i) of module audio_viz_overlay expects 1 bit(s), given 32.
+E:\FPGA\ALST\_dev_sim_0b18789\sim\tb\tb_audio_viz_scene_clear.v:18:        : Pruning (signed) 31 high bits of the expression.
+E:\FPGA\ALST\_dev_sim_0b18789\sim\tb\tb_audio_viz_scene_clear.v:18: warning: Port 4 (vs_i) of module audio_viz_overlay expects 1 bit(s), given 32.
+E:\FPGA\ALST\_dev_sim_0b18789\sim\tb\tb_audio_viz_scene_clear.v:18:        : Pruning (signed) 31 high bits of the expression.
+E:\FPGA\ALST\_dev_sim_0b18789\sim\tb\tb_audio_viz_scene_clear.v:18: warning: Port 5 (de_i) of module audio_viz_overlay expects 1 bit(s), given 32.
+E:\FPGA\ALST\_dev_sim_0b18789\sim\tb\tb_audio_viz_scene_clear.v:18:        : Pruning (signed) 31 high bits of the expression.
+E:\FPGA\ALST\_dev_sim_0b18789\sim\tb\tb_audio_viz_scene_clear.v:18: warning: Port 7 (px_x) of module audio_viz_overlay expects 12 bit(s), given 32.
+E:\FPGA\ALST\_dev_sim_0b18789\sim\tb\tb_audio_viz_scene_clear.v:18:        : Pruning (signed) 20 high bits of the expression.
+E:\FPGA\ALST\_dev_sim_0b18789\sim\tb\tb_audio_viz_scene_clear.v:18: warning: Port 8 (px_y) of module audio_viz_overlay expects 12 bit(s), given 32.
+E:\FPGA\ALST\_dev_sim_0b18789\sim\tb\tb_audio_viz_scene_clear.v:18:        : Pruning (signed) 20 high bits of the expression.
+E:\FPGA\ALST\_dev_sim_0b18789\sim\tb\tb_audio_viz_scene_clear.v:18: warning: Port 11 (meet_warn_lv) of module audio_viz_overlay expects 1 bit(s), given 32.
+E:\FPGA\ALST\_dev_sim_0b18789\sim\tb\tb_audio_viz_scene_clear.v:18:        : Pruning (signed) 31 high bits of the expression.
+[PASS] visualization history is cleared on scene change
+E:\FPGA\ALST\_dev_sim_0b18789\sim\tb\tb_audio_viz_scene_clear.v:37: $finish called at 10415000 (1ps)
+

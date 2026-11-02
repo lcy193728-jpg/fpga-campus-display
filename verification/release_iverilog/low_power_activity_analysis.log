@@ -1,0 +1,6 @@
+
+idle_phase_changes        : 3
+alarm_rest_entry_changes  : 3
+alarm_rest_steady_changes : 3
+active_phase_changes      : 96
+

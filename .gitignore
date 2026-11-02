@@ -1,0 +1,13 @@
+# Generated local build and simulation output
+/build/
+/sim/_evidence_full_iverilog/
+/sim/modelsim_representative/
+/work/
+/_work/
+**/__pycache__/
+*.pyc
+*.vcd
+*.wlf
+*.vvp
+/modelsim.ini
+/transcript

@@ -1,0 +1,3 @@
+[PASS] exhaustive 19-bit volume-scale equivalence (524288 vectors)
+E:\FPGA\ALST\_dev_sim_0b18789\audio_final\tb\tb_volume_scale_equiv.v:47: $finish called at 524288000 (1ps)
+

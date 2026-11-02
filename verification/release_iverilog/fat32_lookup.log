@@ -1,0 +1,57 @@
+
+========== fat32_lookup 专项仿真 ==========
+  [RD] lba=0  dut_st=1
+  [RD] lba=64  dut_st=2
+  [RD] lba=1096  dut_st=3
+  [RD] lba=1097  dut_st=3
+       dbg: part=64 mbrsig=1 data_start=1096 root_lba=1096 l2=4 bad=0 cnt=6 mn=1096 mx=10264
+[PASS] WEL  ���������(sel=1)  start=1096 wrap=10272 max=6 err=0
+  [RD] lba=0  dut_st=1
+  [RD] lba=64  dut_st=2
+  [RD] lba=1096  dut_st=3
+  [RD] lba=1097  dut_st=3
+       dbg: part=64 mbrsig=1 data_start=1096 root_lba=1096 l2=4 bad=0 cnt=6 mn=1096 mx=10264
+[PASS] WEL  ���������(sel=0)  start=1096 wrap=10272 max=6 err=0
+  [RD] lba=0  dut_st=1
+  [RD] lba=64  dut_st=2
+  [RD] lba=1096  dut_st=3
+  [RD] lba=1097  dut_st=3
+  [RD] lba=1096  dut_st=3
+  [RD] lba=1097  dut_st=3
+       dbg: part=64 mbrsig=1 data_start=1096 root_lba=1096 l2=4 bad=0 cnt=6 mn=1096 mx=10264
+[PASS] WEL  ���������(sel=2)  start=1096 wrap=10272 max=6 err=0
+  [RD] lba=0  dut_st=1
+  [RD] lba=64  dut_st=2
+  [RD] lba=1096  dut_st=3
+  [RD] lba=1097  dut_st=3
+       dbg: part=64 mbrsig=1 data_start=1096 root_lba=1096 l2=4 bad=0 cnt=1 mn=12264 mx=12264
+[PASS] QUIZ ���������(sel=3)  start=12264 wrap=12272 max=1 err=0
+  [RD] lba=0  dut_st=1
+  [RD] lba=64  dut_st=2
+  [RD] lba=1096  dut_st=3
+  [RD] lba=1097  dut_st=3
+  [RD] lba=1096  dut_st=3
+  [RD] lba=1097  dut_st=3
+       dbg: part=64 mbrsig=1 data_start=1096 root_lba=1096 l2=4 bad=0 cnt=1 mn=12264 mx=12264
+[PASS] ALM ����������������������������  start=12264 wrap=12272 max=1 err=0
+  [RD] lba=0  dut_st=1
+  [RD] lba=64  dut_st=2
+  [RD] lba=1096  dut_st=3
+       dbg: part=64 mbrsig=1 data_start=1096 root_lba=1096 l2=4 bad=0 cnt=0 mn=4294967295 mx=0
+[PASS] ������� �������������������)  start=8512 wrap=22592 max=6 err=1
+  [RD] lba=0  dut_st=1
+  [RD] lba=64  dut_st=2
+  [RD] lba=1096  dut_st=3
+       dbg: part=64 mbrsig=1 data_start=1096 root_lba=1096 l2=4 bad=0 cnt=0 mn=4294967295 mx=0
+[PASS] ������� �������������������)  start=22592 wrap=31872 max=5 err=1
+  [RD] lba=0  dut_st=1
+  [RD] lba=64  dut_st=2
+  [RD] lba=1096  dut_st=3
+  [RD] lba=1096  dut_st=3
+       dbg: part=64 mbrsig=1 data_start=1096 root_lba=1096 l2=4 bad=0 cnt=0 mn=4294967295 mx=0
+[PASS] ������� �������������������)  start=22592 wrap=31872 max=5 err=1
+
+==== 全部 PASS (0 FAIL) ====
+
+E:\FPGA\ALST\_dev_sim_0b18789\sim\tb\tb_fat32_lookup.v:385: $finish called at 175500000 (1ps)
+

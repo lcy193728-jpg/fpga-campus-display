@@ -1,0 +1,3 @@
+[PASS] delayed busy rise is transaction-qualified; no stale-frame fade-in
+E:\FPGA\ALST\_dev_sim_0b18789\sim\tb\tb_display_adjust_busy_handshake.v:128: $finish called at 1586000 (1ps)
+

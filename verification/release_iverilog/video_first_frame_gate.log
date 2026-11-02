@@ -1,0 +1,3 @@
+[PASS] cold boot stays black until first complete frame and VS boundary
+E:\FPGA\ALST\_dev_sim_0b18789\sim\tb\tb_video_first_frame_gate.v:86: $finish called at 423000 (1ps)
+

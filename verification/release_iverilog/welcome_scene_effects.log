@@ -1,0 +1,7 @@
+CHECK pixel x=50 y=40 de=1 osd_en=1 hit=1 rgb=ffd24a
+CHECK pixel x=100 y=390 de=1 osd_en=1 hit=1 rgb=2f80ff
+CHECK pixel x=500 y=390 de=1 osd_en=1 hit=1 rgb=26c281
+CHECK pixel x=620 y=470 de=1 osd_en=1 hit=0 rgb=102030
+PASS: tb_welcome_scene_effects_v2 completed.
+E:\FPGA\ALST\_dev_sim_0b18789\sim\tb\tb_welcome_scene_effects_v2.v:146: $stop called at 1095000 (1ps)
+

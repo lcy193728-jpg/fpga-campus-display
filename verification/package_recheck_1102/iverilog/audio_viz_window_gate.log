@@ -1,0 +1,11 @@
+[PASS] ��������������������
+[PASS] ������������
+[PASS] ������������
+[PASS] ��������������������
+[PASS] ����������������
+[PASS] 窗口内首列映射不变
+[PASS] 窗口内末列映射不变
+==== tb_audio_viz_window_gate checks=7 fails=0 ====
+RESULT: PASS
+E:\FPGA\ALST\��ί�ύ_������������_2026-11-01\FPGA_Campus_Final\sim\tb\tb_audio_viz_window_gate.v:60: $finish called at 32000 (1ps)
+

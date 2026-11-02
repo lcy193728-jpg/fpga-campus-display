@@ -1,0 +1,24 @@
+#  if {![file exists {E:/FPGA/ALST/_dev_sim_0b18789/sim/modelsim_evidence_ascii/01_coldboot_spi_quiz_work/work}]} {vlib {E:/FPGA/ALST/_dev_sim_0b18789/sim/modelsim_evidence_ascii/01_coldboot_spi_quiz_work/work}} 
+#  vmap work {E:/FPGA/ALST/_dev_sim_0b18789/sim/modelsim_evidence_ascii/01_coldboot_spi_quiz_work/work} 
+# Modifying modelsim.ini
+#  vlog -work work {E:/FPGA/ALST/_dev_sim_0b18789/src/sd_powerup_guard.v} {E:/FPGA/ALST/_dev_sim_0b18789/src/sd_card/spi_master.v} {E:/FPGA/ALST/_dev_sim_0b18789/src/sim_modules/quiz_arbiter_4ch.v} {E:/FPGA/ALST/_dev_sim_0b18789/sim/evidence/tb_evidence_core_timing.v} 
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module sd_powerup_guard
+# -- Compiling module spi_master
+# -- Compiling module quiz_arbiter_4ch
+# -- Compiling module tb_evidence_core_timing
+# 
+# Top level modules:
+# 	tb_evidence_core_timing
+#  vsim -t 1ps -wlf {E:/FPGA/ALST/_dev_sim_0b18789/sim/modelsim_evidence_ascii/01_coldboot_spi_quiz.wlf} work.tb_evidence_core_timing 
+# vsim -t 1ps -wlf E:/FPGA/ALST/_dev_sim_0b18789/sim/modelsim_evidence_ascii/01_coldboot_spi_quiz.wlf work.tb_evidence_core_timing 
+# Loading work.tb_evidence_core_timing
+# Loading work.sd_powerup_guard
+# Loading work.spi_master
+# Loading work.quiz_arbiter_4ch
+#  log -r /* 
+#  run -all 
+# [PASS] evidence core timing: guard retry, SPI idle, quiz grant
+# METRIC quiz_arbiter_grant_cycles=1 clock_mhz=100 latency_ns=10
+# ** Note: $finish    : E:/FPGA/ALST/_dev_sim_0b18789/sim/evidence/tb_evidence_core_timing.v(94)
+#    Time: 205 ns  Iteration: 1  Instance: /tb_evidence_core_timing

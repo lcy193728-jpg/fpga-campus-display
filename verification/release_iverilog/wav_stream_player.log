@@ -1,0 +1,6 @@
+====================================================
+tb_wav_stream_player: checks=72 fails=0 (written=7)
+RESULT: PASS
+====================================================
+E:\FPGA\ALST\_dev_sim_0b18789\sim\tb\tb_wav_stream_player.v:351: $finish called at 273655000 (1ps)
+

@@ -1,0 +1,7 @@
+[NOTE] fs sel=4 k=65536 dst=16x12 src=16x12 state=0
+[PASS] sel=4 complete frame count and pixel values
+[NOTE] fs sel=2 k=131072 dst=8x6 src=16x12 state=14
+[PASS] sel=2 complete frame count and pixel values
+[PASS] bmp_scale BRAM read gating regression, hold_checks=16370
+E:\FPGA\ALST\_dev_sim_0b18789\sim\tb\tb_bmp_scale_bram_gate.v:188: $finish called at 381980000 (1ps)
+

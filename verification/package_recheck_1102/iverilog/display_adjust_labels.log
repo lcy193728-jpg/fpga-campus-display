@@ -1,0 +1,11 @@
+[PASS] BRI label B
+[PASS] BRI dark backing
+[PASS] SCL label S
+[PASS] SCL dark backing
+[PASS] VOL label V
+[PASS] VOL dark backing
+[PASS] CON label C
+[PASS] CON dark backing
+RESULT: PASS - parameter HUD labels
+E:\FPGA\ALST\��ί�ύ_������������_2026-11-01\FPGA_Campus_Final\sim\tb\tb_display_adjust_labels.v:90: $finish called at 2621000 (1ps)
+

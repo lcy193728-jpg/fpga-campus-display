@@ -1,0 +1,44 @@
+#  if {![file exists {E:/FPGA/ALST/_dev_sim_0b18789/sim/modelsim_evidence_ascii/06_uart_config_commit_work/work}]} {vlib {E:/FPGA/ALST/_dev_sim_0b18789/sim/modelsim_evidence_ascii/06_uart_config_commit_work/work}} 
+#  vmap work {E:/FPGA/ALST/_dev_sim_0b18789/sim/modelsim_evidence_ascii/06_uart_config_commit_work/work} 
+# Modifying modelsim.ini
+#  vlog -work work {E:/FPGA/ALST/_dev_sim_0b18789/src/uart_rx_byte.v} {E:/FPGA/ALST/_dev_sim_0b18789/src/uart_tx_byte.v} {E:/FPGA/ALST/_dev_sim_0b18789/src/welcome_uart_controller.v} {E:/FPGA/ALST/_dev_sim_0b18789/src/welcome_cfg_frame_commit.v} {E:/FPGA/ALST/_dev_sim_0b18789/src/emergency_cfg_frame_commit.v} {E:/FPGA/ALST/_dev_sim_0b18789/tb/tb_welcome_uart.v} 
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module uart_rx_byte
+# -- Compiling module uart_tx_byte
+# -- Compiling module welcome_uart_controller
+# -- Compiling module welcome_cfg_frame_commit
+# -- Compiling module emergency_cfg_frame_commit
+# -- Compiling module tb_welcome_uart
+# 
+# Top level modules:
+# 	tb_welcome_uart
+#  vsim -t 1ps -wlf {E:/FPGA/ALST/_dev_sim_0b18789/sim/modelsim_evidence_ascii/06_uart_config_commit.wlf} work.tb_welcome_uart 
+# vsim -t 1ps -wlf E:/FPGA/ALST/_dev_sim_0b18789/sim/modelsim_evidence_ascii/06_uart_config_commit.wlf work.tb_welcome_uart 
+# Loading work.tb_welcome_uart
+# Loading work.welcome_uart_controller
+# Loading work.uart_rx_byte
+# Loading work.uart_tx_byte
+# Loading work.welcome_cfg_frame_commit
+# Loading work.emergency_cfg_frame_commit
+#  log -r /* 
+#  run -all 
+# [PASS] system defaults
+# [PASS] video defaults
+# [PASS] emergency type defaults
+# [PASS] text command decoded
+# [PASS] CDC holds until frame boundary
+# [PASS] text committed at frame boundary
+# [PASS] speed command
+# [PASS] pause command
+# [PASS] restore default command
+# [PASS] emergency text command decoded
+# [PASS] y CDC holds until frame boundary
+# [PASS] text committed at frame boundary
+# [PASS] emergency speed command
+# [PASS] emergency pause command
+# [PASS] restore emergency defaults
+# [PASS]  complete ACK frames transmitted
+# [PASS] reply UART framing
+# === welcome UART/CDC regression PASS ===
+# ** Note: $finish    : E:/FPGA/ALST/_dev_sim_0b18789/tb/tb_welcome_uart.v(97)
+#    Time: 91590 ns  Iteration: 1  Instance: /tb_welcome_uart
