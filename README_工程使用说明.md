@@ -1,6 +1,8 @@
-﻿# 基于FPGA校园多场景智显终端——评委检查完整代码
+﻿# 基于FPGA校园多场景智显终端
 
-本包整理完成日期：2026-11-02。采用已完成实板烧录与功能确认的 **10-26 TF冷启动恢复版**，仅整理提交结构、补充复现说明，不修改RTL、字库数据、引脚或时序约束。
+面向校园迎新、会议公示、四队抢答和应急引导的FPGA音视频终端。系统由硬件逻辑完成本地素材读取、图像适配、帧缓存、OSD合成及HDMI音视频输出，支持TF卡更换素材与UART通知配置。
+
+当前版本为已完成实板烧录与功能确认的 **10-26 TF冷启动恢复版**，包含源码、工程依赖、上位机工具、已验证位流与回归记录。
 
 ## 1. 唯一版本身份
 - FPGA：EG4S20BG256；开发板：HX4S20C。
@@ -22,7 +24,7 @@
 |sim/tb/、tb/、audio_final/tb/、sim/evidence/|仿真源与器件行为模型，不能加入综合文件集|
 |tools/|串口上位机、TF素材工具、素材/字库生成脚本和回归脚本|
 |artifacts/|唯一已验证烧录位流|
-|verification/|最终物理实现报告、原发布验证日志及提交整理检查记录|
+|verification/|物理实现报告、发布验证日志及工程复现记录|
 |docs/|操作与串口协议说明|
 |media_examples/|现有演示素材（如有），与源码分开|
 |PACKAGE_MANIFEST.json、SHA256SUMS.txt|文件来源、版本对应关系与完整性校验|
@@ -40,7 +42,7 @@
 ```powershell
 powershell -NoProfile -ExecutionPolicy Bypass -File tools/run_iverilog_full_regression.ps1
 ```
-脚本包含56项维护用例；输出在`sim/_evidence_full_iverilog`。部分用例为独立算法/接口模型，不等同于完整顶层物理实现仿真。原56项日志及12组ModelSim代表复核日志已附于`verification/`；本次提交整理检查另存独立目录。在ModelSim中执行`do tools/run_modelsim_representative.do`可运行12组代表用例。
+脚本包含56项维护用例；输出在`sim/_evidence_full_iverilog`。部分用例为独立算法/接口模型，不等同于完整顶层物理实现仿真。原56项日志及12组ModelSim代表复核日志已附于`verification/`；工程复现记录位于`verification/package_recheck_1102/`。在ModelSim中执行`do tools/run_modelsim_representative.do`可运行12组代表用例。
 
 ## 5. 上位机与素材
 在Python 3环境执行`pip install -r tools/requirements.txt`，运行`tools/welcome_uart_gui.py`或双击`tools/启动迎新串口上位机.bat`。
@@ -51,5 +53,5 @@ powershell -NoProfile -ExecutionPolicy Bypass -File tools/run_iverilog_full_regr
 ## 6. 烧录
 BitWriter列表只保留`artifacts/`中本包唯一位流。固化选择`PROGRAM_FLASH / 5 MHz / 128 Mbits`；完成后完全断电再上电确认。`PROGRAM_SRAM`仅临时下载，断电不保留。
 
-## 7. 本包边界
-保留可复核所需的完整代码、IP/字库依赖、测试源、约束、上位机与发布证据；排除历史位流、失败候选、EDA数据库、工具安装包、巨量波形和临时缓存。源码注释中的旧日期、旧模块名保留原貌，不作为本包版本身份。重建位流必须重新检查实现结果；本包推荐烧录的仍是上述原已验证位流。
+## 7. 工程文件与版本维护
+保留可复核所需的完整代码、IP/字库依赖、测试源、约束、上位机与发布证据；排除历史位流、失败候选、EDA数据库、工具安装包、巨量波形和临时缓存。源码注释中的旧日期、旧模块名保留原貌，不作为当前版本身份。重建位流必须重新检查实现结果；推荐烧录文件为上述已完成实板验证的位流。
